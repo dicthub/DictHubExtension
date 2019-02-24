@@ -1,0 +1,64 @@
+{
+  "manifest_version": 2,
+  "name": "Dict Hub",
+  "author": "DictHub",
+  "version": "1.0",
+
+  "description": "This extension helps pull translation result from multiple provider via one-click",
+
+  "browser_action": {
+    "default_icon": "ico/dicthub-19.png",
+    "default_popup": "popup.html"
+  },
+
+  "icons": {
+    "16": "ico/dicthub-16.png",
+    "24": "ico/dicthub-24.png",
+    "32": "ico/dicthub-32.png",
+    "48": "ico/dicthub-48.png",
+    "128": "ico/dicthub-128.png"
+  },
+
+  "options_page": "options.html",
+
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Alt+W",
+        "linux": "Alt+W"
+      },
+      "description": "Send a 'toggle-feature' event to the extension"
+    }
+  },
+
+  "default_locale": "en",
+
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs",
+    "contextMenus",
+    "<all_urls>"
+  ],
+
+  "web_accessible_resources": [
+    "overlay.html",
+    "sandbox.html",
+    "lib/*",
+    "js/*",
+    "css/*",
+    "ico/*",
+    "img/*"
+  ],
+  "background": {
+    "scripts": ["js/backgroundContextMenus.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["js/injectContextMenu.js"]
+    }
+  ]
+}
