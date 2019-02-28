@@ -1,0 +1,47 @@
+{
+    "drag_to_change_order": {
+        "message": "povlecite, da spremenite vrstni red"
+    },
+    "close_btn": {
+        "message": "Zapri"
+    },
+    "plugin_settings": {
+        "message": "Nastavitve vtičnikov"
+    },
+    "preferred_language": {
+        "message": "Želeni jezik"
+    },
+    "update_btn": {
+        "message": "Nadgradnja"
+    },
+    "translation_settings": {
+        "message": "Nastavitve prevajanja"
+    },
+    "options_btn": {
+        "message": "Opcije"
+    },
+    "plugin_repository_list": {
+        "message": "Seznam skladišča vtičnika"
+    },
+    "max_translation_result": {
+        "message": "Največji rezultat prevajanja"
+    },
+    "edit_settings_directly": {
+        "message": "Uredite nastavitve neposredno"
+    },
+    "advanced_settings_warn": {
+        "message": "ni priporočljivo za splošne uporabnike"
+    },
+    "save_changes_btn": {
+        "message": "Shrani spremembe"
+    },
+    "show_advanced_settings": {
+        "message": "Prikaži nastavitve"
+    },
+    "raw_json_config_title": {
+        "message": "Raw json config"
+    },
+    "advanced_settings": {
+        "message": "Napredne nastavitve"
+    }
+}

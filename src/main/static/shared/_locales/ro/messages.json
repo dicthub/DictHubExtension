@@ -1,0 +1,47 @@
+{
+    "preferred_language": {
+        "message": "Limba preferată"
+    },
+    "show_advanced_settings": {
+        "message": "Afișați setările"
+    },
+    "translation_settings": {
+        "message": "Setările de traducere"
+    },
+    "advanced_settings": {
+        "message": "Setari avansate"
+    },
+    "options_btn": {
+        "message": "Opțiuni"
+    },
+    "plugin_settings": {
+        "message": "Setările pluginului"
+    },
+    "max_translation_result": {
+        "message": "Rezultatul maxim de traducere"
+    },
+    "save_changes_btn": {
+        "message": "Salvează modificările"
+    },
+    "update_btn": {
+        "message": "Actualizați"
+    },
+    "plugin_repository_list": {
+        "message": "Lista de depozitare a pluginurilor"
+    },
+    "edit_settings_directly": {
+        "message": "Editați direct setările"
+    },
+    "drag_to_change_order": {
+        "message": "trageți pentru a schimba ordinea"
+    },
+    "advanced_settings_warn": {
+        "message": "nu este recomandat pentru utilizatorul general"
+    },
+    "raw_json_config_title": {
+        "message": "Raw json config"
+    },
+    "close_btn": {
+        "message": "Închide"
+    }
+}

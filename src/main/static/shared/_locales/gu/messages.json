@@ -1,0 +1,47 @@
+{
+    "show_advanced_settings": {
+        "message": "સેટિંગ્સ બતાવો"
+    },
+    "update_btn": {
+        "message": "સુધારો"
+    },
+    "drag_to_change_order": {
+        "message": "ક્રમમાં બદલવા માટે ખેંચો"
+    },
+    "max_translation_result": {
+        "message": "મેક્સ અનુવાદ પરિણામ"
+    },
+    "advanced_settings_warn": {
+        "message": "સામાન્ય વપરાશકર્તા માટે આગ્રહણીય નથી"
+    },
+    "plugin_repository_list": {
+        "message": "પ્લગઇન રિપોઝીટરી યાદી"
+    },
+    "preferred_language": {
+        "message": "પસંદગીની ભાષા"
+    },
+    "advanced_settings": {
+        "message": "અદ્યતન સેટિંગ્સ"
+    },
+    "plugin_settings": {
+        "message": "પ્લગઇન સેટિંગ્સ"
+    },
+    "close_btn": {
+        "message": "બંધ"
+    },
+    "raw_json_config_title": {
+        "message": "કાચો જેએસન રૂપરેખા"
+    },
+    "translation_settings": {
+        "message": "ભાષાંતર સેટિંગ્સ"
+    },
+    "save_changes_btn": {
+        "message": "ફેરફારો સંગ્રહ"
+    },
+    "options_btn": {
+        "message": "વિકલ્પો"
+    },
+    "edit_settings_directly": {
+        "message": "સીધા સેટિંગ્સ સંપાદિત કરો"
+    }
+}

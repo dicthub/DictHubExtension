@@ -1,0 +1,47 @@
+{
+    "plugin_repository_list": {
+        "message": "Spraudņu krātuves saraksts"
+    },
+    "drag_to_change_order": {
+        "message": "velciet, lai mainītu pasūtījumu"
+    },
+    "translation_settings": {
+        "message": "Tulkošanas iestatījumi"
+    },
+    "advanced_settings": {
+        "message": "Papildu iestatījumi"
+    },
+    "raw_json_config_title": {
+        "message": "Raw json config"
+    },
+    "close_btn": {
+        "message": "Aizvērt"
+    },
+    "plugin_settings": {
+        "message": "Spraudņa iestatījumi"
+    },
+    "preferred_language": {
+        "message": "vēlamā valoda"
+    },
+    "advanced_settings_warn": {
+        "message": "nav ieteicams vispārējam lietotājam"
+    },
+    "edit_settings_directly": {
+        "message": "Rediģējiet iestatījumus tieši"
+    },
+    "save_changes_btn": {
+        "message": "Saglabāt izmaiņas"
+    },
+    "options_btn": {
+        "message": "Iespējas"
+    },
+    "show_advanced_settings": {
+        "message": "Rādīt iestatījumus"
+    },
+    "update_btn": {
+        "message": "Atjaunināt"
+    },
+    "max_translation_result": {
+        "message": "Maksimālais tulkošanas rezultāts"
+    }
+}

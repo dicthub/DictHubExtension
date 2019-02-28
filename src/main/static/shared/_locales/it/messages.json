@@ -1,0 +1,47 @@
+{
+    "advanced_settings": {
+        "message": "Impostazioni avanzate"
+    },
+    "preferred_language": {
+        "message": "Lingua preferita"
+    },
+    "raw_json_config_title": {
+        "message": "Raw jig config"
+    },
+    "close_btn": {
+        "message": "Vicino"
+    },
+    "options_btn": {
+        "message": "Opzioni"
+    },
+    "save_changes_btn": {
+        "message": "Salva I Cambiamenti"
+    },
+    "plugin_settings": {
+        "message": "Impostazioni del plugin"
+    },
+    "drag_to_change_order": {
+        "message": "trascina per cambiare ordine"
+    },
+    "translation_settings": {
+        "message": "Impostazioni di traduzione"
+    },
+    "max_translation_result": {
+        "message": "Massimo risultato di traduzione"
+    },
+    "update_btn": {
+        "message": "Aggiornare"
+    },
+    "edit_settings_directly": {
+        "message": "Modifica direttamente le impostazioni"
+    },
+    "plugin_repository_list": {
+        "message": "Elenco dei repository dei plugin"
+    },
+    "advanced_settings_warn": {
+        "message": "non raccomandato per l'utente generale"
+    },
+    "show_advanced_settings": {
+        "message": "Mostra impostazioni"
+    }
+}

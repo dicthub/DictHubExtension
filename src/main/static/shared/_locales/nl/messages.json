@@ -1,0 +1,47 @@
+{
+    "raw_json_config_title": {
+        "message": "Raw json config"
+    },
+    "advanced_settings": {
+        "message": "Geavanceerde instellingen"
+    },
+    "edit_settings_directly": {
+        "message": "Bewerk instellingen rechtstreeks"
+    },
+    "preferred_language": {
+        "message": "Voorkeurstaal"
+    },
+    "show_advanced_settings": {
+        "message": "Toon instellingen"
+    },
+    "max_translation_result": {
+        "message": "Max. Vertaalresultaat"
+    },
+    "save_changes_btn": {
+        "message": "Wijzigingen opslaan"
+    },
+    "options_btn": {
+        "message": "opties"
+    },
+    "close_btn": {
+        "message": "Dichtbij"
+    },
+    "advanced_settings_warn": {
+        "message": "niet aanbevolen voor algemene gebruiker"
+    },
+    "drag_to_change_order": {
+        "message": "sleep om de volgorde te veranderen"
+    },
+    "plugin_settings": {
+        "message": "Plugin-instellingen"
+    },
+    "translation_settings": {
+        "message": "Vertaalinstellingen"
+    },
+    "plugin_repository_list": {
+        "message": "Plug-in Repositorylijst"
+    },
+    "update_btn": {
+        "message": "Bijwerken"
+    }
+}

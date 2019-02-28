@@ -1,0 +1,41 @@
+{
+    "drag_to_change_order": {
+        "message": "vaihda järjestystä vetämällä"
+    },
+    "edit_settings_directly": {
+        "message": "Muokkaa asetuksia suoraan"
+    },
+    "plugin_repository_list": {
+        "message": "Plugin-arkistoluettelo"
+    },
+    "show_advanced_settings": {
+        "message": "Näytä asetukset"
+    },
+    "preferred_language": {
+        "message": "Suositeltu kieli"
+    },
+    "advanced_settings_warn": {
+        "message": "ei suositella yleiselle käyttäjälle"
+    },
+    "translation_settings": {
+        "message": "Käännösasetukset"
+    },
+    "max_translation_result": {
+        "message": "Kääntämisen tulos"
+    },
+    "advanced_settings": {
+        "message": "Lisäasetukset"
+    },
+    "raw_json_config_title": {
+        "message": "Raaka json-konfiguraatio"
+    },
+    "plugin_settings": {
+        "message": "Plugin-asetukset"
+    },
+    "save_changes_btn": {
+        "message": "Tallenna muutokset"
+    },
+    "close_btn": {
+        "message": "kiinni"
+    }
+}

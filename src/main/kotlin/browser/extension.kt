@@ -22,6 +22,9 @@ private external val chrome: Chrome?
 
 private external val browser: Chrome?
 
+
+fun i18nMessage(messageName: String) = browserObj.i18n.getMessage(messageName)
+
 external class Chrome {
     val tabs: ChromeTabs
     val storage: ChromeStorage
@@ -83,6 +86,7 @@ external class ChromeStorageSync : StorageArea {
 }
 
 external class ChromeI18N {
+    fun getMessage(messageName: String): String
     fun getAcceptLanguages(): Array<String>
     fun getUILanguage(): String
     fun detectLanguage(text: String, callback: (ChromeI18NDetectLanguageResult) -> Unit)

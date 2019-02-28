@@ -1,0 +1,47 @@
+{
+    "options_btn": {
+        "message": "Опции"
+    },
+    "drag_to_change_order": {
+        "message": "перетащите, чтобы изменить порядок"
+    },
+    "advanced_settings_warn": {
+        "message": "не рекомендуется для обычного пользователя"
+    },
+    "update_btn": {
+        "message": "Обновить"
+    },
+    "plugin_repository_list": {
+        "message": "Список плагинов"
+    },
+    "advanced_settings": {
+        "message": "Расширенные настройки"
+    },
+    "show_advanced_settings": {
+        "message": "Показать настройки"
+    },
+    "raw_json_config_title": {
+        "message": "Сырой конфиг json"
+    },
+    "close_btn": {
+        "message": "близко"
+    },
+    "plugin_settings": {
+        "message": "Настройки плагина"
+    },
+    "preferred_language": {
+        "message": "предпочтительный язык"
+    },
+    "edit_settings_directly": {
+        "message": "Изменить настройки напрямую"
+    },
+    "save_changes_btn": {
+        "message": "Сохранить изменения"
+    },
+    "max_translation_result": {
+        "message": "Макс Результат перевода"
+    },
+    "translation_settings": {
+        "message": "Настройки перевода"
+    }
+}

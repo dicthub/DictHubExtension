@@ -1,0 +1,47 @@
+{
+    "save_changes_btn": {
+        "message": "Değişiklikleri Kaydet"
+    },
+    "preferred_language": {
+        "message": "tercih edilen dil"
+    },
+    "translation_settings": {
+        "message": "Çeviri Ayarları"
+    },
+    "drag_to_change_order": {
+        "message": "sırayı değiştirmek için sürükle"
+    },
+    "plugin_settings": {
+        "message": "Eklenti Ayarları"
+    },
+    "advanced_settings": {
+        "message": "Gelişmiş Ayarlar"
+    },
+    "edit_settings_directly": {
+        "message": "Ayarları doğrudan düzenle"
+    },
+    "options_btn": {
+        "message": "Seçenekler"
+    },
+    "raw_json_config_title": {
+        "message": "Ham json yapılandırması"
+    },
+    "plugin_repository_list": {
+        "message": "Eklenti Havuzu Listesi"
+    },
+    "max_translation_result": {
+        "message": "Maksimum Çeviri Sonucu"
+    },
+    "show_advanced_settings": {
+        "message": "Ayarları göster"
+    },
+    "advanced_settings_warn": {
+        "message": "genel kullanıcı için önerilmez"
+    },
+    "update_btn": {
+        "message": "Güncelleştirme"
+    },
+    "close_btn": {
+        "message": "Kapat"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "plugin_repository_list": {
+        "message": "പ്ലഗിൻ റിപ്പോസിറ്ററി ലിസ്റ്റ്"
+    },
+    "show_advanced_settings": {
+        "message": "ക്രമീകരണങ്ങൾ കാണിക്കുക"
+    },
+    "preferred_language": {
+        "message": "ഇഷ്ടപ്പെട്ട ഭാഷ"
+    },
+    "edit_settings_directly": {
+        "message": "ക്രമീകരണങ്ങൾ നേരിട്ട് എഡിറ്റുചെയ്യുക"
+    },
+    "advanced_settings": {
+        "message": "വിപുലമായ ക്രമീകരണങ്ങൾ"
+    },
+    "close_btn": {
+        "message": "അടയ്ക്കുക"
+    },
+    "translation_settings": {
+        "message": "വിവർത്തന ക്രമീകരണം"
+    },
+    "drag_to_change_order": {
+        "message": "ഓർഡർ മാറ്റാൻ വലിച്ചിടുക"
+    },
+    "max_translation_result": {
+        "message": "പരമാവധി വിവർത്തന ഫലം"
+    },
+    "plugin_settings": {
+        "message": "പ്ലഗിൻ ക്രമീകരണങ്ങൾ"
+    },
+    "update_btn": {
+        "message": "അപ്ഡേറ്റ് ചെയ്യുക"
+    },
+    "options_btn": {
+        "message": "ഓപ്ഷനുകൾ"
+    },
+    "advanced_settings_warn": {
+        "message": "പൊതുവായ ഉപയോക്താവിന് ശുപാർശ ചെയ്യപ്പെടുന്നില്ല"
+    },
+    "save_changes_btn": {
+        "message": "മാറ്റങ്ങൾ സൂക്ഷിക്കുക"
+    },
+    "raw_json_config_title": {
+        "message": "റോ ജാസ്കോ കോൺഫിഗർ"
+    }
+}

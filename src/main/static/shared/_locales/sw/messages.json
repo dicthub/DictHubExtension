@@ -1,0 +1,47 @@
+{
+    "preferred_language": {
+        "message": "Lugha iliyopendekezwa"
+    },
+    "show_advanced_settings": {
+        "message": "Onyesha Mazingira"
+    },
+    "raw_json_config_title": {
+        "message": "Raw json config"
+    },
+    "plugin_settings": {
+        "message": "Mipangilio ya Plugin"
+    },
+    "plugin_repository_list": {
+        "message": "Plugin Orodha ya Marekebisho"
+    },
+    "options_btn": {
+        "message": "Chaguo"
+    },
+    "drag_to_change_order": {
+        "message": "Drag ili kubadilisha mpangilio"
+    },
+    "max_translation_result": {
+        "message": "Matokeo ya Tafsiri ya Max"
+    },
+    "advanced_settings": {
+        "message": "Mipangilio ya juu"
+    },
+    "update_btn": {
+        "message": "Sasisha"
+    },
+    "edit_settings_directly": {
+        "message": "Badilisha Mipangilio moja kwa moja"
+    },
+    "close_btn": {
+        "message": "Funga"
+    },
+    "advanced_settings_warn": {
+        "message": "haipendekezi kwa mtumiaji wa jumla"
+    },
+    "save_changes_btn": {
+        "message": "Hifadhi mabadiliko"
+    },
+    "translation_settings": {
+        "message": "Mipangilio ya Tafsiri"
+    }
+}

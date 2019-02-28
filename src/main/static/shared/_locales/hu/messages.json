@@ -1,0 +1,47 @@
+{
+    "advanced_settings_warn": {
+        "message": "nem ajánlott általános felhasználók számára"
+    },
+    "raw_json_config_title": {
+        "message": "Nyers json konfiguráció"
+    },
+    "preferred_language": {
+        "message": "Előnyben részesített nyelv"
+    },
+    "close_btn": {
+        "message": "Bezárás"
+    },
+    "drag_to_change_order": {
+        "message": "húzza a rendet"
+    },
+    "options_btn": {
+        "message": "Opciók"
+    },
+    "advanced_settings": {
+        "message": "További beállítások"
+    },
+    "max_translation_result": {
+        "message": "Max. Fordítási eredmény"
+    },
+    "translation_settings": {
+        "message": "Fordítási beállítások"
+    },
+    "save_changes_btn": {
+        "message": "Változtatások mentése"
+    },
+    "plugin_repository_list": {
+        "message": "Plugin tároló lista"
+    },
+    "plugin_settings": {
+        "message": "Plugin beállítások"
+    },
+    "edit_settings_directly": {
+        "message": "Beállítások szerkesztése közvetlenül"
+    },
+    "update_btn": {
+        "message": "frissítés"
+    },
+    "show_advanced_settings": {
+        "message": "Beállítások megjelenítése"
+    }
+}

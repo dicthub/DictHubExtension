@@ -1,0 +1,47 @@
+{
+    "advanced_settings_warn": {
+        "message": "neodporúča pre všeobecného používateľa"
+    },
+    "preferred_language": {
+        "message": "uprednostňovaný jazyk"
+    },
+    "edit_settings_directly": {
+        "message": "Upravte priamo nastavenia"
+    },
+    "save_changes_btn": {
+        "message": "Uložiť zmeny"
+    },
+    "options_btn": {
+        "message": "možnosti"
+    },
+    "close_btn": {
+        "message": "Zavrieť"
+    },
+    "max_translation_result": {
+        "message": "Maximálny výsledok prekladu"
+    },
+    "plugin_settings": {
+        "message": "Nastavenia doplnkov"
+    },
+    "drag_to_change_order": {
+        "message": "presuňte, ak chcete zmeniť poradie"
+    },
+    "show_advanced_settings": {
+        "message": "Zobraziť nastavenia"
+    },
+    "raw_json_config_title": {
+        "message": "Raw json config"
+    },
+    "update_btn": {
+        "message": "aktualizovať"
+    },
+    "advanced_settings": {
+        "message": "Pokročilé nastavenia"
+    },
+    "translation_settings": {
+        "message": "Nastavenia prekladu"
+    },
+    "plugin_repository_list": {
+        "message": "Zoznam úložiska doplnkov"
+    }
+}

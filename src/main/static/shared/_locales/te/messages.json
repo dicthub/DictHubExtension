@@ -1,0 +1,47 @@
+{
+    "translation_settings": {
+        "message": "అనువాద సెట్టింగులు"
+    },
+    "advanced_settings_warn": {
+        "message": "సాధారణ వినియోగదారు కోసం సిఫార్సు చేయబడలేదు"
+    },
+    "plugin_repository_list": {
+        "message": "ప్లగిన్ రిపోజిటరీ జాబితా"
+    },
+    "save_changes_btn": {
+        "message": "మార్పులను ఊంచు"
+    },
+    "preferred_language": {
+        "message": "ప్రాధాన్య భాష"
+    },
+    "advanced_settings": {
+        "message": "ఆధునిక సెట్టింగులు"
+    },
+    "options_btn": {
+        "message": "ఎంపికలు"
+    },
+    "close_btn": {
+        "message": "Close"
+    },
+    "drag_to_change_order": {
+        "message": "క్రమంలో మార్చడానికి లాగండి"
+    },
+    "edit_settings_directly": {
+        "message": "సవరణలను నేరుగా సవరించండి"
+    },
+    "max_translation_result": {
+        "message": "మాక్స్ అనువాద ఫలితం"
+    },
+    "plugin_settings": {
+        "message": "ప్లగిన్ సెట్టింగులు"
+    },
+    "raw_json_config_title": {
+        "message": "రా json config"
+    },
+    "update_btn": {
+        "message": "నవీకరణ"
+    },
+    "show_advanced_settings": {
+        "message": "సెట్టింగ్లను చూపు"
+    }
+}

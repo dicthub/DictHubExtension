@@ -1,0 +1,47 @@
+{
+    "plugin_settings": {
+        "message": "Настройки на приставката"
+    },
+    "plugin_repository_list": {
+        "message": "Списък на хранилищата на приставката"
+    },
+    "update_btn": {
+        "message": "Актуализация"
+    },
+    "advanced_settings": {
+        "message": "Разширени настройки"
+    },
+    "advanced_settings_warn": {
+        "message": "не се препоръчва за общ потребител"
+    },
+    "edit_settings_directly": {
+        "message": "Редактирайте настройките директно"
+    },
+    "options_btn": {
+        "message": "Настроики"
+    },
+    "save_changes_btn": {
+        "message": "Запазите промените"
+    },
+    "preferred_language": {
+        "message": "предпочитан език"
+    },
+    "translation_settings": {
+        "message": "Настройки за превод"
+    },
+    "raw_json_config_title": {
+        "message": "Сурови json конфигури"
+    },
+    "close_btn": {
+        "message": "Близо"
+    },
+    "drag_to_change_order": {
+        "message": "плъзнете, за да промените реда"
+    },
+    "max_translation_result": {
+        "message": "Макс. Резултат от превода"
+    },
+    "show_advanced_settings": {
+        "message": "Покажи настройките"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "plugin_settings": {
+        "message": "Налаштування плагінів"
+    },
+    "advanced_settings_warn": {
+        "message": "не рекомендується для загального користувача"
+    },
+    "update_btn": {
+        "message": "Оновлення"
+    },
+    "raw_json_config_title": {
+        "message": "Конфігурація сирого json"
+    },
+    "close_btn": {
+        "message": "Закрити"
+    },
+    "advanced_settings": {
+        "message": "Розширені налаштування"
+    },
+    "drag_to_change_order": {
+        "message": "перетягніть, щоб змінити порядок"
+    },
+    "translation_settings": {
+        "message": "Налаштування перекладу"
+    },
+    "options_btn": {
+        "message": "Опції"
+    },
+    "save_changes_btn": {
+        "message": "Зберегти зміни"
+    },
+    "edit_settings_directly": {
+        "message": "Змінити налаштування безпосередньо"
+    },
+    "plugin_repository_list": {
+        "message": "Список сховищ плагінів"
+    },
+    "max_translation_result": {
+        "message": "Макс. Результат перекладу"
+    },
+    "preferred_language": {
+        "message": "Бажана мова"
+    },
+    "show_advanced_settings": {
+        "message": "Показати налаштування"
+    }
+}

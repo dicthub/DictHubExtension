@@ -1,0 +1,47 @@
+{
+    "options_btn": {
+        "message": "alternativer"
+    },
+    "preferred_language": {
+        "message": "Foretrukket Språk"
+    },
+    "edit_settings_directly": {
+        "message": "Rediger innstillinger direkte"
+    },
+    "translation_settings": {
+        "message": "Oversettelsesinnstillinger"
+    },
+    "update_btn": {
+        "message": "Oppdater"
+    },
+    "max_translation_result": {
+        "message": "Maks oversettelsesresultat"
+    },
+    "raw_json_config_title": {
+        "message": "Rå json config"
+    },
+    "advanced_settings_warn": {
+        "message": "Anbefales ikke for generell bruker"
+    },
+    "save_changes_btn": {
+        "message": "Lagre endringer"
+    },
+    "close_btn": {
+        "message": "Lukk"
+    },
+    "drag_to_change_order": {
+        "message": "dra for å endre rekkefølge"
+    },
+    "plugin_repository_list": {
+        "message": "Plugin Repository List"
+    },
+    "plugin_settings": {
+        "message": "Plugin Settings"
+    },
+    "show_advanced_settings": {
+        "message": "Vis innstillinger"
+    },
+    "advanced_settings": {
+        "message": "Avanserte innstillinger"
+    }
+}

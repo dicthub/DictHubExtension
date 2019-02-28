@@ -1,0 +1,47 @@
+{
+    "show_advanced_settings": {
+        "message": "הצג הגדרות"
+    },
+    "max_translation_result": {
+        "message": "תוצאת תרגום מקסימלית"
+    },
+    "update_btn": {
+        "message": "עדכון"
+    },
+    "advanced_settings_warn": {
+        "message": "לא מומלץ למשתמש כללי"
+    },
+    "drag_to_change_order": {
+        "message": "גרור כדי לשנות את הסדר"
+    },
+    "plugin_repository_list": {
+        "message": "רשימת מאגרי תוסף"
+    },
+    "edit_settings_directly": {
+        "message": "ערוך הגדרות ישירות"
+    },
+    "plugin_settings": {
+        "message": "הגדרות Plugin"
+    },
+    "options_btn": {
+        "message": "אפשרויות"
+    },
+    "close_btn": {
+        "message": "סגור"
+    },
+    "advanced_settings": {
+        "message": "הגדרות מתקדמות"
+    },
+    "save_changes_btn": {
+        "message": "שמור שינויים"
+    },
+    "translation_settings": {
+        "message": "הגדרות תרגום"
+    },
+    "raw_json_config_title": {
+        "message": "תצורת Raw json"
+    },
+    "preferred_language": {
+        "message": "שפה מועדפת"
+    }
+}

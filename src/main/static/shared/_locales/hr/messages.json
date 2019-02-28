@@ -1,0 +1,47 @@
+{
+    "preferred_language": {
+        "message": "preferirani jezik"
+    },
+    "max_translation_result": {
+        "message": "Maksimalni rezultat prijevoda"
+    },
+    "options_btn": {
+        "message": "Opcije"
+    },
+    "advanced_settings": {
+        "message": "Napredne postavke"
+    },
+    "raw_json_config_title": {
+        "message": "Sirova json konfiguracija"
+    },
+    "update_btn": {
+        "message": "ažuriranje"
+    },
+    "close_btn": {
+        "message": "Zatvoriti"
+    },
+    "advanced_settings_warn": {
+        "message": "ne preporučuje se za opće korisnike"
+    },
+    "translation_settings": {
+        "message": "Postavke prijevoda"
+    },
+    "plugin_settings": {
+        "message": "Postavke dodataka"
+    },
+    "show_advanced_settings": {
+        "message": "Prikaži postavke"
+    },
+    "save_changes_btn": {
+        "message": "Spremi promjene"
+    },
+    "drag_to_change_order": {
+        "message": "povucite za promjenu redoslijeda"
+    },
+    "plugin_repository_list": {
+        "message": "Popis spremišta spremnika"
+    },
+    "edit_settings_directly": {
+        "message": "Izravno uredite Postavke"
+    }
+}

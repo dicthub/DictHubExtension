@@ -1,0 +1,47 @@
+{
+    "preferred_language": {
+        "message": "Bahasa pilihan"
+    },
+    "advanced_settings": {
+        "message": "Tetapan lanjutan"
+    },
+    "save_changes_btn": {
+        "message": "Simpan Perubahan"
+    },
+    "max_translation_result": {
+        "message": "Hasil Terjemahan Terjemahan"
+    },
+    "plugin_repository_list": {
+        "message": "Senarai Repositori Plugin"
+    },
+    "close_btn": {
+        "message": "Tutup"
+    },
+    "update_btn": {
+        "message": "Kemas kini"
+    },
+    "show_advanced_settings": {
+        "message": "Tunjukkan Tetapan"
+    },
+    "plugin_settings": {
+        "message": "Tetapan Plugin"
+    },
+    "edit_settings_directly": {
+        "message": "Edit Tetapan secara langsung"
+    },
+    "advanced_settings_warn": {
+        "message": "tidak disyorkan untuk pengguna am"
+    },
+    "drag_to_change_order": {
+        "message": "seret untuk menukar pesanan"
+    },
+    "options_btn": {
+        "message": "Pilihan"
+    },
+    "raw_json_config_title": {
+        "message": "Konfigurasi json mentah"
+    },
+    "translation_settings": {
+        "message": "Tetapan Terjemahan"
+    }
+}

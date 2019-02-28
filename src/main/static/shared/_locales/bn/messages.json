@@ -1,0 +1,47 @@
+{
+    "advanced_settings": {
+        "message": "উন্নত সেটিংস"
+    },
+    "options_btn": {
+        "message": "বিকল্প"
+    },
+    "max_translation_result": {
+        "message": "সর্বোচ্চ অনুবাদ ফলাফল"
+    },
+    "save_changes_btn": {
+        "message": "পরিবর্তনগুলোর সংরক্ষন"
+    },
+    "translation_settings": {
+        "message": "অনুবাদ সেটিংস"
+    },
+    "preferred_language": {
+        "message": "পছন্দের ভাষা"
+    },
+    "drag_to_change_order": {
+        "message": "ক্রম পরিবর্তন করার জন্য টেনে আনুন"
+    },
+    "close_btn": {
+        "message": "ঘনিষ্ঠ"
+    },
+    "plugin_repository_list": {
+        "message": "প্লাগিন সংগ্রহস্থল তালিকা"
+    },
+    "edit_settings_directly": {
+        "message": "সরাসরি সেটিংস সম্পাদনা করুন"
+    },
+    "plugin_settings": {
+        "message": "প্লাগইন সেটিংস"
+    },
+    "update_btn": {
+        "message": "হালনাগাদ"
+    },
+    "raw_json_config_title": {
+        "message": "কাঁচা জসন কনফিগারেশন"
+    },
+    "show_advanced_settings": {
+        "message": "সেটিংস দেখান"
+    },
+    "advanced_settings_warn": {
+        "message": "সাধারণ ব্যবহারকারীর জন্য সুপারিশ করা হয় না"
+    }
+}

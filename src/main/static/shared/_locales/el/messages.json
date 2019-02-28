@@ -1,0 +1,47 @@
+{
+    "drag_to_change_order": {
+        "message": "σύρετε για να αλλάξετε τη σειρά"
+    },
+    "plugin_settings": {
+        "message": "Ρυθμίσεις Plugin"
+    },
+    "translation_settings": {
+        "message": "Ρυθμίσεις μετάφρασης"
+    },
+    "close_btn": {
+        "message": "Κοντά"
+    },
+    "plugin_repository_list": {
+        "message": "Λίστα καταλόγων υποδοχών"
+    },
+    "advanced_settings": {
+        "message": "Προηγμένες ρυθμίσεις"
+    },
+    "show_advanced_settings": {
+        "message": "Εμφάνιση ρυθμίσεων"
+    },
+    "options_btn": {
+        "message": "Επιλογές"
+    },
+    "update_btn": {
+        "message": "Εκσυγχρονίζω"
+    },
+    "preferred_language": {
+        "message": "προτιμώμενη γλώσσα"
+    },
+    "edit_settings_directly": {
+        "message": "Επεξεργασία ρυθμίσεων απευθείας"
+    },
+    "save_changes_btn": {
+        "message": "Αποθήκευσε τις αλλαγές"
+    },
+    "max_translation_result": {
+        "message": "Μέγιστο αποτέλεσμα μετάφρασης"
+    },
+    "raw_json_config_title": {
+        "message": "Raw json config"
+    },
+    "advanced_settings_warn": {
+        "message": "δεν συνιστάται για γενικούς χρήστες"
+    }
+}

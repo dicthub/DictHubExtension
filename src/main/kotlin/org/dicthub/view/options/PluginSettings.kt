@@ -1,5 +1,6 @@
 package org.dicthub.view.options
 
+import i18nMessage
 import org.dicthub.model.PluginInfo
 import org.dicthub.model.PluginOptions
 import org.dicthub.model.UserPreference
@@ -43,14 +44,14 @@ class PluginSettings(private val parent: HTMLElement,
     override fun render() {
         parent.append {
             p(classes = CSS_SETTINGS_SECTION_TITLE) {
-                +"Plugin Repositories"
+                +i18nMessage("plugin_repository_list")
             }
             div(classes = "") {
                 renderPluginRepositorySettings(this)
             }
             p(classes = CSS_SETTINGS_SECTION_TITLE) {
-                +"Plugin Settings"
-                small { +"(drag to change order)" }
+                +i18nMessage("plugin_settings")
+                small { +"(${i18nMessage("drag_to_change_order")})" }
             }
             div(classes = "alert alert-danger") {
                 id = ID_PLUGIN_SETTINGS_INFO
@@ -156,7 +157,7 @@ class PluginSettings(private val parent: HTMLElement,
                         onClickFunction = {
                             updatePlugin(pluginInfo)
                         }
-                        +"Update"
+                        +i18nMessage("update_btn")
                     }
                 }
 
@@ -169,7 +170,7 @@ class PluginSettings(private val parent: HTMLElement,
                         type = ButtonType.button
                         attributes["data-toggle"] = "collapse"
                         attributes["data-target"] = "#$optionElementId"
-                        +"Options"
+                        +i18nMessage("options_btn")
                     }
                 }
 

@@ -1,0 +1,47 @@
+{
+    "raw_json_config_title": {
+        "message": "Raw json config"
+    },
+    "show_advanced_settings": {
+        "message": "Kuva seaded"
+    },
+    "update_btn": {
+        "message": "Uuenda"
+    },
+    "edit_settings_directly": {
+        "message": "Muuda seadeid otse"
+    },
+    "preferred_language": {
+        "message": "Eelistatud keel"
+    },
+    "save_changes_btn": {
+        "message": "Salvesta muudatused"
+    },
+    "advanced_settings_warn": {
+        "message": "ei soovitata üldkasutajale"
+    },
+    "translation_settings": {
+        "message": "Tõlkeseaded"
+    },
+    "plugin_repository_list": {
+        "message": "Plugin-hoidla loend"
+    },
+    "max_translation_result": {
+        "message": "Maksimaalne tõlketulemus"
+    },
+    "advanced_settings": {
+        "message": "Täpsemad seaded"
+    },
+    "plugin_settings": {
+        "message": "Plugina seaded"
+    },
+    "options_btn": {
+        "message": "Valikud"
+    },
+    "drag_to_change_order": {
+        "message": "järjekorra muutmiseks lohistage"
+    },
+    "close_btn": {
+        "message": "Sulge"
+    }
+}

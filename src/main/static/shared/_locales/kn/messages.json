@@ -1,0 +1,47 @@
+{
+    "edit_settings_directly": {
+        "message": "ಸೆಟ್ಟಿಂಗ್ಗಳನ್ನು ನೇರವಾಗಿ ಸಂಪಾದಿಸಿ"
+    },
+    "drag_to_change_order": {
+        "message": "ಆದೇಶವನ್ನು ಬದಲಾಯಿಸಲು ಡ್ರ್ಯಾಗ್ ಮಾಡಿ"
+    },
+    "advanced_settings_warn": {
+        "message": "ಸಾಮಾನ್ಯ ಬಳಕೆದಾರರಿಗೆ ಶಿಫಾರಸು ಮಾಡಲಾಗಿಲ್ಲ"
+    },
+    "show_advanced_settings": {
+        "message": "ಸೆಟ್ಟಿಂಗ್ಗಳನ್ನು ತೋರಿಸಿ"
+    },
+    "translation_settings": {
+        "message": "ಅನುವಾದ ಸೆಟ್ಟಿಂಗ್ಗಳು"
+    },
+    "options_btn": {
+        "message": "ಆಯ್ಕೆಗಳು"
+    },
+    "max_translation_result": {
+        "message": "ಮ್ಯಾಕ್ಸ್ ಅನುವಾದ ಫಲಿತಾಂಶ"
+    },
+    "advanced_settings": {
+        "message": "ಸುಧಾರಿತ ಸೆಟ್ಟಿಂಗ್ಗಳು"
+    },
+    "close_btn": {
+        "message": "ಮುಚ್ಚಿ"
+    },
+    "plugin_repository_list": {
+        "message": "ಪ್ಲಗಿನ್ ರೆಪೊಸಿಟರಿ ಪಟ್ಟಿ"
+    },
+    "update_btn": {
+        "message": "ನವೀಕರಿಸಿ"
+    },
+    "plugin_settings": {
+        "message": "ಪ್ಲಗಿನ್ ಸೆಟ್ಟಿಂಗ್ಗಳು"
+    },
+    "preferred_language": {
+        "message": "ಆದ್ಯತೆಯ ಭಾಷೆ"
+    },
+    "save_changes_btn": {
+        "message": "ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸು"
+    },
+    "raw_json_config_title": {
+        "message": "ರಾ ಜಾನ್ಸನ್ ಸಂರಚನೆ"
+    }
+}

@@ -1,5 +1,6 @@
 package org.dicthub.view.options
 
+import i18nMessage
 import org.dicthub.model.UserPreference
 import org.dicthub.model.loadUserPreference
 import org.dicthub.model.saveUserPreference
@@ -26,8 +27,8 @@ class AdvancedSettings(private val parent: HTMLElement,
     override fun render() {
         parent.append {
             p(classes = CSS_SETTINGS_SECTION_TITLE) {
-                +"Advanced Settings"
-                small { +"(not recommended for general user)" }
+                +i18nMessage("advanced_settings")
+                small { +"(${i18nMessage("advanced_settings_warn")})" }
             }
             div(classes = CSS_SETTINGS_ROW) {
                 renderAdvancedSettings(this)
@@ -40,13 +41,13 @@ class AdvancedSettings(private val parent: HTMLElement,
 
     private val renderAdvancedSettings: TagAppender = {
         label(classes = CSS_SETTINGS_ROW_LABEL) {
-            +"Edit Settings directly"
+            +i18nMessage("edit_settings_directly")
         }
         div(classes = CSS_SETTINGS_ROW_CONTENT) {
             button(classes = "btn btn-primary c") {
                 attributes["data-toggle"] = "modal"
                 attributes["data-target"] = "#$ID_JSON_SETTINGS"
-                +"Show"
+                +i18nMessage("show_advanced_settings")
                 onClickFunction = {
                     refreshSettingsContent()
                 }
@@ -62,7 +63,7 @@ class AdvancedSettings(private val parent: HTMLElement,
                 div(classes = "modal-content") {
                     div(classes = "modal-header") {
                         h5(classes = "modal-title") {
-                            +"Raw config json"
+                            +i18nMessage("raw_json_config_title")
                         }
                         button(classes = "close") {
                             type = ButtonType.button
@@ -78,10 +79,10 @@ class AdvancedSettings(private val parent: HTMLElement,
                     div(classes = "modal-footer") {
                         button(classes = "btn btn-secondary") {
                             attributes["data-dismiss"] = "modal"
-                            +"Close"
+                            +i18nMessage("close_btn")
                         }
                         button(classes = "btn btn-primary") {
-                            +"Save Changes"
+                            +i18nMessage("save_changes_btn")
                             onClickFunction = onSaveSettingsClicked
                         }
                     }

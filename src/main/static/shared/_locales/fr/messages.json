@@ -1,0 +1,47 @@
+{
+    "plugin_settings": {
+        "message": "Paramètres du plugin"
+    },
+    "advanced_settings": {
+        "message": "Réglages avancés"
+    },
+    "show_advanced_settings": {
+        "message": "Afficher les paramètres"
+    },
+    "save_changes_btn": {
+        "message": "Sauvegarder les modifications"
+    },
+    "preferred_language": {
+        "message": "langue préférée"
+    },
+    "update_btn": {
+        "message": "Mettre à jour"
+    },
+    "plugin_repository_list": {
+        "message": "Liste des référentiels de plugins"
+    },
+    "options_btn": {
+        "message": "Les options"
+    },
+    "edit_settings_directly": {
+        "message": "Modifier les paramètres directement"
+    },
+    "raw_json_config_title": {
+        "message": "Raw json config"
+    },
+    "max_translation_result": {
+        "message": "Résultat maximum de la traduction"
+    },
+    "drag_to_change_order": {
+        "message": "faites glisser pour changer l'ordre"
+    },
+    "advanced_settings_warn": {
+        "message": "non recommandé pour l'utilisateur général"
+    },
+    "close_btn": {
+        "message": "Fermer"
+    },
+    "translation_settings": {
+        "message": "Paramètres de traduction"
+    }
+}

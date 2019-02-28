@@ -1,0 +1,47 @@
+{
+    "plugin_repository_list": {
+        "message": "플러그인 저장소 목록"
+    },
+    "options_btn": {
+        "message": "옵션"
+    },
+    "update_btn": {
+        "message": "최신 정보"
+    },
+    "show_advanced_settings": {
+        "message": "설정 표시"
+    },
+    "drag_to_change_order": {
+        "message": "드래그하여 순서 변경"
+    },
+    "max_translation_result": {
+        "message": "최대 번역 결과"
+    },
+    "translation_settings": {
+        "message": "번역 설정"
+    },
+    "close_btn": {
+        "message": "닫기"
+    },
+    "preferred_language": {
+        "message": "선호하는 언어"
+    },
+    "plugin_settings": {
+        "message": "플러그인 설정"
+    },
+    "advanced_settings_warn": {
+        "message": "일반 사용자에게는 권장하지 않음"
+    },
+    "raw_json_config_title": {
+        "message": "원시 JSON 구성"
+    },
+    "edit_settings_directly": {
+        "message": "설정 직접 수정"
+    },
+    "save_changes_btn": {
+        "message": "변경 사항을 저장하다"
+    },
+    "advanced_settings": {
+        "message": "고급 설정"
+    }
+}

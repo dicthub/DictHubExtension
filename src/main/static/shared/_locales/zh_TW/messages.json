@@ -1,3 +1,47 @@
 {
-
+    "advanced_settings": {
+        "message": "高級設置"
+    },
+    "plugin_repository_list": {
+        "message": "插件存儲庫列表"
+    },
+    "translation_settings": {
+        "message": "翻譯設置"
+    },
+    "close_btn": {
+        "message": "關"
+    },
+    "advanced_settings_warn": {
+        "message": "不建議一般用戶使用"
+    },
+    "edit_settings_directly": {
+        "message": "直接編輯設置"
+    },
+    "plugin_settings": {
+        "message": "插件設置"
+    },
+    "save_changes_btn": {
+        "message": "保存更改"
+    },
+    "show_advanced_settings": {
+        "message": "顯示設置"
+    },
+    "preferred_language": {
+        "message": "首選語言"
+    },
+    "raw_json_config_title": {
+        "message": "原始json配置"
+    },
+    "max_translation_result": {
+        "message": "最大翻譯結果"
+    },
+    "drag_to_change_order": {
+        "message": "拖動以改變順序"
+    },
+    "update_btn": {
+        "message": "更新"
+    },
+    "options_btn": {
+        "message": "選項"
+    }
 }

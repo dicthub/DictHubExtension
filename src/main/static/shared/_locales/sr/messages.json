@@ -1,0 +1,47 @@
+{
+    "preferred_language": {
+        "message": "Језик којем дајете предност"
+    },
+    "translation_settings": {
+        "message": "Подешавања превода"
+    },
+    "max_translation_result": {
+        "message": "Мак Транслатион Ресулт"
+    },
+    "plugin_repository_list": {
+        "message": "Листа спремишта спремника"
+    },
+    "drag_to_change_order": {
+        "message": "повуците да бисте променили редослед"
+    },
+    "edit_settings_directly": {
+        "message": "Измените подешавања директно"
+    },
+    "advanced_settings_warn": {
+        "message": "не препоручује се за опште кориснике"
+    },
+    "save_changes_btn": {
+        "message": "Сачувај измене"
+    },
+    "raw_json_config_title": {
+        "message": "Рав јсон цонфиг"
+    },
+    "close_btn": {
+        "message": "Близу"
+    },
+    "options_btn": {
+        "message": "Опције"
+    },
+    "update_btn": {
+        "message": "ажурирање"
+    },
+    "plugin_settings": {
+        "message": "Плугин Сеттингс"
+    },
+    "advanced_settings": {
+        "message": "Напредна подешавања"
+    },
+    "show_advanced_settings": {
+        "message": "Прикажи поставке"
+    }
+}

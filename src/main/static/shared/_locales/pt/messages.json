@@ -1,0 +1,47 @@
+{
+    "drag_to_change_order": {
+        "message": "arraste para alterar a ordem"
+    },
+    "advanced_settings_warn": {
+        "message": "não recomendado para usuário geral"
+    },
+    "plugin_settings": {
+        "message": "Configurações de Plugin"
+    },
+    "show_advanced_settings": {
+        "message": "Mostrar configurações"
+    },
+    "max_translation_result": {
+        "message": "Resultado máximo da tradução"
+    },
+    "translation_settings": {
+        "message": "Configurações de tradução"
+    },
+    "advanced_settings": {
+        "message": "Configurações avançadas"
+    },
+    "edit_settings_directly": {
+        "message": "Editar configurações diretamente"
+    },
+    "save_changes_btn": {
+        "message": "Salvar alterações"
+    },
+    "preferred_language": {
+        "message": "língua preferida"
+    },
+    "options_btn": {
+        "message": "Opções"
+    },
+    "raw_json_config_title": {
+        "message": "Configuração json bruta"
+    },
+    "plugin_repository_list": {
+        "message": "Lista de Repositórios de Plugin"
+    },
+    "update_btn": {
+        "message": "Atualizar"
+    },
+    "close_btn": {
+        "message": "Perto"
+    }
+}

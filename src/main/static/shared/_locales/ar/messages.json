@@ -1,0 +1,47 @@
+{
+    "advanced_settings": {
+        "message": "إعدادات متقدمة"
+    },
+    "max_translation_result": {
+        "message": "ماكس الترجمة النتيجة"
+    },
+    "plugin_repository_list": {
+        "message": "قائمة المستودع"
+    },
+    "plugin_settings": {
+        "message": "إعدادات البرنامج المساعد"
+    },
+    "raw_json_config_title": {
+        "message": "التكوين الخام جونسون"
+    },
+    "close_btn": {
+        "message": "قريب"
+    },
+    "drag_to_change_order": {
+        "message": "اسحب لتغيير النظام"
+    },
+    "options_btn": {
+        "message": "خيارات"
+    },
+    "advanced_settings_warn": {
+        "message": "غير مستحسن للمستخدم العام"
+    },
+    "update_btn": {
+        "message": "تحديث"
+    },
+    "translation_settings": {
+        "message": "إعدادات الترجمة"
+    },
+    "show_advanced_settings": {
+        "message": "إعدادات العرض"
+    },
+    "preferred_language": {
+        "message": "اللغة المفضلة"
+    },
+    "save_changes_btn": {
+        "message": "حفظ التغييرات"
+    },
+    "edit_settings_directly": {
+        "message": "تحرير الإعدادات مباشرة"
+    }
+}

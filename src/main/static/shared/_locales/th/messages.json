@@ -1,0 +1,47 @@
+{
+    "advanced_settings": {
+        "message": "ตั้งค่าขั้นสูง"
+    },
+    "drag_to_change_order": {
+        "message": "ลากเพื่อเปลี่ยนลำดับ"
+    },
+    "raw_json_config_title": {
+        "message": "การกำหนดค่า raw json"
+    },
+    "preferred_language": {
+        "message": "ภาษาที่ต้องการ"
+    },
+    "options_btn": {
+        "message": "ตัวเลือก"
+    },
+    "advanced_settings_warn": {
+        "message": "ไม่แนะนำสำหรับผู้ใช้ทั่วไป"
+    },
+    "edit_settings_directly": {
+        "message": "แก้ไขการตั้งค่าโดยตรง"
+    },
+    "update_btn": {
+        "message": "ปรับปรุง"
+    },
+    "show_advanced_settings": {
+        "message": "แสดงการตั้งค่า"
+    },
+    "close_btn": {
+        "message": "ปิด"
+    },
+    "plugin_repository_list": {
+        "message": "รายการที่เก็บปลั๊กอิน"
+    },
+    "plugin_settings": {
+        "message": "การตั้งค่าปลั๊กอิน"
+    },
+    "save_changes_btn": {
+        "message": "บันทึกการเปลี่ยนแปลง"
+    },
+    "max_translation_result": {
+        "message": "ผลลัพธ์การแปลสูงสุด"
+    },
+    "translation_settings": {
+        "message": "การตั้งค่าการแปล"
+    }
+}

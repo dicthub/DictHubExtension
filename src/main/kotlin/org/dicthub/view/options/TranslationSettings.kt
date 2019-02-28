@@ -1,5 +1,6 @@
 package org.dicthub.view.options
 
+import i18nMessage
 import org.dicthub.lang.Lang
 import org.dicthub.lang.fromCode
 import org.dicthub.model.UserPreference
@@ -22,7 +23,7 @@ class TranslationSettings(private val parent: HTMLElement, private val userPrefe
     override fun render() {
         parent.append {
             p (classes = CSS_SETTINGS_SECTION_TITLE) {
-                +"Translation Settings"
+                +i18nMessage("translation_settings")
             }
             div (classes = CSS_SETTINGS_ROW) {
                 renderPrimaryLangSelect(this)
@@ -49,7 +50,7 @@ class TranslationSettings(private val parent: HTMLElement, private val userPrefe
 
     private val renderPrimaryLangSelect: TagAppender = {
         label(classes = CSS_SETTINGS_ROW_LABEL) {
-            +"Primary Language"
+            +i18nMessage("preferred_language")
         }
         div(classes = CSS_SETTINGS_ROW_CONTENT) {
             select(classes = CSS_SETTINGS_ROW_INPUT) {
@@ -66,7 +67,7 @@ class TranslationSettings(private val parent: HTMLElement, private val userPrefe
 
     private val renderMaxTranslationResult: TagAppender = {
         label(classes = CSS_SETTINGS_ROW_LABEL) {
-            +"Max Translation Result"
+            +i18nMessage("max_translation_result")
         }
         div(classes = CSS_SETTINGS_ROW_CONTENT) {
             input (classes = CSS_SETTINGS_ROW_INPUT) {

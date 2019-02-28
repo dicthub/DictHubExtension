@@ -1,0 +1,47 @@
+{
+    "raw_json_config_title": {
+        "message": "Žalias json config"
+    },
+    "advanced_settings": {
+        "message": "Pažangūs nustatymai"
+    },
+    "edit_settings_directly": {
+        "message": "Redaguoti nustatymus tiesiogiai"
+    },
+    "translation_settings": {
+        "message": "Vertimo nustatymai"
+    },
+    "close_btn": {
+        "message": "Uždaryti"
+    },
+    "show_advanced_settings": {
+        "message": "Rodyti nustatymus"
+    },
+    "plugin_settings": {
+        "message": "Įskiepio nustatymai"
+    },
+    "options_btn": {
+        "message": "Galimybės"
+    },
+    "max_translation_result": {
+        "message": "Maks. Vertimo rezultatas"
+    },
+    "save_changes_btn": {
+        "message": "Išsaugoti pakeitimus"
+    },
+    "preferred_language": {
+        "message": "Pageidautina kalba"
+    },
+    "update_btn": {
+        "message": "Atnaujinti"
+    },
+    "plugin_repository_list": {
+        "message": "„Plugin“ saugyklos sąrašas"
+    },
+    "advanced_settings_warn": {
+        "message": "nerekomenduojama bendram vartotojui"
+    },
+    "drag_to_change_order": {
+        "message": "vilkite, kad pakeistumėte tvarką"
+    }
+}
