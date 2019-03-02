@@ -53,13 +53,6 @@ class UserPreference(val data: Json) {
             data["pluginPriority"] = value.toTypedArray()
             saveUserPreference(this)
         }
-
-    var keepQueryHistory: Boolean
-        inline get() = data["keepQueryHistory"] == true
-        inline set(value) {
-            data["keepQueryHistory"] = value
-            saveUserPreference(this)
-        }
 }
 
 @Suppress("UNCHECKED_CAST_TO_EXTERNAL_INTERFACE")
