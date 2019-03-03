@@ -11,9 +11,12 @@ const val KEY_USER_PREFERENCE = "userPreference"
 const val DEFAULT_MAX_TRANSLATION_RESULTS = 3
 const val DEFAULT_PLUGIN_INDEX_URL = "https://raw.githubusercontent.com/dicthub/DictHubPluginRepository/prod/index.json"
 
+const val CURRENT_USER_PREFERENCE_VERSION = "1.0"
 
 @Suppress("UNCHECKED_CAST")
 class UserPreference(val data: Json) {
+
+    val version = data["version"]?.let { it as? String } ?: CURRENT_USER_PREFERENCE_VERSION
 
     var primaryLang: Lang
         inline get() = data["primaryLang"]?.let { it as? String }?.let { fromCode(it) } ?: Lang.EN
@@ -80,7 +83,9 @@ fun loadUserPreference(): Promise<UserPreference> {
                 }
             } ?: run {
                 console.info("No user preference found.")
-                resolve(UserPreference(json()))
+                resolve(UserPreference(json(
+                        "version" to CURRENT_USER_PREFERENCE_VERSION
+                )))
             }
         }
     }
