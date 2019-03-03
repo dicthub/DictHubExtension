@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "แก้ไขการตั้งค่าโดยตรง"
     },
+    "insecure_translation_script_warning": {
+        "message": "ผลลัพธ์การแปลมีแท็กสคริปต์ที่ไม่ปลอดภัย"
+    },
     "max_translation_result": {
         "message": "ผลลัพธ์การแปลสูงสุด"
     },

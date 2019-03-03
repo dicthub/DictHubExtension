@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "थेट सेटिंग्ज संपादित करा"
     },
+    "insecure_translation_script_warning": {
+        "message": "अनुवाद परिणामामध्ये असुरक्षित स्क्रिप्ट टॅग आहे."
+    },
     "max_translation_result": {
         "message": "कमाल अनुवाद परिणाम"
     },

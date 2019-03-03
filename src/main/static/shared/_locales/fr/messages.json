@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "Modifier les paramètres directement"
     },
+    "insecure_translation_script_warning": {
+        "message": "Le résultat de la traduction contient une balise de script non sécurisée."
+    },
     "max_translation_result": {
         "message": "Résultat maximum de la traduction"
     },

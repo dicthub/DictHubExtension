@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "Awtomatikong I-edit ang Mga Setting"
     },
+    "insecure_translation_script_warning": {
+        "message": "Ang resulta ng pagsasalin ay naglalaman ng hindi secure na tag ng script."
+    },
     "max_translation_result": {
         "message": "Resulta ng Max Pagsasalin"
     },

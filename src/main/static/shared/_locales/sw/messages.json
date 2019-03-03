@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "Badilisha Mipangilio moja kwa moja"
     },
+    "insecure_translation_script_warning": {
+        "message": "Matokeo ya tafsiri yana lebo ya script isiyo salama."
+    },
     "max_translation_result": {
         "message": "Matokeo ya Tafsiri ya Max"
     },

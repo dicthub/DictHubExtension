@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "تحرير الإعدادات مباشرة"
     },
+    "insecure_translation_script_warning": {
+        "message": "تحتوي نتيجة الترجمة على علامة نصية غير آمنة."
+    },
     "max_translation_result": {
         "message": "ماكس الترجمة النتيجة"
     },

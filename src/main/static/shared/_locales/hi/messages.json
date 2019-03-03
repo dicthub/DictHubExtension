@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "सेटिंग्स को सीधे संपादित करें"
     },
+    "insecure_translation_script_warning": {
+        "message": "अनुवाद परिणाम में असुरक्षित स्क्रिप्ट टैग होता है।"
+    },
     "max_translation_result": {
         "message": "अधिकतम अनुवाद परिणाम"
     },

@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "設定を直接編集する"
     },
+    "insecure_translation_script_warning": {
+        "message": "翻訳結果に安全でないスクリプトタグが含まれています。"
+    },
     "max_translation_result": {
         "message": "最大翻訳結果"
     },

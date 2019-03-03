@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "Uredite nastavitve neposredno"
     },
+    "insecure_translation_script_warning": {
+        "message": "Rezultat prevoda vsebuje negotovo skriptno oznako."
+    },
     "max_translation_result": {
         "message": "Največji rezultat prevajanja"
     },

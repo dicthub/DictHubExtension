@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "ቅንብሮችን በቀጥታ ያርትዑ"
     },
+    "insecure_translation_script_warning": {
+        "message": "የትርጉም ትርጉሙ ደህንነቱ ያልተጠበቀ ስክሪፕት መለያ ይዟል."
+    },
     "max_translation_result": {
         "message": "ከፍተኛ ትርጉምን ውጤት"
     },

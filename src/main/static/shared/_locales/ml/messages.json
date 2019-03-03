@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "ക്രമീകരണങ്ങൾ നേരിട്ട് എഡിറ്റുചെയ്യുക"
     },
+    "insecure_translation_script_warning": {
+        "message": "വിവർത്തന ഫലം അരക്ഷിതമായ സ്ക്രിപ്റ്റ് ടാഗ് ഉൾക്കൊള്ളുന്നു."
+    },
     "max_translation_result": {
         "message": "പരമാവധി വിവർത്തന ഫലം"
     },

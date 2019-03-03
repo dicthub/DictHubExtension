@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "ویرایش تنظیمات به طور مستقیم"
     },
+    "insecure_translation_script_warning": {
+        "message": "نتیجه ترجمه شامل برچسب اسکریپت ناامن است."
+    },
     "max_translation_result": {
         "message": "نتیجه ترجمه حداکثر"
     },

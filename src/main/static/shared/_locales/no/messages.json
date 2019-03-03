@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "Rediger innstillinger direkte"
     },
+    "insecure_translation_script_warning": {
+        "message": "Oversetterresultatet inneholder usikker script-kode."
+    },
     "max_translation_result": {
         "message": "Maks oversettelsesresultat"
     },

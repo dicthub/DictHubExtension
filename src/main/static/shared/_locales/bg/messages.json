@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "Редактирайте настройките директно"
     },
+    "insecure_translation_script_warning": {
+        "message": "Резултатът от превода съдържа несигурен скриптов маркер."
+    },
     "max_translation_result": {
         "message": "Макс. Резултат от превода"
     },

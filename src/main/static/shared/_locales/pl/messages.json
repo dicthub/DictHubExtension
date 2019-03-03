@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "Edytuj ustawienia bezpośrednio"
     },
+    "insecure_translation_script_warning": {
+        "message": "Wynik tłumaczenia zawiera niezabezpieczony znacznik skryptu."
+    },
     "max_translation_result": {
         "message": "Maksymalny wynik tłumaczenia"
     },

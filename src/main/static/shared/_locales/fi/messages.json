@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "Muokkaa asetuksia suoraan"
     },
+    "insecure_translation_script_warning": {
+        "message": "Käännöstulos sisältää epävarman komentosarjan."
+    },
     "max_translation_result": {
         "message": "Käännöstuloksen enimmäismäärä"
     },

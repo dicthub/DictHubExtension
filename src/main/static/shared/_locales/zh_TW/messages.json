@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "直接編輯設置"
     },
+    "insecure_translation_script_warning": {
+        "message": "翻譯結果包含不安全的腳本標記。"
+    },
     "max_translation_result": {
         "message": "最大翻譯結果"
     },

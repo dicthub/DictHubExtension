@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "Editeu la configuració directament"
     },
+    "insecure_translation_script_warning": {
+        "message": "El resultat de la traducció conté una etiqueta de seqüència insegura."
+    },
     "max_translation_result": {
         "message": "Resultat de traducció màx"
     },

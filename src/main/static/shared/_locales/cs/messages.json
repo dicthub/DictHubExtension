@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "Upravte nastavení přímo"
     },
+    "insecure_translation_script_warning": {
+        "message": "Výsledek překladu obsahuje nezabezpečenou značku skriptu."
+    },
     "max_translation_result": {
         "message": "Maximální výsledek překladu"
     },

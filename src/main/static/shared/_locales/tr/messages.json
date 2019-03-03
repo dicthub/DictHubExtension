@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "Ayarları doğrudan düzenle"
     },
+    "insecure_translation_script_warning": {
+        "message": "Çeviri sonucu güvensiz komut dosyası etiketi var."
+    },
     "max_translation_result": {
         "message": "Maksimum Çeviri Sonucu"
     },

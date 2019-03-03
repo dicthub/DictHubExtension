@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "সরাসরি সেটিংস সম্পাদনা করুন"
     },
+    "insecure_translation_script_warning": {
+        "message": "অনুবাদ ফলাফল অনিরাপদ স্ক্রিপ্ট ট্যাগ রয়েছে।"
+    },
     "max_translation_result": {
         "message": "সর্বোচ্চ অনুবাদ ফলাফল"
     },

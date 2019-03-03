@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "ಸೆಟ್ಟಿಂಗ್ಗಳನ್ನು ನೇರವಾಗಿ ಸಂಪಾದಿಸಿ"
     },
+    "insecure_translation_script_warning": {
+        "message": "ಅನುವಾದ ಫಲಿತಾಂಶವು ಅಸುರಕ್ಷಿತ ಸ್ಕ್ರಿಪ್ಟ್ ಟ್ಯಾಗ್ ಅನ್ನು ಒಳಗೊಂಡಿದೆ."
+    },
     "max_translation_result": {
         "message": "ಮ್ಯಾಕ್ಸ್ ಅನುವಾದ ಫಲಿತಾಂಶ"
     },

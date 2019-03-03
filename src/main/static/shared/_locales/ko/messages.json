@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "설정 직접 수정"
     },
+    "insecure_translation_script_warning": {
+        "message": "번역 결과에 안전하지 않은 스크립트 태그가 포함되어 있습니다."
+    },
     "max_translation_result": {
         "message": "최대 번역 결과"
     },

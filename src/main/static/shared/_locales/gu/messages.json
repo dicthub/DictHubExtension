@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "સીધા સેટિંગ્સ સંપાદિત કરો"
     },
+    "insecure_translation_script_warning": {
+        "message": "ભાષાંતર પરિણામમાં અસુરક્ષિત સ્ક્રિપ્ટ ટૅગ શામેલ છે."
+    },
     "max_translation_result": {
         "message": "મેક્સ અનુવાદ પરિણામ"
     },

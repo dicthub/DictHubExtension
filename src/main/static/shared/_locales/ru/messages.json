@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "Изменить настройки напрямую"
     },
+    "insecure_translation_script_warning": {
+        "message": "Результат перевода содержит небезопасный тег сценария."
+    },
     "max_translation_result": {
         "message": "Макс Результат перевода"
     },

@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "Επεξεργασία ρυθμίσεων απευθείας"
     },
+    "insecure_translation_script_warning": {
+        "message": "Το αποτέλεσμα της μετάφρασης περιέχει μη ασφαλή ετικέτα δέσμης ενεργειών."
+    },
     "max_translation_result": {
         "message": "Μέγιστο αποτέλεσμα μετάφρασης"
     },

@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "Editar configuración directamente"
     },
+    "insecure_translation_script_warning": {
+        "message": "El resultado de la traducción contiene una etiqueta de script insegura."
+    },
     "max_translation_result": {
         "message": "Resultado máximo de traducción"
     },

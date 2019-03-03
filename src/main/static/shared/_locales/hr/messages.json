@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "Izravno uredite Postavke"
     },
+    "insecure_translation_script_warning": {
+        "message": "Rezultat prijevoda sadrži oznaku nesigurne skripte."
+    },
     "max_translation_result": {
         "message": "Maksimalni rezultat prijevoda"
     },

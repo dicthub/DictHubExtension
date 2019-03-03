@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "Muuda seadeid otse"
     },
+    "insecure_translation_script_warning": {
+        "message": "Tõlke tulemus sisaldab ebaturvalist skripti silt."
+    },
     "max_translation_result": {
         "message": "Maksimaalne tõlketulemus"
     },

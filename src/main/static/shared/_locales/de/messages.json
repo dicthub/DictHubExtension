@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "Einstellungen direkt bearbeiten"
     },
+    "insecure_translation_script_warning": {
+        "message": "Das Übersetzungsergebnis enthält ein unsicheres Skript-Tag."
+    },
     "max_translation_result": {
         "message": "Max. Übersetzungsergebnis"
     },

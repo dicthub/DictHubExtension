@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "Redaguoti nustatymus tiesiogiai"
     },
+    "insecure_translation_script_warning": {
+        "message": "Vertimo rezultate yra nesaugių scenarijų žyma."
+    },
     "max_translation_result": {
         "message": "Maks. Vertimo rezultatas"
     },

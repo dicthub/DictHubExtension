@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "Editați direct setările"
     },
+    "insecure_translation_script_warning": {
+        "message": "Rezultatul traducerii conține eticheta de script nesigură."
+    },
     "max_translation_result": {
         "message": "Rezultatul maxim de traducere"
     },

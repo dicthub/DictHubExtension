@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "Chỉnh sửa cài đặt trực tiếp"
     },
+    "insecure_translation_script_warning": {
+        "message": "Kết quả dịch chứa thẻ script không an toàn."
+    },
     "max_translation_result": {
         "message": "Kết quả dịch tối đa"
     },

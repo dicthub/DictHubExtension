@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "Beállítások szerkesztése közvetlenül"
     },
+    "insecure_translation_script_warning": {
+        "message": "A fordítási eredmény bizonytalan script címkét tartalmaz."
+    },
     "max_translation_result": {
         "message": "Max. Fordítási eredmény"
     },

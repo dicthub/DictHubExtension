@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "Rediģējiet iestatījumus tieši"
     },
+    "insecure_translation_script_warning": {
+        "message": "Tulkošanas rezultāts satur nedrošu skriptu tagu."
+    },
     "max_translation_result": {
         "message": "Maksimālais tulkošanas rezultāts"
     },

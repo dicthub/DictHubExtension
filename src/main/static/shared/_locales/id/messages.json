@@ -14,6 +14,9 @@
     "edit_settings_directly": {
         "message": "Edit Pengaturan secara langsung"
     },
+    "insecure_translation_script_warning": {
+        "message": "Hasil terjemahan berisi tag skrip yang tidak aman."
+    },
     "max_translation_result": {
         "message": "Hasil Terjemahan Maks"
     },
