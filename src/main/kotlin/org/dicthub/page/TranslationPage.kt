@@ -1,5 +1,6 @@
 package org.dicthub.page
 
+import i18nMessage
 import org.dicthub.lang.fromCode
 import org.dicthub.model.*
 import org.dicthub.plugin.PluginContentAdapter
@@ -13,6 +14,7 @@ import kotlinx.html.*
 import kotlinx.html.dom.append
 import kotlinx.html.js.div
 import kotlinx.html.js.iframe
+import kotlinx.html.stream.appendHTML
 import org.w3c.dom.HTMLIFrameElement
 import org.w3c.dom.MessageEvent
 import org.w3c.dom.events.Event
@@ -78,8 +80,14 @@ class TranslationPage(private val userPreference: UserPreference,
             }
             Command.TRANSLATION_RESULT -> {
                 val translationResult = TranslationResult(packet.payload)
-                resultContainer.appendResult(translationResult.htmlContent)
-                sendAnalysisInfo(translationResult)
+                if (!isTranslationResultUnsafe(translationResult)) {
+                    resultContainer.appendResult(translationResult.htmlContent)
+                    sendAnalysisInfo(translationResult)
+                } else {
+                    val unsafeWarning = buildSecurityViolationMessage(translationResult.pluginId);
+                    resultContainer.appendResult(unsafeWarning)
+                    sendAnalysisInfo(TranslationResult(translationResult.pluginId, translationResult.query, false, unsafeWarning))
+                }
             }
             else -> {
                 console.warn("Unknown message", packet)
@@ -158,6 +166,17 @@ class TranslationPage(private val userPreference: UserPreference,
 
         val action = if (translationResult.success) "TranslationSuccess" else "TranslationFailure"
         ga("send", "event", action, translationResult.pluginId)
+    }
+
+    private fun isTranslationResultUnsafe(result: TranslationResult) = result.htmlContent.contains("<script>")
+
+    private fun buildSecurityViolationMessage(pluginId: String): String {
+        val htmlContent = StringBuilder()
+        htmlContent.appendHTML().div (classes = "translation-failure alert alert-danger") {
+            role = "alert"
+            +"${i18nMessage("insecure_translation_script_warning")} ID: $pluginId"
+        }
+        return htmlContent.toString()
     }
 }
 
