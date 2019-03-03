@@ -5,43 +5,46 @@
     "advanced_settings_warn": {
         "message": "tidak disarankan untuk pengguna umum"
     },
+    "close_btn": {
+        "message": "Dekat"
+    },
+    "drag_to_change_order": {
+        "message": "seret untuk mengubah urutan"
+    },
     "edit_settings_directly": {
         "message": "Edit Pengaturan secara langsung"
-    },
-    "preferred_language": {
-        "message": "Bahasa yang disukai"
-    },
-    "save_changes_btn": {
-        "message": "Simpan perubahan"
     },
     "max_translation_result": {
         "message": "Hasil Terjemahan Maks"
     },
-    "raw_json_config_title": {
-        "message": "Konfigurasi json mentah"
-    },
-    "close_btn": {
-        "message": "Dekat"
+    "options_btn": {
+        "message": "Pilihan"
     },
     "plugin_repository_list": {
         "message": "Daftar Repositori Plugin"
     },
-    "translation_settings": {
-        "message": "Pengaturan Terjemahan"
+    "plugin_settings": {
+        "message": "Pengaturan Plugin"
+    },
+    "preferred_language": {
+        "message": "Bahasa yang disukai"
+    },
+    "raw_json_config_title": {
+        "message": "Konfigurasi json mentah"
+    },
+    "save_changes_btn": {
+        "message": "Simpan perubahan"
+    },
+    "send_analysis_info": {
+        "message": "Kirim data penggunaan anonim untuk membantu meningkatkan ekstensi ini."
     },
     "show_advanced_settings": {
         "message": "Tampilkan Pengaturan"
     },
+    "translation_settings": {
+        "message": "Pengaturan Terjemahan"
+    },
     "update_btn": {
         "message": "Memperbarui"
-    },
-    "plugin_settings": {
-        "message": "Pengaturan Plugin"
-    },
-    "options_btn": {
-        "message": "Pilihan"
-    },
-    "drag_to_change_order": {
-        "message": "seret untuk mengubah urutan"
     }
 }

@@ -1,21 +1,18 @@
 {
-    "edit_settings_directly": {
-        "message": "Edytuj ustawienia bezpośrednio"
+    "advanced_settings": {
+        "message": "Zaawansowane ustawienia"
+    },
+    "advanced_settings_warn": {
+        "message": "nie zalecane dla zwykłego użytkownika"
+    },
+    "close_btn": {
+        "message": "Blisko"
     },
     "drag_to_change_order": {
         "message": "przeciągnij, aby zmienić kolejność"
     },
-    "raw_json_config_title": {
-        "message": "Surowa konfiguracja json"
-    },
-    "show_advanced_settings": {
-        "message": "Pokaż ustawienia"
-    },
-    "update_btn": {
-        "message": "Aktualizacja"
-    },
-    "preferred_language": {
-        "message": "preferowany język"
+    "edit_settings_directly": {
+        "message": "Edytuj ustawienia bezpośrednio"
     },
     "max_translation_result": {
         "message": "Maksymalny wynik tłumaczenia"
@@ -23,25 +20,31 @@
     "options_btn": {
         "message": "Opcje"
     },
-    "advanced_settings": {
-        "message": "Zaawansowane ustawienia"
-    },
-    "close_btn": {
-        "message": "Blisko"
-    },
-    "translation_settings": {
-        "message": "Ustawienia tłumaczenia"
-    },
-    "advanced_settings_warn": {
-        "message": "nie zalecane dla zwykłego użytkownika"
+    "plugin_repository_list": {
+        "message": "Lista repozytoriów wtyczek"
     },
     "plugin_settings": {
         "message": "Ustawienia wtyczki"
     },
-    "plugin_repository_list": {
-        "message": "Lista repozytoriów wtyczek"
+    "preferred_language": {
+        "message": "preferowany język"
+    },
+    "raw_json_config_title": {
+        "message": "Surowa konfiguracja json"
     },
     "save_changes_btn": {
         "message": "Zapisz zmiany"
+    },
+    "send_analysis_info": {
+        "message": "Wyślij anonimowe dane o użytkowaniu, aby ulepszyć to rozszerzenie."
+    },
+    "show_advanced_settings": {
+        "message": "Pokaż ustawienia"
+    },
+    "translation_settings": {
+        "message": "Ustawienia tłumaczenia"
+    },
+    "update_btn": {
+        "message": "Aktualizacja"
     }
 }

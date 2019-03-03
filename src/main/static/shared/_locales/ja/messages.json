@@ -1,47 +1,50 @@
 {
-    "preferred_language": {
-        "message": "希望言語"
-    },
-    "show_advanced_settings": {
-        "message": "設定を表示"
-    },
     "advanced_settings": {
         "message": "高度な設定"
     },
-    "plugin_settings": {
-        "message": "プラグイン設定"
-    },
-    "save_changes_btn": {
-        "message": "変更内容を保存"
-    },
-    "max_translation_result": {
-        "message": "最大翻訳結果"
+    "advanced_settings_warn": {
+        "message": "一般ユーザーにはお勧めできません"
     },
     "close_btn": {
         "message": "閉じる"
     },
-    "update_btn": {
-        "message": "更新"
+    "drag_to_change_order": {
+        "message": "順番を変更するにはドラッグ"
     },
     "edit_settings_directly": {
         "message": "設定を直接編集する"
     },
-    "drag_to_change_order": {
-        "message": "順番を変更するにはドラッグ"
+    "max_translation_result": {
+        "message": "最大翻訳結果"
     },
     "options_btn": {
         "message": "オプション"
     },
-    "translation_settings": {
-        "message": "翻訳設定"
+    "plugin_repository_list": {
+        "message": "プラグインリポジトリリスト"
+    },
+    "plugin_settings": {
+        "message": "プラグイン設定"
+    },
+    "preferred_language": {
+        "message": "希望言語"
     },
     "raw_json_config_title": {
         "message": "Raw jsonの設定"
     },
-    "plugin_repository_list": {
-        "message": "プラグインリポジトリリスト"
+    "save_changes_btn": {
+        "message": "変更内容を保存"
     },
-    "advanced_settings_warn": {
-        "message": "一般ユーザーにはお勧めできません"
+    "send_analysis_info": {
+        "message": "この拡張機能を改善するために匿名の使用状況データを送信してください。"
+    },
+    "show_advanced_settings": {
+        "message": "設定を表示"
+    },
+    "translation_settings": {
+        "message": "翻訳設定"
+    },
+    "update_btn": {
+        "message": "更新"
     }
 }

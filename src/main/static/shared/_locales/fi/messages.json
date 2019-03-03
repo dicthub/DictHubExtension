@@ -1,41 +1,50 @@
 {
+    "advanced_settings": {
+        "message": "Lisäasetukset"
+    },
+    "advanced_settings_warn": {
+        "message": "ei suositella yleiselle käyttäjälle"
+    },
+    "close_btn": {
+        "message": "kiinni"
+    },
     "drag_to_change_order": {
         "message": "vaihda järjestystä vetämällä"
     },
     "edit_settings_directly": {
         "message": "Muokkaa asetuksia suoraan"
     },
+    "max_translation_result": {
+        "message": "Käännöstuloksen enimmäismäärä"
+    },
+    "options_btn": {
+        "message": "vaihtoehdot"
+    },
     "plugin_repository_list": {
         "message": "Plugin-arkistoluettelo"
-    },
-    "show_advanced_settings": {
-        "message": "Näytä asetukset"
-    },
-    "preferred_language": {
-        "message": "Suositeltu kieli"
-    },
-    "advanced_settings_warn": {
-        "message": "ei suositella yleiselle käyttäjälle"
-    },
-    "translation_settings": {
-        "message": "Käännösasetukset"
-    },
-    "max_translation_result": {
-        "message": "Kääntämisen tulos"
-    },
-    "advanced_settings": {
-        "message": "Lisäasetukset"
-    },
-    "raw_json_config_title": {
-        "message": "Raaka json-konfiguraatio"
     },
     "plugin_settings": {
         "message": "Plugin-asetukset"
     },
+    "preferred_language": {
+        "message": "Suositeltu kieli"
+    },
+    "raw_json_config_title": {
+        "message": "Raaka json-konfiguraatio"
+    },
     "save_changes_btn": {
         "message": "Tallenna muutokset"
     },
-    "close_btn": {
-        "message": "kiinni"
+    "send_analysis_info": {
+        "message": "Lähetä anonyymejä käyttötietoja tämän laajennuksen parantamiseksi."
+    },
+    "show_advanced_settings": {
+        "message": "Näytä asetukset"
+    },
+    "translation_settings": {
+        "message": "Käännösasetukset"
+    },
+    "update_btn": {
+        "message": "Päivittää"
     }
 }

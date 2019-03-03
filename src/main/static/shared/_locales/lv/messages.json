@@ -1,21 +1,27 @@
 {
-    "plugin_repository_list": {
-        "message": "Spraudņu krātuves saraksts"
+    "advanced_settings": {
+        "message": "Papildu iestatījumi"
+    },
+    "advanced_settings_warn": {
+        "message": "nav ieteicams vispārējam lietotājam"
+    },
+    "close_btn": {
+        "message": "Aizvērt"
     },
     "drag_to_change_order": {
         "message": "velciet, lai mainītu pasūtījumu"
     },
-    "translation_settings": {
-        "message": "Tulkošanas iestatījumi"
+    "edit_settings_directly": {
+        "message": "Rediģējiet iestatījumus tieši"
     },
-    "advanced_settings": {
-        "message": "Papildu iestatījumi"
+    "max_translation_result": {
+        "message": "Maksimālais tulkošanas rezultāts"
     },
-    "raw_json_config_title": {
-        "message": "Raw json config"
+    "options_btn": {
+        "message": "Iespējas"
     },
-    "close_btn": {
-        "message": "Aizvērt"
+    "plugin_repository_list": {
+        "message": "Spraudņu krātuves saraksts"
     },
     "plugin_settings": {
         "message": "Spraudņa iestatījumi"
@@ -23,25 +29,22 @@
     "preferred_language": {
         "message": "vēlamā valoda"
     },
-    "advanced_settings_warn": {
-        "message": "nav ieteicams vispārējam lietotājam"
-    },
-    "edit_settings_directly": {
-        "message": "Rediģējiet iestatījumus tieši"
+    "raw_json_config_title": {
+        "message": "Raw json config"
     },
     "save_changes_btn": {
         "message": "Saglabāt izmaiņas"
     },
-    "options_btn": {
-        "message": "Iespējas"
+    "send_analysis_info": {
+        "message": "Lai uzlabotu šo paplašinājumu, nosūtiet anonīmus lietošanas datus."
     },
     "show_advanced_settings": {
         "message": "Rādīt iestatījumus"
     },
+    "translation_settings": {
+        "message": "Tulkošanas iestatījumi"
+    },
     "update_btn": {
         "message": "Atjaunināt"
-    },
-    "max_translation_result": {
-        "message": "Maksimālais tulkošanas rezultāts"
     }
 }

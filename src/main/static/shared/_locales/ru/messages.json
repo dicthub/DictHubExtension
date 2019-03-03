@@ -1,30 +1,27 @@
 {
-    "options_btn": {
-        "message": "Опции"
-    },
-    "drag_to_change_order": {
-        "message": "перетащите, чтобы изменить порядок"
+    "advanced_settings": {
+        "message": "Расширенные настройки"
     },
     "advanced_settings_warn": {
         "message": "не рекомендуется для обычного пользователя"
     },
-    "update_btn": {
-        "message": "Обновить"
+    "close_btn": {
+        "message": "близко"
+    },
+    "drag_to_change_order": {
+        "message": "перетащите, чтобы изменить порядок"
+    },
+    "edit_settings_directly": {
+        "message": "Изменить настройки напрямую"
+    },
+    "max_translation_result": {
+        "message": "Макс Результат перевода"
+    },
+    "options_btn": {
+        "message": "Опции"
     },
     "plugin_repository_list": {
         "message": "Список плагинов"
-    },
-    "advanced_settings": {
-        "message": "Расширенные настройки"
-    },
-    "show_advanced_settings": {
-        "message": "Показать настройки"
-    },
-    "raw_json_config_title": {
-        "message": "Сырой конфиг json"
-    },
-    "close_btn": {
-        "message": "близко"
     },
     "plugin_settings": {
         "message": "Настройки плагина"
@@ -32,16 +29,22 @@
     "preferred_language": {
         "message": "предпочтительный язык"
     },
-    "edit_settings_directly": {
-        "message": "Изменить настройки напрямую"
+    "raw_json_config_title": {
+        "message": "Сырой конфиг json"
     },
     "save_changes_btn": {
         "message": "Сохранить изменения"
     },
-    "max_translation_result": {
-        "message": "Макс Результат перевода"
+    "send_analysis_info": {
+        "message": "Отправить анонимные данные об использовании, чтобы помочь улучшить это расширение."
+    },
+    "show_advanced_settings": {
+        "message": "Показать настройки"
     },
     "translation_settings": {
         "message": "Настройки перевода"
+    },
+    "update_btn": {
+        "message": "Обновить"
     }
 }

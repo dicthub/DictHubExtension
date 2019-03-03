@@ -1,47 +1,50 @@
 {
-    "show_advanced_settings": {
-        "message": "הצג הגדרות"
-    },
-    "max_translation_result": {
-        "message": "תוצאת תרגום מקסימלית"
-    },
-    "update_btn": {
-        "message": "עדכון"
+    "advanced_settings": {
+        "message": "הגדרות מתקדמות"
     },
     "advanced_settings_warn": {
         "message": "לא מומלץ למשתמש כללי"
     },
+    "close_btn": {
+        "message": "סגור"
+    },
     "drag_to_change_order": {
         "message": "גרור כדי לשנות את הסדר"
-    },
-    "plugin_repository_list": {
-        "message": "רשימת מאגרי תוסף"
     },
     "edit_settings_directly": {
         "message": "ערוך הגדרות ישירות"
     },
-    "plugin_settings": {
-        "message": "הגדרות Plugin"
+    "max_translation_result": {
+        "message": "תוצאת תרגום מקסימלית"
     },
     "options_btn": {
         "message": "אפשרויות"
     },
-    "close_btn": {
-        "message": "סגור"
+    "plugin_repository_list": {
+        "message": "רשימת מאגרי תוסף"
     },
-    "advanced_settings": {
-        "message": "הגדרות מתקדמות"
+    "plugin_settings": {
+        "message": "הגדרות Plugin"
     },
-    "save_changes_btn": {
-        "message": "שמור שינויים"
-    },
-    "translation_settings": {
-        "message": "הגדרות תרגום"
+    "preferred_language": {
+        "message": "שפה מועדפת"
     },
     "raw_json_config_title": {
         "message": "תצורת Raw json"
     },
-    "preferred_language": {
-        "message": "שפה מועדפת"
+    "save_changes_btn": {
+        "message": "שמור שינויים"
+    },
+    "send_analysis_info": {
+        "message": "שלח נתוני שימוש אנונימיים כדי לשפר את התוסף."
+    },
+    "show_advanced_settings": {
+        "message": "הצג הגדרות"
+    },
+    "translation_settings": {
+        "message": "הגדרות תרגום"
+    },
+    "update_btn": {
+        "message": "עדכון"
     }
 }

@@ -1,47 +1,50 @@
 {
-    "drag_to_change_order": {
-        "message": "σύρετε για να αλλάξετε τη σειρά"
+    "advanced_settings": {
+        "message": "Προηγμένες ρυθμίσεις"
     },
-    "plugin_settings": {
-        "message": "Ρυθμίσεις Plugin"
-    },
-    "translation_settings": {
-        "message": "Ρυθμίσεις μετάφρασης"
+    "advanced_settings_warn": {
+        "message": "δεν συνιστάται για γενικούς χρήστες"
     },
     "close_btn": {
         "message": "Κοντά"
     },
-    "plugin_repository_list": {
-        "message": "Λίστα καταλόγων υποδοχών"
-    },
-    "advanced_settings": {
-        "message": "Προηγμένες ρυθμίσεις"
-    },
-    "show_advanced_settings": {
-        "message": "Εμφάνιση ρυθμίσεων"
-    },
-    "options_btn": {
-        "message": "Επιλογές"
-    },
-    "update_btn": {
-        "message": "Εκσυγχρονίζω"
-    },
-    "preferred_language": {
-        "message": "προτιμώμενη γλώσσα"
+    "drag_to_change_order": {
+        "message": "σύρετε για να αλλάξετε τη σειρά"
     },
     "edit_settings_directly": {
         "message": "Επεξεργασία ρυθμίσεων απευθείας"
     },
-    "save_changes_btn": {
-        "message": "Αποθήκευσε τις αλλαγές"
-    },
     "max_translation_result": {
         "message": "Μέγιστο αποτέλεσμα μετάφρασης"
+    },
+    "options_btn": {
+        "message": "Επιλογές"
+    },
+    "plugin_repository_list": {
+        "message": "Λίστα καταλόγων υποδοχών"
+    },
+    "plugin_settings": {
+        "message": "Ρυθμίσεις Plugin"
+    },
+    "preferred_language": {
+        "message": "προτιμώμενη γλώσσα"
     },
     "raw_json_config_title": {
         "message": "Raw json config"
     },
-    "advanced_settings_warn": {
-        "message": "δεν συνιστάται για γενικούς χρήστες"
+    "save_changes_btn": {
+        "message": "Αποθήκευσε τις αλλαγές"
+    },
+    "send_analysis_info": {
+        "message": "Στείλτε ανώνυμα δεδομένα χρήσης για να βελτιώσετε αυτήν την επέκταση."
+    },
+    "show_advanced_settings": {
+        "message": "Εμφάνιση ρυθμίσεων"
+    },
+    "translation_settings": {
+        "message": "Ρυθμίσεις μετάφρασης"
+    },
+    "update_btn": {
+        "message": "Εκσυγχρονίζω"
     }
 }

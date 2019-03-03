@@ -1,47 +1,50 @@
 {
-    "raw_json_config_title": {
-        "message": "Raw json config"
-    },
-    "show_advanced_settings": {
-        "message": "Kuva seaded"
-    },
-    "update_btn": {
-        "message": "Uuenda"
-    },
-    "edit_settings_directly": {
-        "message": "Muuda seadeid otse"
-    },
-    "preferred_language": {
-        "message": "Eelistatud keel"
-    },
-    "save_changes_btn": {
-        "message": "Salvesta muudatused"
+    "advanced_settings": {
+        "message": "Täpsemad seaded"
     },
     "advanced_settings_warn": {
         "message": "ei soovitata üldkasutajale"
     },
-    "translation_settings": {
-        "message": "Tõlkeseaded"
-    },
-    "plugin_repository_list": {
-        "message": "Plugin-hoidla loend"
-    },
-    "max_translation_result": {
-        "message": "Maksimaalne tõlketulemus"
-    },
-    "advanced_settings": {
-        "message": "Täpsemad seaded"
-    },
-    "plugin_settings": {
-        "message": "Plugina seaded"
-    },
-    "options_btn": {
-        "message": "Valikud"
+    "close_btn": {
+        "message": "Sulge"
     },
     "drag_to_change_order": {
         "message": "järjekorra muutmiseks lohistage"
     },
-    "close_btn": {
-        "message": "Sulge"
+    "edit_settings_directly": {
+        "message": "Muuda seadeid otse"
+    },
+    "max_translation_result": {
+        "message": "Maksimaalne tõlketulemus"
+    },
+    "options_btn": {
+        "message": "Valikud"
+    },
+    "plugin_repository_list": {
+        "message": "Plugin-hoidla loend"
+    },
+    "plugin_settings": {
+        "message": "Plugina seaded"
+    },
+    "preferred_language": {
+        "message": "Eelistatud keel"
+    },
+    "raw_json_config_title": {
+        "message": "Raw json config"
+    },
+    "save_changes_btn": {
+        "message": "Salvesta muudatused"
+    },
+    "send_analysis_info": {
+        "message": "Selle laienduse parandamiseks saatke anonüümsed kasutusandmed."
+    },
+    "show_advanced_settings": {
+        "message": "Kuva seaded"
+    },
+    "translation_settings": {
+        "message": "Tõlkeseaded"
+    },
+    "update_btn": {
+        "message": "Uuenda"
     }
 }

@@ -1,47 +1,50 @@
 {
-    "plugin_settings": {
-        "message": "Configuracion de Plugin"
-    },
-    "drag_to_change_order": {
-        "message": "arrastre para cambiar el orden"
-    },
-    "update_btn": {
-        "message": "Actualizar"
-    },
-    "translation_settings": {
-        "message": "Ajustes de traducción"
+    "advanced_settings": {
+        "message": "Ajustes avanzados"
     },
     "advanced_settings_warn": {
         "message": "no recomendado para usuario general"
     },
-    "preferred_language": {
-        "message": "Idioma preferido"
+    "close_btn": {
+        "message": "Cerrar"
     },
-    "plugin_repository_list": {
-        "message": "Lista de Repositorios de Plugins"
-    },
-    "show_advanced_settings": {
-        "message": "Ajustes de la presentación"
-    },
-    "max_translation_result": {
-        "message": "Resultado máximo de traducción"
+    "drag_to_change_order": {
+        "message": "arrastre para cambiar el orden"
     },
     "edit_settings_directly": {
         "message": "Editar configuración directamente"
     },
-    "close_btn": {
-        "message": "Cerrar"
-    },
-    "save_changes_btn": {
-        "message": "Guardar cambios"
-    },
-    "advanced_settings": {
-        "message": "Ajustes avanzados"
+    "max_translation_result": {
+        "message": "Resultado máximo de traducción"
     },
     "options_btn": {
         "message": "Opciones"
     },
+    "plugin_repository_list": {
+        "message": "Lista de Repositorios de Plugins"
+    },
+    "plugin_settings": {
+        "message": "Configuracion de Plugin"
+    },
+    "preferred_language": {
+        "message": "Idioma preferido"
+    },
     "raw_json_config_title": {
         "message": "Configuración json sin procesar"
+    },
+    "save_changes_btn": {
+        "message": "Guardar cambios"
+    },
+    "send_analysis_info": {
+        "message": "Envía datos de uso anónimos para ayudar a mejorar esta extensión."
+    },
+    "show_advanced_settings": {
+        "message": "Ajustes de la presentación"
+    },
+    "translation_settings": {
+        "message": "Ajustes de traducción"
+    },
+    "update_btn": {
+        "message": "Actualizar"
     }
 }

@@ -1,18 +1,15 @@
 {
-    "preferred_language": {
-        "message": "Bevorzugte Sprache"
+    "advanced_settings": {
+        "message": "Erweiterte Einstellungen"
     },
-    "show_advanced_settings": {
-        "message": "Einstellungen anzeigen"
+    "advanced_settings_warn": {
+        "message": "nicht für allgemeine Benutzer empfohlen"
     },
-    "translation_settings": {
-        "message": "Übersetzungseinstellungen"
+    "close_btn": {
+        "message": "Schließen"
     },
-    "plugin_settings": {
-        "message": "Plugin-Einstellungen"
-    },
-    "raw_json_config_title": {
-        "message": "Raw Json-Konfig"
+    "drag_to_change_order": {
+        "message": "Ziehen Sie, um die Reihenfolge zu ändern"
     },
     "edit_settings_directly": {
         "message": "Einstellungen direkt bearbeiten"
@@ -20,28 +17,34 @@
     "max_translation_result": {
         "message": "Max. Übersetzungsergebnis"
     },
-    "update_btn": {
-        "message": "Aktualisieren"
-    },
-    "close_btn": {
-        "message": "Schließen"
-    },
-    "save_changes_btn": {
-        "message": "Änderungen speichern"
+    "options_btn": {
+        "message": "Optionen"
     },
     "plugin_repository_list": {
         "message": "Plugin-Repository-Liste"
     },
-    "advanced_settings_warn": {
-        "message": "nicht für allgemeine Benutzer empfohlen"
+    "plugin_settings": {
+        "message": "Plugin-Einstellungen"
     },
-    "advanced_settings": {
-        "message": "Erweiterte Einstellungen"
+    "preferred_language": {
+        "message": "Bevorzugte Sprache"
     },
-    "options_btn": {
-        "message": "Optionen"
+    "raw_json_config_title": {
+        "message": "Raw Json-Konfig"
     },
-    "drag_to_change_order": {
-        "message": "Ziehen Sie, um die Reihenfolge zu ändern"
+    "save_changes_btn": {
+        "message": "Änderungen speichern"
+    },
+    "send_analysis_info": {
+        "message": "Senden Sie anonyme Nutzungsdaten, um diese Erweiterung zu verbessern."
+    },
+    "show_advanced_settings": {
+        "message": "Einstellungen anzeigen"
+    },
+    "translation_settings": {
+        "message": "Übersetzungseinstellungen"
+    },
+    "update_btn": {
+        "message": "Aktualisieren"
     }
 }

@@ -1,47 +1,50 @@
 {
-    "raw_json_config_title": {
-        "message": "Raw json መዋቅር"
-    },
-    "plugin_repository_list": {
-        "message": "የ Plugin Repository ዝርዝር"
-    },
-    "translation_settings": {
-        "message": "የትርጉም ቅንብሮች"
-    },
     "advanced_settings": {
         "message": "የላቁ ቅንብሮች"
     },
-    "max_translation_result": {
-        "message": "ከፍተኛ ትርጉምን ውጤት"
-    },
-    "plugin_settings": {
-        "message": "የስቅል ቅንጅቶች"
-    },
-    "update_btn": {
-        "message": "አዘምን"
+    "advanced_settings_warn": {
+        "message": "ለጠቅላላ ተጠቃሚ አይመከርም"
     },
     "close_btn": {
         "message": "ገጠመ"
     },
+    "drag_to_change_order": {
+        "message": "ትዕዛዝ ለመለወጥ ጎትት"
+    },
     "edit_settings_directly": {
         "message": "ቅንብሮችን በቀጥታ ያርትዑ"
     },
-    "preferred_language": {
-        "message": "ተመራጭ ቋንቋ"
-    },
-    "save_changes_btn": {
-        "message": "ለውጦችን አስቀምጥ"
-    },
-    "drag_to_change_order": {
-        "message": "ትዕዛዝ ለመለወጥ ጎትት"
+    "max_translation_result": {
+        "message": "ከፍተኛ ትርጉምን ውጤት"
     },
     "options_btn": {
         "message": "አማራጮች"
     },
+    "plugin_repository_list": {
+        "message": "የ Plugin Repository ዝርዝር"
+    },
+    "plugin_settings": {
+        "message": "የስቅል ቅንጅቶች"
+    },
+    "preferred_language": {
+        "message": "ተመራጭ ቋንቋ"
+    },
+    "raw_json_config_title": {
+        "message": "Raw json መዋቅር"
+    },
+    "save_changes_btn": {
+        "message": "ለውጦችን አስቀምጥ"
+    },
+    "send_analysis_info": {
+        "message": "ይህን ቅጥያ ለማሻሻል ስም-አልባ የአጠቃቀም ውሂብ ይላኩ."
+    },
     "show_advanced_settings": {
         "message": "ቅንብሮችን አሳይ"
     },
-    "advanced_settings_warn": {
-        "message": "ለጠቅላላ ተጠቃሚ አይመከርም"
+    "translation_settings": {
+        "message": "የትርጉም ቅንብሮች"
+    },
+    "update_btn": {
+        "message": "አዘምን"
     }
 }

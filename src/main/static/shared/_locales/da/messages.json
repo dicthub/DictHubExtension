@@ -1,47 +1,50 @@
 {
-    "show_advanced_settings": {
-        "message": "Vis indstillinger"
-    },
-    "save_changes_btn": {
-        "message": "Gem ændringer"
-    },
-    "close_btn": {
-        "message": "Tæt"
-    },
-    "raw_json_config_title": {
-        "message": "Raw json config"
-    },
-    "options_btn": {
-        "message": "Muligheder"
-    },
-    "update_btn": {
-        "message": "Opdatering"
-    },
-    "drag_to_change_order": {
-        "message": "Træk for at ændre ordre"
+    "advanced_settings": {
+        "message": "Avancerede indstillinger"
     },
     "advanced_settings_warn": {
         "message": "anbefales ikke til generel bruger"
     },
-    "preferred_language": {
-        "message": "foretrukne sprog"
+    "close_btn": {
+        "message": "Tæt"
     },
-    "translation_settings": {
-        "message": "Oversættelsesindstillinger"
-    },
-    "plugin_repository_list": {
-        "message": "Plugin Repository List"
-    },
-    "max_translation_result": {
-        "message": "Maks. Oversættelses Resultat"
-    },
-    "plugin_settings": {
-        "message": "Plugin Settings"
+    "drag_to_change_order": {
+        "message": "Træk for at ændre ordre"
     },
     "edit_settings_directly": {
         "message": "Rediger indstillinger direkte"
     },
-    "advanced_settings": {
-        "message": "Avancerede indstillinger"
+    "max_translation_result": {
+        "message": "Maks. Oversættelses Resultat"
+    },
+    "options_btn": {
+        "message": "Muligheder"
+    },
+    "plugin_repository_list": {
+        "message": "Plugin Repository List"
+    },
+    "plugin_settings": {
+        "message": "Plugin Settings"
+    },
+    "preferred_language": {
+        "message": "foretrukne sprog"
+    },
+    "raw_json_config_title": {
+        "message": "Raw json config"
+    },
+    "save_changes_btn": {
+        "message": "Gem ændringer"
+    },
+    "send_analysis_info": {
+        "message": "Send anonyme brugsdata for at forbedre denne udvidelse."
+    },
+    "show_advanced_settings": {
+        "message": "Vis indstillinger"
+    },
+    "translation_settings": {
+        "message": "Oversættelsesindstillinger"
+    },
+    "update_btn": {
+        "message": "Opdatering"
     }
 }

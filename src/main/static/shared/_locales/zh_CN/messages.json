@@ -1,33 +1,6 @@
 {
-    "edit_settings_directly": {
-        "message": "直接编辑设置"
-    },
-    "preferred_language": {
-        "message": "首选语言"
-    },
-    "plugin_repository_list": {
-        "message": "插件存储库列表"
-    },
-    "show_advanced_settings": {
-        "message": "显示设置"
-    },
-    "max_translation_result": {
-        "message": "最大翻译结果"
-    },
-    "options_btn": {
-        "message": "选项"
-    },
     "advanced_settings": {
         "message": "高级设置"
-    },
-    "save_changes_btn": {
-        "message": "保存更改"
-    },
-    "plugin_settings": {
-        "message": "插件设置"
-    },
-    "translation_settings": {
-        "message": "翻译设置"
     },
     "advanced_settings_warn": {
         "message": "不建议一般用户使用"
@@ -35,13 +8,43 @@
     "close_btn": {
         "message": "关"
     },
-    "update_btn": {
-        "message": "更新"
+    "drag_to_change_order": {
+        "message": "拖动以改变顺序"
+    },
+    "edit_settings_directly": {
+        "message": "直接编辑设置"
+    },
+    "max_translation_result": {
+        "message": "最大翻译结果"
+    },
+    "options_btn": {
+        "message": "选项"
+    },
+    "plugin_repository_list": {
+        "message": "插件存储库列表"
+    },
+    "plugin_settings": {
+        "message": "插件设置"
+    },
+    "preferred_language": {
+        "message": "首选语言"
     },
     "raw_json_config_title": {
         "message": "原始json配置"
     },
-    "drag_to_change_order": {
-        "message": "拖动以改变顺序"
+    "save_changes_btn": {
+        "message": "保存更改"
+    },
+    "send_analysis_info": {
+        "message": "发送匿名使用数据以帮助改进此扩展程序。"
+    },
+    "show_advanced_settings": {
+        "message": "显示设置"
+    },
+    "translation_settings": {
+        "message": "翻译设置"
+    },
+    "update_btn": {
+        "message": "更新"
     }
 }

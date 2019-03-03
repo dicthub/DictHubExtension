@@ -1,47 +1,50 @@
 {
-    "raw_json_config_title": {
-        "message": "Žalias json config"
-    },
     "advanced_settings": {
         "message": "Pažangūs nustatymai"
-    },
-    "edit_settings_directly": {
-        "message": "Redaguoti nustatymus tiesiogiai"
-    },
-    "translation_settings": {
-        "message": "Vertimo nustatymai"
-    },
-    "close_btn": {
-        "message": "Uždaryti"
-    },
-    "show_advanced_settings": {
-        "message": "Rodyti nustatymus"
-    },
-    "plugin_settings": {
-        "message": "Įskiepio nustatymai"
-    },
-    "options_btn": {
-        "message": "Galimybės"
-    },
-    "max_translation_result": {
-        "message": "Maks. Vertimo rezultatas"
-    },
-    "save_changes_btn": {
-        "message": "Išsaugoti pakeitimus"
-    },
-    "preferred_language": {
-        "message": "Pageidautina kalba"
-    },
-    "update_btn": {
-        "message": "Atnaujinti"
-    },
-    "plugin_repository_list": {
-        "message": "„Plugin“ saugyklos sąrašas"
     },
     "advanced_settings_warn": {
         "message": "nerekomenduojama bendram vartotojui"
     },
+    "close_btn": {
+        "message": "Uždaryti"
+    },
     "drag_to_change_order": {
         "message": "vilkite, kad pakeistumėte tvarką"
+    },
+    "edit_settings_directly": {
+        "message": "Redaguoti nustatymus tiesiogiai"
+    },
+    "max_translation_result": {
+        "message": "Maks. Vertimo rezultatas"
+    },
+    "options_btn": {
+        "message": "Galimybės"
+    },
+    "plugin_repository_list": {
+        "message": "„Plugin“ saugyklos sąrašas"
+    },
+    "plugin_settings": {
+        "message": "Įskiepio nustatymai"
+    },
+    "preferred_language": {
+        "message": "Pageidautina kalba"
+    },
+    "raw_json_config_title": {
+        "message": "Žalias json config"
+    },
+    "save_changes_btn": {
+        "message": "Išsaugoti pakeitimus"
+    },
+    "send_analysis_info": {
+        "message": "Jei norite pagerinti šį plėtinį, siųskite anoniminius naudojimo duomenis."
+    },
+    "show_advanced_settings": {
+        "message": "Rodyti nustatymus"
+    },
+    "translation_settings": {
+        "message": "Vertimo nustatymai"
+    },
+    "update_btn": {
+        "message": "Atnaujinti"
     }
 }

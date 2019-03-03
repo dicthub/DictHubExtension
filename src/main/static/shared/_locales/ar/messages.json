@@ -2,17 +2,8 @@
     "advanced_settings": {
         "message": "إعدادات متقدمة"
     },
-    "max_translation_result": {
-        "message": "ماكس الترجمة النتيجة"
-    },
-    "plugin_repository_list": {
-        "message": "قائمة المستودع"
-    },
-    "plugin_settings": {
-        "message": "إعدادات البرنامج المساعد"
-    },
-    "raw_json_config_title": {
-        "message": "التكوين الخام جونسون"
+    "advanced_settings_warn": {
+        "message": "غير مستحسن للمستخدم العام"
     },
     "close_btn": {
         "message": "قريب"
@@ -20,28 +11,40 @@
     "drag_to_change_order": {
         "message": "اسحب لتغيير النظام"
     },
+    "edit_settings_directly": {
+        "message": "تحرير الإعدادات مباشرة"
+    },
+    "max_translation_result": {
+        "message": "ماكس الترجمة النتيجة"
+    },
     "options_btn": {
         "message": "خيارات"
     },
-    "advanced_settings_warn": {
-        "message": "غير مستحسن للمستخدم العام"
+    "plugin_repository_list": {
+        "message": "قائمة المستودع"
     },
-    "update_btn": {
-        "message": "تحديث"
-    },
-    "translation_settings": {
-        "message": "إعدادات الترجمة"
-    },
-    "show_advanced_settings": {
-        "message": "إعدادات العرض"
+    "plugin_settings": {
+        "message": "إعدادات البرنامج المساعد"
     },
     "preferred_language": {
         "message": "اللغة المفضلة"
     },
+    "raw_json_config_title": {
+        "message": "التكوين الخام جونسون"
+    },
     "save_changes_btn": {
         "message": "حفظ التغييرات"
     },
-    "edit_settings_directly": {
-        "message": "تحرير الإعدادات مباشرة"
+    "send_analysis_info": {
+        "message": "إرسال بيانات استخدام مجهولة الهوية للمساعدة في تحسين هذا الامتداد."
+    },
+    "show_advanced_settings": {
+        "message": "إعدادات العرض"
+    },
+    "translation_settings": {
+        "message": "إعدادات الترجمة"
+    },
+    "update_btn": {
+        "message": "تحديث"
     }
 }

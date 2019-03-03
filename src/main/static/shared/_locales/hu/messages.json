@@ -1,12 +1,9 @@
 {
+    "advanced_settings": {
+        "message": "További beállítások"
+    },
     "advanced_settings_warn": {
         "message": "nem ajánlott általános felhasználók számára"
-    },
-    "raw_json_config_title": {
-        "message": "Nyers json konfiguráció"
-    },
-    "preferred_language": {
-        "message": "Előnyben részesített nyelv"
     },
     "close_btn": {
         "message": "Bezárás"
@@ -14,20 +11,14 @@
     "drag_to_change_order": {
         "message": "húzza a rendet"
     },
-    "options_btn": {
-        "message": "Opciók"
-    },
-    "advanced_settings": {
-        "message": "További beállítások"
+    "edit_settings_directly": {
+        "message": "Beállítások szerkesztése közvetlenül"
     },
     "max_translation_result": {
         "message": "Max. Fordítási eredmény"
     },
-    "translation_settings": {
-        "message": "Fordítási beállítások"
-    },
-    "save_changes_btn": {
-        "message": "Változtatások mentése"
+    "options_btn": {
+        "message": "Opciók"
     },
     "plugin_repository_list": {
         "message": "Plugin tároló lista"
@@ -35,13 +26,25 @@
     "plugin_settings": {
         "message": "Plugin beállítások"
     },
-    "edit_settings_directly": {
-        "message": "Beállítások szerkesztése közvetlenül"
+    "preferred_language": {
+        "message": "Előnyben részesített nyelv"
     },
-    "update_btn": {
-        "message": "frissítés"
+    "raw_json_config_title": {
+        "message": "Nyers json konfiguráció"
+    },
+    "save_changes_btn": {
+        "message": "Változtatások mentése"
+    },
+    "send_analysis_info": {
+        "message": "Anonim felhasználási adatok küldése a bővítés javítása érdekében."
     },
     "show_advanced_settings": {
         "message": "Beállítások megjelenítése"
+    },
+    "translation_settings": {
+        "message": "Fordítási beállítások"
+    },
+    "update_btn": {
+        "message": "frissítés"
     }
 }

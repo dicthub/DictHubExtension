@@ -1,15 +1,12 @@
 {
-    "preferred_language": {
-        "message": "Језик којем дајете предност"
+    "advanced_settings": {
+        "message": "Напредна подешавања"
     },
-    "translation_settings": {
-        "message": "Подешавања превода"
+    "advanced_settings_warn": {
+        "message": "не препоручује се за опште кориснике"
     },
-    "max_translation_result": {
-        "message": "Мак Транслатион Ресулт"
-    },
-    "plugin_repository_list": {
-        "message": "Листа спремишта спремника"
+    "close_btn": {
+        "message": "Близу"
     },
     "drag_to_change_order": {
         "message": "повуците да бисте променили редослед"
@@ -17,31 +14,37 @@
     "edit_settings_directly": {
         "message": "Измените подешавања директно"
     },
-    "advanced_settings_warn": {
-        "message": "не препоручује се за опште кориснике"
-    },
-    "save_changes_btn": {
-        "message": "Сачувај измене"
-    },
-    "raw_json_config_title": {
-        "message": "Рав јсон цонфиг"
-    },
-    "close_btn": {
-        "message": "Близу"
+    "max_translation_result": {
+        "message": "Мак Транслатион Ресулт"
     },
     "options_btn": {
         "message": "Опције"
     },
-    "update_btn": {
-        "message": "ажурирање"
+    "plugin_repository_list": {
+        "message": "Листа спремишта спремника"
     },
     "plugin_settings": {
         "message": "Плугин Сеттингс"
     },
-    "advanced_settings": {
-        "message": "Напредна подешавања"
+    "preferred_language": {
+        "message": "Језик којем дајете предност"
+    },
+    "raw_json_config_title": {
+        "message": "Рав јсон цонфиг"
+    },
+    "save_changes_btn": {
+        "message": "Сачувај измене"
+    },
+    "send_analysis_info": {
+        "message": "Пошаљите анонимне податке о коришћењу како бисте побољшали ово проширење."
     },
     "show_advanced_settings": {
         "message": "Прикажи поставке"
+    },
+    "translation_settings": {
+        "message": "Подешавања превода"
+    },
+    "update_btn": {
+        "message": "ажурирање"
     }
 }

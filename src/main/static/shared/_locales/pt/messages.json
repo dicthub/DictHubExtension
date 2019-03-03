@@ -1,47 +1,50 @@
 {
-    "drag_to_change_order": {
-        "message": "arraste para alterar a ordem"
+    "advanced_settings": {
+        "message": "Configurações avançadas"
     },
     "advanced_settings_warn": {
         "message": "não recomendado para usuário geral"
     },
-    "plugin_settings": {
-        "message": "Configurações de Plugin"
+    "close_btn": {
+        "message": "Perto"
     },
-    "show_advanced_settings": {
-        "message": "Mostrar configurações"
-    },
-    "max_translation_result": {
-        "message": "Resultado máximo da tradução"
-    },
-    "translation_settings": {
-        "message": "Configurações de tradução"
-    },
-    "advanced_settings": {
-        "message": "Configurações avançadas"
+    "drag_to_change_order": {
+        "message": "arraste para alterar a ordem"
     },
     "edit_settings_directly": {
         "message": "Editar configurações diretamente"
     },
-    "save_changes_btn": {
-        "message": "Salvar alterações"
-    },
-    "preferred_language": {
-        "message": "língua preferida"
+    "max_translation_result": {
+        "message": "Resultado máximo da tradução"
     },
     "options_btn": {
         "message": "Opções"
     },
-    "raw_json_config_title": {
-        "message": "Configuração json bruta"
-    },
     "plugin_repository_list": {
         "message": "Lista de Repositórios de Plugin"
     },
+    "plugin_settings": {
+        "message": "Configurações de Plugin"
+    },
+    "preferred_language": {
+        "message": "língua preferida"
+    },
+    "raw_json_config_title": {
+        "message": "Configuração json bruta"
+    },
+    "save_changes_btn": {
+        "message": "Salvar alterações"
+    },
+    "send_analysis_info": {
+        "message": "Envie dados anônimos de uso para ajudar a melhorar essa extensão."
+    },
+    "show_advanced_settings": {
+        "message": "Mostrar configurações"
+    },
+    "translation_settings": {
+        "message": "Configurações de tradução"
+    },
     "update_btn": {
         "message": "Atualizar"
-    },
-    "close_btn": {
-        "message": "Perto"
     }
 }

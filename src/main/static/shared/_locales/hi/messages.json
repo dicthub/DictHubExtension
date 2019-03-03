@@ -1,47 +1,50 @@
 {
-    "edit_settings_directly": {
-        "message": "सेटिंग्स को सीधे संपादित करें"
-    },
-    "plugin_settings": {
-        "message": "प्लगइन सेटिंग्स"
-    },
-    "options_btn": {
-        "message": "विकल्प"
-    },
-    "raw_json_config_title": {
-        "message": "कच्चा जोंस विन्यास"
-    },
-    "plugin_repository_list": {
-        "message": "प्लगइन रिपोजिटरी सूची"
-    },
-    "show_advanced_settings": {
-        "message": "सेटिंग दिखाएँ"
-    },
-    "save_changes_btn": {
-        "message": "परिवर्तनों को सुरक्षित करें"
-    },
-    "preferred_language": {
-        "message": "पसंदीदा भाषा"
-    },
     "advanced_settings": {
         "message": "एडवांस सेटिंग"
-    },
-    "max_translation_result": {
-        "message": "अधिकतम अनुवाद परिणाम"
-    },
-    "update_btn": {
-        "message": "अद्यतन करें"
-    },
-    "translation_settings": {
-        "message": "अनुवाद सेटिंग्स"
-    },
-    "close_btn": {
-        "message": "बंद करे"
     },
     "advanced_settings_warn": {
         "message": "सामान्य उपयोगकर्ता के लिए अनुशंसित नहीं है"
     },
+    "close_btn": {
+        "message": "बंद करे"
+    },
     "drag_to_change_order": {
         "message": "क्रम बदलने के लिए खींचें"
+    },
+    "edit_settings_directly": {
+        "message": "सेटिंग्स को सीधे संपादित करें"
+    },
+    "max_translation_result": {
+        "message": "अधिकतम अनुवाद परिणाम"
+    },
+    "options_btn": {
+        "message": "विकल्प"
+    },
+    "plugin_repository_list": {
+        "message": "प्लगइन रिपोजिटरी सूची"
+    },
+    "plugin_settings": {
+        "message": "प्लगइन सेटिंग्स"
+    },
+    "preferred_language": {
+        "message": "पसंदीदा भाषा"
+    },
+    "raw_json_config_title": {
+        "message": "कच्चा जोंस विन्यास"
+    },
+    "save_changes_btn": {
+        "message": "परिवर्तनों को सुरक्षित करें"
+    },
+    "send_analysis_info": {
+        "message": "इस एक्सटेंशन को बेहतर बनाने में सहायता के लिए अनाम उपयोग डेटा भेजें।"
+    },
+    "show_advanced_settings": {
+        "message": "सेटिंग दिखाएँ"
+    },
+    "translation_settings": {
+        "message": "अनुवाद सेटिंग्स"
+    },
+    "update_btn": {
+        "message": "अद्यतन करें"
     }
 }

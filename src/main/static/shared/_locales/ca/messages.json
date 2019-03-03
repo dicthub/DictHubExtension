@@ -1,47 +1,50 @@
 {
-    "show_advanced_settings": {
-        "message": "Mostra la configuració"
-    },
-    "drag_to_change_order": {
-        "message": "arrossegueu per canviar l'ordre"
-    },
-    "plugin_settings": {
-        "message": "Configuració del complement"
-    },
-    "max_translation_result": {
-        "message": "Resultat de traducció màx"
-    },
-    "edit_settings_directly": {
-        "message": "Editeu la configuració directament"
+    "advanced_settings": {
+        "message": "Configuració avançada"
     },
     "advanced_settings_warn": {
         "message": "no recomanat per a usuaris generals"
     },
-    "save_changes_btn": {
-        "message": "Guardar canvis"
+    "close_btn": {
+        "message": "Tanca"
     },
-    "translation_settings": {
-        "message": "Configuració de la traducció"
+    "drag_to_change_order": {
+        "message": "arrossegueu per canviar l'ordre"
     },
-    "preferred_language": {
-        "message": "Idioma preferit"
+    "edit_settings_directly": {
+        "message": "Editeu la configuració directament"
     },
-    "plugin_repository_list": {
-        "message": "Llista de dipòsits del complement"
+    "max_translation_result": {
+        "message": "Resultat de traducció màx"
     },
     "options_btn": {
         "message": "Opcions"
     },
-    "close_btn": {
-        "message": "Tanca"
+    "plugin_repository_list": {
+        "message": "Llista de dipòsits del complement"
+    },
+    "plugin_settings": {
+        "message": "Configuració del complement"
+    },
+    "preferred_language": {
+        "message": "Idioma preferit"
     },
     "raw_json_config_title": {
         "message": "Raw json config"
     },
+    "save_changes_btn": {
+        "message": "Guardar canvis"
+    },
+    "send_analysis_info": {
+        "message": "Envia dades d'ús anònimes per ajudar a millorar aquesta extensió."
+    },
+    "show_advanced_settings": {
+        "message": "Mostra la configuració"
+    },
+    "translation_settings": {
+        "message": "Configuració de la traducció"
+    },
     "update_btn": {
         "message": "Actualització"
-    },
-    "advanced_settings": {
-        "message": "Configuració avançada"
     }
 }

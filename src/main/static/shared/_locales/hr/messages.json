@@ -1,6 +1,18 @@
 {
-    "preferred_language": {
-        "message": "preferirani jezik"
+    "advanced_settings": {
+        "message": "Napredne postavke"
+    },
+    "advanced_settings_warn": {
+        "message": "ne preporučuje se za opće korisnike"
+    },
+    "close_btn": {
+        "message": "Zatvoriti"
+    },
+    "drag_to_change_order": {
+        "message": "povucite za promjenu redoslijeda"
+    },
+    "edit_settings_directly": {
+        "message": "Izravno uredite Postavke"
     },
     "max_translation_result": {
         "message": "Maksimalni rezultat prijevoda"
@@ -8,40 +20,31 @@
     "options_btn": {
         "message": "Opcije"
     },
-    "advanced_settings": {
-        "message": "Napredne postavke"
-    },
-    "raw_json_config_title": {
-        "message": "Sirova json konfiguracija"
-    },
-    "update_btn": {
-        "message": "ažuriranje"
-    },
-    "close_btn": {
-        "message": "Zatvoriti"
-    },
-    "advanced_settings_warn": {
-        "message": "ne preporučuje se za opće korisnike"
-    },
-    "translation_settings": {
-        "message": "Postavke prijevoda"
+    "plugin_repository_list": {
+        "message": "Popis spremišta spremnika"
     },
     "plugin_settings": {
         "message": "Postavke dodataka"
     },
-    "show_advanced_settings": {
-        "message": "Prikaži postavke"
+    "preferred_language": {
+        "message": "preferirani jezik"
+    },
+    "raw_json_config_title": {
+        "message": "Sirova json konfiguracija"
     },
     "save_changes_btn": {
         "message": "Spremi promjene"
     },
-    "drag_to_change_order": {
-        "message": "povucite za promjenu redoslijeda"
+    "send_analysis_info": {
+        "message": "Pošaljite anonimne podatke o upotrebi kako biste poboljšali ovo proširenje."
     },
-    "plugin_repository_list": {
-        "message": "Popis spremišta spremnika"
+    "show_advanced_settings": {
+        "message": "Prikaži postavke"
     },
-    "edit_settings_directly": {
-        "message": "Izravno uredite Postavke"
+    "translation_settings": {
+        "message": "Postavke prijevoda"
+    },
+    "update_btn": {
+        "message": "ažuriranje"
     }
 }

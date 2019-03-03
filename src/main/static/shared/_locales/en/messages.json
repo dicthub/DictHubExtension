@@ -1,24 +1,21 @@
 {
-    "raw_json_config_title": {
-        "message": "Raw json config"
+    "advanced_settings": {
+        "message": "Advanced Settings"
     },
-    "drag_to_change_order": {
-        "message": "drag to change order"
-    },
-    "max_translation_result": {
-        "message": "Max Translation Result"
-    },
-    "update_btn": {
-        "message": "Update"
+    "advanced_settings_warn": {
+        "message": "not recommended for general user"
     },
     "close_btn": {
         "message": "Close"
     },
-    "translation_settings": {
-        "message": "Translation Settings"
+    "drag_to_change_order": {
+        "message": "drag to change order"
     },
-    "advanced_settings": {
-        "message": "Advanced Settings"
+    "edit_settings_directly": {
+        "message": "Edit Settings directly"
+    },
+    "max_translation_result": {
+        "message": "Max Translation Result"
     },
     "options_btn": {
         "message": "Options"
@@ -26,22 +23,28 @@
     "plugin_repository_list": {
         "message": "Plugin Repository List"
     },
-    "save_changes_btn": {
-        "message": "Save Changes"
+    "plugin_settings": {
+        "message": "Plugin Settings"
     },
     "preferred_language": {
         "message": "Preferred Language"
     },
-    "plugin_settings": {
-        "message": "Plugin Settings"
+    "raw_json_config_title": {
+        "message": "Raw json config"
+    },
+    "save_changes_btn": {
+        "message": "Save Changes"
+    },
+    "send_analysis_info": {
+        "message": "Send anonymous usage data to help improve this extension."
     },
     "show_advanced_settings": {
         "message": "Show Settings"
     },
-    "edit_settings_directly": {
-        "message": "Edit Settings directly"
+    "translation_settings": {
+        "message": "Translation Settings"
     },
-    "advanced_settings_warn": {
-        "message": "not recommended for general user"
+    "update_btn": {
+        "message": "Update"
     }
 }

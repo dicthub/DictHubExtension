@@ -2,32 +2,23 @@
     "advanced_settings": {
         "message": "ตั้งค่าขั้นสูง"
     },
-    "drag_to_change_order": {
-        "message": "ลากเพื่อเปลี่ยนลำดับ"
-    },
-    "raw_json_config_title": {
-        "message": "การกำหนดค่า raw json"
-    },
-    "preferred_language": {
-        "message": "ภาษาที่ต้องการ"
-    },
-    "options_btn": {
-        "message": "ตัวเลือก"
-    },
     "advanced_settings_warn": {
         "message": "ไม่แนะนำสำหรับผู้ใช้ทั่วไป"
+    },
+    "close_btn": {
+        "message": "ปิด"
+    },
+    "drag_to_change_order": {
+        "message": "ลากเพื่อเปลี่ยนลำดับ"
     },
     "edit_settings_directly": {
         "message": "แก้ไขการตั้งค่าโดยตรง"
     },
-    "update_btn": {
-        "message": "ปรับปรุง"
+    "max_translation_result": {
+        "message": "ผลลัพธ์การแปลสูงสุด"
     },
-    "show_advanced_settings": {
-        "message": "แสดงการตั้งค่า"
-    },
-    "close_btn": {
-        "message": "ปิด"
+    "options_btn": {
+        "message": "ตัวเลือก"
     },
     "plugin_repository_list": {
         "message": "รายการที่เก็บปลั๊กอิน"
@@ -35,13 +26,25 @@
     "plugin_settings": {
         "message": "การตั้งค่าปลั๊กอิน"
     },
+    "preferred_language": {
+        "message": "ภาษาที่ต้องการ"
+    },
+    "raw_json_config_title": {
+        "message": "การกำหนดค่า raw json"
+    },
     "save_changes_btn": {
         "message": "บันทึกการเปลี่ยนแปลง"
     },
-    "max_translation_result": {
-        "message": "ผลลัพธ์การแปลสูงสุด"
+    "send_analysis_info": {
+        "message": "ส่งข้อมูลการใช้งานที่ไม่ระบุชื่อเพื่อช่วยปรับปรุงส่วนขยายนี้"
+    },
+    "show_advanced_settings": {
+        "message": "แสดงการตั้งค่า"
     },
     "translation_settings": {
         "message": "การตั้งค่าการแปล"
+    },
+    "update_btn": {
+        "message": "ปรับปรุง"
     }
 }

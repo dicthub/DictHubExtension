@@ -1,21 +1,21 @@
 {
-    "drag_to_change_order": {
-        "message": "povlecite, da spremenite vrstni red"
+    "advanced_settings": {
+        "message": "Napredne nastavitve"
+    },
+    "advanced_settings_warn": {
+        "message": "ni priporočljivo za splošne uporabnike"
     },
     "close_btn": {
         "message": "Zapri"
     },
-    "plugin_settings": {
-        "message": "Nastavitve vtičnikov"
+    "drag_to_change_order": {
+        "message": "povlecite, da spremenite vrstni red"
     },
-    "preferred_language": {
-        "message": "Želeni jezik"
+    "edit_settings_directly": {
+        "message": "Uredite nastavitve neposredno"
     },
-    "update_btn": {
-        "message": "Nadgradnja"
-    },
-    "translation_settings": {
-        "message": "Nastavitve prevajanja"
+    "max_translation_result": {
+        "message": "Največji rezultat prevajanja"
     },
     "options_btn": {
         "message": "Opcije"
@@ -23,25 +23,28 @@
     "plugin_repository_list": {
         "message": "Seznam skladišča vtičnika"
     },
-    "max_translation_result": {
-        "message": "Največji rezultat prevajanja"
+    "plugin_settings": {
+        "message": "Nastavitve vtičnikov"
     },
-    "edit_settings_directly": {
-        "message": "Uredite nastavitve neposredno"
-    },
-    "advanced_settings_warn": {
-        "message": "ni priporočljivo za splošne uporabnike"
-    },
-    "save_changes_btn": {
-        "message": "Shrani spremembe"
-    },
-    "show_advanced_settings": {
-        "message": "Prikaži nastavitve"
+    "preferred_language": {
+        "message": "Želeni jezik"
     },
     "raw_json_config_title": {
         "message": "Raw json config"
     },
-    "advanced_settings": {
-        "message": "Napredne nastavitve"
+    "save_changes_btn": {
+        "message": "Shrani spremembe"
+    },
+    "send_analysis_info": {
+        "message": "Pošljite anonimne podatke o uporabi, da izboljšate to razširitev."
+    },
+    "show_advanced_settings": {
+        "message": "Prikaži nastavitve"
+    },
+    "translation_settings": {
+        "message": "Nastavitve prevajanja"
+    },
+    "update_btn": {
+        "message": "Nadgradnja"
     }
 }

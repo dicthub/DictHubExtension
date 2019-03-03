@@ -1,24 +1,9 @@
 {
-    "translation_settings": {
-        "message": "అనువాద సెట్టింగులు"
-    },
-    "advanced_settings_warn": {
-        "message": "సాధారణ వినియోగదారు కోసం సిఫార్సు చేయబడలేదు"
-    },
-    "plugin_repository_list": {
-        "message": "ప్లగిన్ రిపోజిటరీ జాబితా"
-    },
-    "save_changes_btn": {
-        "message": "మార్పులను ఊంచు"
-    },
-    "preferred_language": {
-        "message": "ప్రాధాన్య భాష"
-    },
     "advanced_settings": {
         "message": "ఆధునిక సెట్టింగులు"
     },
-    "options_btn": {
-        "message": "ఎంపికలు"
+    "advanced_settings_warn": {
+        "message": "సాధారణ వినియోగదారు కోసం సిఫార్సు చేయబడలేదు"
     },
     "close_btn": {
         "message": "Close"
@@ -32,16 +17,34 @@
     "max_translation_result": {
         "message": "మాక్స్ అనువాద ఫలితం"
     },
+    "options_btn": {
+        "message": "ఎంపికలు"
+    },
+    "plugin_repository_list": {
+        "message": "ప్లగిన్ రిపోజిటరీ జాబితా"
+    },
     "plugin_settings": {
         "message": "ప్లగిన్ సెట్టింగులు"
+    },
+    "preferred_language": {
+        "message": "ప్రాధాన్య భాష"
     },
     "raw_json_config_title": {
         "message": "రా json config"
     },
-    "update_btn": {
-        "message": "నవీకరణ"
+    "save_changes_btn": {
+        "message": "మార్పులను ఊంచు"
+    },
+    "send_analysis_info": {
+        "message": "ఈ పొడిగింపును మెరుగుపరచడంలో సహాయం చేయడానికి అనామక ఉపయోగ డేటాను పంపండి."
     },
     "show_advanced_settings": {
         "message": "సెట్టింగ్లను చూపు"
+    },
+    "translation_settings": {
+        "message": "అనువాద సెట్టింగులు"
+    },
+    "update_btn": {
+        "message": "నవీకరణ"
     }
 }

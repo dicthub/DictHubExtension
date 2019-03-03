@@ -1,47 +1,50 @@
 {
-    "drag_to_change_order": {
-        "message": "வரிசையை மாற்ற இழுக்கவும்"
-    },
     "advanced_settings": {
         "message": "மேம்பட்ட அமைப்புகள்"
-    },
-    "translation_settings": {
-        "message": "மொழிபெயர்ப்பு அமைப்புகள்"
-    },
-    "options_btn": {
-        "message": "விருப்பங்கள்"
-    },
-    "edit_settings_directly": {
-        "message": "நேரடியாக அமைப்புகள் திருத்தவும்"
     },
     "advanced_settings_warn": {
         "message": "பொது பயனருக்கு பரிந்துரைக்கப்படவில்லை"
     },
-    "save_changes_btn": {
-        "message": "மாற்றங்களை சேமியுங்கள்"
-    },
-    "show_advanced_settings": {
-        "message": "அமைப்புகள் காட்டு"
-    },
-    "raw_json_config_title": {
-        "message": "ரா ஜான் கட்டமைப்பு"
-    },
     "close_btn": {
         "message": "நெருக்கமான"
+    },
+    "drag_to_change_order": {
+        "message": "வரிசையை மாற்ற இழுக்கவும்"
+    },
+    "edit_settings_directly": {
+        "message": "நேரடியாக அமைப்புகள் திருத்தவும்"
     },
     "max_translation_result": {
         "message": "மேக்ஸ் மொழிபெயர்ப்பு முடிவு"
     },
-    "preferred_language": {
-        "message": "விருப்பமான மொழி"
+    "options_btn": {
+        "message": "விருப்பங்கள்"
     },
-    "update_btn": {
-        "message": "புதுப்பிக்கப்பட்டது"
+    "plugin_repository_list": {
+        "message": "செருகு நிரல் பட்டியல்"
     },
     "plugin_settings": {
         "message": "செருகுநிரல் அமைப்புகள்"
     },
-    "plugin_repository_list": {
-        "message": "செருகு நிரல் பட்டியல்"
+    "preferred_language": {
+        "message": "விருப்பமான மொழி"
+    },
+    "raw_json_config_title": {
+        "message": "ரா ஜான் கட்டமைப்பு"
+    },
+    "save_changes_btn": {
+        "message": "மாற்றங்களை சேமியுங்கள்"
+    },
+    "send_analysis_info": {
+        "message": "இந்த நீட்டிப்பை மேம்படுத்த உதவ அநாமதேய பயன்பாட்டுத் தரவை அனுப்பவும்."
+    },
+    "show_advanced_settings": {
+        "message": "அமைப்புகள் காட்டு"
+    },
+    "translation_settings": {
+        "message": "மொழிபெயர்ப்பு அமைப்புகள்"
+    },
+    "update_btn": {
+        "message": "புதுப்பிக்கப்பட்டது"
     }
 }

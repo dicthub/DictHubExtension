@@ -2,46 +2,49 @@
     "advanced_settings": {
         "message": "Impostazioni avanzate"
     },
+    "advanced_settings_warn": {
+        "message": "non raccomandato per l'utente generale"
+    },
+    "close_btn": {
+        "message": "Vicino"
+    },
+    "drag_to_change_order": {
+        "message": "trascina per cambiare ordine"
+    },
+    "edit_settings_directly": {
+        "message": "Modifica direttamente le impostazioni"
+    },
+    "max_translation_result": {
+        "message": "Massimo risultato di traduzione"
+    },
+    "options_btn": {
+        "message": "Opzioni"
+    },
+    "plugin_repository_list": {
+        "message": "Elenco dei repository dei plugin"
+    },
+    "plugin_settings": {
+        "message": "Impostazioni del plugin"
+    },
     "preferred_language": {
         "message": "Lingua preferita"
     },
     "raw_json_config_title": {
         "message": "Raw jig config"
     },
-    "close_btn": {
-        "message": "Vicino"
-    },
-    "options_btn": {
-        "message": "Opzioni"
-    },
     "save_changes_btn": {
         "message": "Salva I Cambiamenti"
     },
-    "plugin_settings": {
-        "message": "Impostazioni del plugin"
+    "send_analysis_info": {
+        "message": "Invia dati di utilizzo anonimi per migliorare questa estensione."
     },
-    "drag_to_change_order": {
-        "message": "trascina per cambiare ordine"
+    "show_advanced_settings": {
+        "message": "Mostra impostazioni"
     },
     "translation_settings": {
         "message": "Impostazioni di traduzione"
     },
-    "max_translation_result": {
-        "message": "Massimo risultato di traduzione"
-    },
     "update_btn": {
         "message": "Aggiornare"
-    },
-    "edit_settings_directly": {
-        "message": "Modifica direttamente le impostazioni"
-    },
-    "plugin_repository_list": {
-        "message": "Elenco dei repository dei plugin"
-    },
-    "advanced_settings_warn": {
-        "message": "non raccomandato per l'utente generale"
-    },
-    "show_advanced_settings": {
-        "message": "Mostra impostazioni"
     }
 }

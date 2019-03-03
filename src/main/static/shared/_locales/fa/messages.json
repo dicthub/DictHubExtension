@@ -1,15 +1,9 @@
 {
+    "advanced_settings": {
+        "message": "تنظیمات پیشرفته"
+    },
     "advanced_settings_warn": {
         "message": "برای کاربر عمومی توصیه نمی شود"
-    },
-    "raw_json_config_title": {
-        "message": "پیکربندی json خام"
-    },
-    "preferred_language": {
-        "message": "زبان ترجیحی"
-    },
-    "plugin_settings": {
-        "message": "تنظیمات پلاگین"
     },
     "close_btn": {
         "message": "نزدیک"
@@ -17,31 +11,40 @@
     "drag_to_change_order": {
         "message": "کشیدن برای تغییر سفارش"
     },
-    "max_translation_result": {
-        "message": "نتیجه ترجمه حداکثر"
-    },
-    "save_changes_btn": {
-        "message": "ذخیره تغییرات"
-    },
     "edit_settings_directly": {
         "message": "ویرایش تنظیمات به طور مستقیم"
+    },
+    "max_translation_result": {
+        "message": "نتیجه ترجمه حداکثر"
     },
     "options_btn": {
         "message": "گزینه ها"
     },
-    "show_advanced_settings": {
-        "message": "نمایش تنظیمات"
-    },
     "plugin_repository_list": {
         "message": "لیست مخزن پلاگین"
     },
-    "advanced_settings": {
-        "message": "تنظیمات پیشرفته"
+    "plugin_settings": {
+        "message": "تنظیمات پلاگین"
     },
-    "update_btn": {
-        "message": "به روز رسانی"
+    "preferred_language": {
+        "message": "زبان ترجیحی"
+    },
+    "raw_json_config_title": {
+        "message": "پیکربندی json خام"
+    },
+    "save_changes_btn": {
+        "message": "ذخیره تغییرات"
+    },
+    "send_analysis_info": {
+        "message": "برای کمک به بهبود این افزونه، دادههای استفاده ناشناس ارسال کنید."
+    },
+    "show_advanced_settings": {
+        "message": "نمایش تنظیمات"
     },
     "translation_settings": {
         "message": "تنظیمات ترجمه"
+    },
+    "update_btn": {
+        "message": "به روز رسانی"
     }
 }

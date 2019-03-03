@@ -2,14 +2,14 @@
     "advanced_settings": {
         "message": "Cài đặt nâng cao"
     },
-    "save_changes_btn": {
-        "message": "Lưu thay đổi"
-    },
-    "update_btn": {
-        "message": "Cập nhật"
+    "advanced_settings_warn": {
+        "message": "không khuyến khích cho người dùng phổ thông"
     },
     "close_btn": {
         "message": "Gần"
+    },
+    "drag_to_change_order": {
+        "message": "kéo để thay đổi thứ tự"
     },
     "edit_settings_directly": {
         "message": "Chỉnh sửa cài đặt trực tiếp"
@@ -17,31 +17,34 @@
     "max_translation_result": {
         "message": "Kết quả dịch tối đa"
     },
-    "advanced_settings_warn": {
-        "message": "không khuyến khích cho người dùng phổ thông"
-    },
     "options_btn": {
         "message": "Tùy chọn"
     },
     "plugin_repository_list": {
         "message": "Danh sách kho lưu trữ plugin"
     },
-    "show_advanced_settings": {
-        "message": "Hiển thị cài đặt"
-    },
-    "drag_to_change_order": {
-        "message": "kéo để thay đổi thứ tự"
-    },
     "plugin_settings": {
         "message": "Cài đặt plugin"
-    },
-    "raw_json_config_title": {
-        "message": "Cấu hình json thô"
     },
     "preferred_language": {
         "message": "Ngôn ngữ ưa thích"
     },
+    "raw_json_config_title": {
+        "message": "Cấu hình json thô"
+    },
+    "save_changes_btn": {
+        "message": "Lưu thay đổi"
+    },
+    "send_analysis_info": {
+        "message": "Gửi dữ liệu sử dụng ẩn danh để giúp cải thiện phần mở rộng này."
+    },
+    "show_advanced_settings": {
+        "message": "Hiển thị cài đặt"
+    },
     "translation_settings": {
         "message": "Cài đặt dịch"
+    },
+    "update_btn": {
+        "message": "Cập nhật"
     }
 }

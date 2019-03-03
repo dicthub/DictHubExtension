@@ -1,47 +1,50 @@
 {
-    "save_changes_btn": {
-        "message": "I-save ang mga pagbabago"
-    },
-    "preferred_language": {
-        "message": "Ginustong Wika"
-    },
-    "update_btn": {
-        "message": "I-update"
-    },
     "advanced_settings": {
         "message": "Mga Advanced na Setting"
-    },
-    "plugin_settings": {
-        "message": "Mga Setting ng Plugin"
-    },
-    "max_translation_result": {
-        "message": "Resulta ng Max Pagsasalin"
     },
     "advanced_settings_warn": {
         "message": "hindi inirerekomenda para sa pangkalahatang gumagamit"
     },
-    "drag_to_change_order": {
-        "message": "i-drag upang baguhin ang pagkakasunod-sunod"
-    },
-    "options_btn": {
-        "message": "Mga Opsyon"
-    },
-    "translation_settings": {
-        "message": "Mga Setting ng Pagsasalin"
-    },
-    "plugin_repository_list": {
-        "message": "Listahan ng Repository ng Plugin"
-    },
-    "show_advanced_settings": {
-        "message": "Ipakita ang Mga Setting"
-    },
     "close_btn": {
         "message": "Isara"
+    },
+    "drag_to_change_order": {
+        "message": "i-drag upang baguhin ang pagkakasunod-sunod"
     },
     "edit_settings_directly": {
         "message": "Awtomatikong I-edit ang Mga Setting"
     },
+    "max_translation_result": {
+        "message": "Resulta ng Max Pagsasalin"
+    },
+    "options_btn": {
+        "message": "Mga Opsyon"
+    },
+    "plugin_repository_list": {
+        "message": "Listahan ng Repository ng Plugin"
+    },
+    "plugin_settings": {
+        "message": "Mga Setting ng Plugin"
+    },
+    "preferred_language": {
+        "message": "Ginustong Wika"
+    },
     "raw_json_config_title": {
         "message": "Raw json config"
+    },
+    "save_changes_btn": {
+        "message": "I-save ang mga pagbabago"
+    },
+    "send_analysis_info": {
+        "message": "Magpadala ng data na hindi nakikilalang paggamit upang makatulong na mapabuti ang extension na ito."
+    },
+    "show_advanced_settings": {
+        "message": "Ipakita ang Mga Setting"
+    },
+    "translation_settings": {
+        "message": "Mga Setting ng Pagsasalin"
+    },
+    "update_btn": {
+        "message": "I-update"
     }
 }

@@ -1,47 +1,50 @@
 {
-    "drag_to_change_order": {
-        "message": "dra för att ändra ordning"
-    },
-    "plugin_repository_list": {
-        "message": "Plugin Repository List"
-    },
     "advanced_settings": {
         "message": "Avancerade inställningar"
     },
     "advanced_settings_warn": {
         "message": "rekommenderas inte för allmän användare"
     },
-    "max_translation_result": {
-        "message": "Max översättningresultat"
-    },
-    "translation_settings": {
-        "message": "Översättningsinställningar"
-    },
-    "show_advanced_settings": {
-        "message": "Visa inställningar"
-    },
-    "update_btn": {
-        "message": "Uppdatering"
-    },
-    "preferred_language": {
-        "message": "Önskat språk"
-    },
     "close_btn": {
         "message": "Stänga"
+    },
+    "drag_to_change_order": {
+        "message": "dra för att ändra ordning"
     },
     "edit_settings_directly": {
         "message": "Redigera inställningar direkt"
     },
-    "save_changes_btn": {
-        "message": "Spara ändringar"
+    "max_translation_result": {
+        "message": "Max översättningresultat"
     },
     "options_btn": {
         "message": "alternativ"
     },
-    "raw_json_config_title": {
-        "message": "Raw json config"
+    "plugin_repository_list": {
+        "message": "Plugin Repository List"
     },
     "plugin_settings": {
         "message": "Insticksinställningar"
+    },
+    "preferred_language": {
+        "message": "Önskat språk"
+    },
+    "raw_json_config_title": {
+        "message": "Raw json config"
+    },
+    "save_changes_btn": {
+        "message": "Spara ändringar"
+    },
+    "send_analysis_info": {
+        "message": "Skicka anonyma användardata för att förbättra den här utvidgningen."
+    },
+    "show_advanced_settings": {
+        "message": "Visa inställningar"
+    },
+    "translation_settings": {
+        "message": "Översättningsinställningar"
+    },
+    "update_btn": {
+        "message": "Uppdatering"
     }
 }
