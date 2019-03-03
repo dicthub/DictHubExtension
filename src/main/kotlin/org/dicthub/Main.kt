@@ -2,6 +2,7 @@ import org.dicthub.model.loadUserPreference
 import org.dicthub.page.OptionsPage
 import org.dicthub.page.SandboxPage
 import org.dicthub.page.TranslationPage
+import org.dicthub.page.WelcomePage
 import org.dicthub.plugin.PluginIndex
 import org.dicthub.plugin.PluginContentAdapter
 import org.dicthub.plugin.PluginOptionsAdapter
@@ -30,6 +31,9 @@ fun main(args: Array<String>) {
                 }
                 "sandboxBody" -> {
                     initSandboxPage()
+                }
+                "welcomeBody" -> {
+                    initWelcomePage()
                 }
             }
         }
@@ -80,6 +84,17 @@ private fun initSandboxPage() {
     val sandboxPageViewController = SandboxPage()
 
     sandboxPageViewController.init()
+}
+
+private fun initWelcomePage() {
+
+    loadUserPreference().then { userPreference ->
+        val pluginIndex = PluginIndex(AjaxHttpClient, userPreference.pluginRepository)
+        val pluginUpdater = PluginContentAdapter(AjaxHttpClient, browserObj.storage.local)
+
+        val welcomePage = WelcomePage(userPreference, pluginIndex, pluginUpdater)
+        welcomePage.render()
+    }
 }
 
 private fun extractQueryFromUrl(): Triple<String, String?, String?> =

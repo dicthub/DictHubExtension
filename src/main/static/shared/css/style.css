@@ -179,3 +179,10 @@ input:checked + .slider:before {
     border-radius: 50%;
 }
 
+/* Welcome page */
+
+body#welcomeBody {
+    font-size: 14px;
+    width: 60rem;
+    margin: 0 auto;
+}

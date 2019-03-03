@@ -56,7 +56,7 @@ val styleSheetsList =  { page: String ->
             StyleSheet("css/style.css")
     )
     when(page) {
-        "popup", "overlay" -> commonStyles
+        "popup", "overlay", "welcome" -> commonStyles
         "options" -> commonStyles.apply {
             add(StyleSheet("https://use.fontawesome.com/releases/v5.1.0/css/solid.css"))
             add(StyleSheet("https://use.fontawesome.com/releases/v5.1.0/css/fontawesome.css"))
@@ -79,11 +79,11 @@ val scriptList = { page: String ->
         "popup", "overlay" -> commonScripts.apply {
             add(Script("js/ga.js"))
         }
-        "sandbox" -> commonScripts
         "options" -> commonScripts.apply {
             add(Script("js/ga.js"))
             add(Script("lib/js/jquery.sortable.min.js"))
         }
+        "sandbox", "welcome" -> commonScripts
         else -> listOf()
     }
 }
@@ -107,7 +107,7 @@ platforms.forEach { platform ->
         into(unpackedPath)
     }
 
-    val pages = arrayOf("popup", "overlay", "sandbox", "options")
+    val pages = arrayOf("popup", "overlay", "sandbox", "options", "welcome")
     val generateTasks = pages.map { page ->
         task<HtmlGenerationTask>("$platform${page}GenerateHtml") {
             outputPath = "$unpackedPath/$page.html"

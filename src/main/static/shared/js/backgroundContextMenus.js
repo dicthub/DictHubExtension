@@ -1,7 +1,13 @@
 
 var MENU_ID = "WordhubQuery";
 
-chrome.runtime.onInstalled.addListener(function () {
+chrome.runtime.onInstalled.addListener(function (details) {
+
+    if (details && !details.previousVersion) {
+        chrome.tabs.create({'url': chrome.extension.getURL('welcome.html')}, function(tab) {
+        });
+    }
+
     chrome.contextMenus.create({
         "id": MENU_ID,
         "title": "DictHub Query",
