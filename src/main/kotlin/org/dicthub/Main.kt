@@ -104,3 +104,5 @@ private fun extractQueryFromTabs(): Promise<Pair<String, String?>> = Promise { r
         }
     }
 }
+
+private external fun decodeURIComponent(encodedURIComponent: String): String
