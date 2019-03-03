@@ -91,6 +91,8 @@ val scriptList = { page: String ->
 val platforms = arrayOf("chrome", "firefox")
 platforms.forEach { platform ->
 
+    val unpackedPath = "$buildDir/$platform"
+
     val copyTask = task<Copy>("${platform}Copy") {
         group = "release"
         description = "Copy static files together to plugin directory"
@@ -102,21 +104,32 @@ platforms.forEach { platform ->
         from("src/main/static/shared")
         from(jsLibDir)
 
-        into("$buildDir/$platform")
+        into(unpackedPath)
     }
 
     val pages = arrayOf("popup", "overlay", "sandbox", "options")
     val generateTasks = pages.map { page ->
-        task<HtmlGenerationTask>("${platform}${page}GenerateHtml") {
-            outputPath = "$buildDir/$platform/$page.html"
+        task<HtmlGenerationTask>("$platform${page}GenerateHtml") {
+            outputPath = "$unpackedPath/$page.html"
             title = "DictHub $page Page"
             bodyId = "${page}Body"
             styleSheets = styleSheetsList(page)
             scripts = scriptList(page)
         }
     }
+
+    val zipTask = task<Zip>("${platform}Zip") {
+        archiveFileName.set(when(platform) {
+            "chrome" -> "chrome.zip" // TODO: Sign into crx
+            else -> "$platform.zip"
+        })
+        from(unpackedPath)
+        destinationDirectory.set(file(buildDir))
+
+        dependsOn(copyTask, generateTasks)
+    }
     
-    task(platform).dependsOn(generateTasks, copyTask)
+    task(platform).dependsOn(generateTasks, copyTask, zipTask)
 }
 
 tasks["build"].dependsOn(*platforms)
