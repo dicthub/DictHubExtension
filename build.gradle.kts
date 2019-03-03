@@ -76,8 +76,12 @@ val scriptList = { page: String ->
             Script("js/DictHubExtension.js")
     )
     when(page) {
-        "popup", "overlay", "sandbox" -> commonScripts
+        "popup", "overlay" -> commonScripts.apply {
+            add(Script("js/ga.js"))
+        }
+        "sandbox" -> commonScripts
         "options" -> commonScripts.apply {
+            add(Script("js/ga.js"))
             add(Script("lib/js/jquery.sortable.min.js"))
         }
         else -> listOf()

@@ -69,7 +69,8 @@ class SandboxPage {
     private fun handleQueryEvent(query: Query) {
         providers.filter { it.canTranslate(query) }.forEach { provider ->
             provider.translate(query).then { htmlContent ->
-                sendMessageToPopUp(Command.TRANSLATION_RESULT, TranslationResult(provider.id(), query, htmlContent).data)
+                sendMessageToPopUp(Command.TRANSLATION_RESULT, TranslationResult(provider.id(), query,
+                        !htmlContent.contains("translation-failure"), htmlContent).data)
             }.catch {
                 // TODO: Add handling for failure
                 console.error(it)

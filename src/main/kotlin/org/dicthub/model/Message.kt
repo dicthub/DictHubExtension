@@ -44,9 +44,10 @@ class PluginContents(val data: Json) {
 
 class TranslationResult(val data: Json) {
 
-    constructor(pluginId: String, query: Query, htmlContent: String) : this(json(
+    constructor(pluginId: String, query: Query, success: Boolean, htmlContent: String) : this(json(
             "pluginId" to pluginId,
             "query" to query,
+            "success" to success,
             "htmlContent" to htmlContent
     ))
 
@@ -55,6 +56,8 @@ class TranslationResult(val data: Json) {
 
     @Suppress("UNCHECKED_CAST_TO_EXTERNAL_INTERFACE")
     val query = data["query"] as Query
+
+    val success = data["success"] as? Boolean ?: true
 
     val htmlContent
         inline get() = data["htmlContent"] as String

@@ -53,6 +53,13 @@ class UserPreference(val data: Json) {
             data["pluginPriority"] = value.toTypedArray()
             saveUserPreference(this)
         }
+
+    var sendAnalysisInfo: Boolean
+        inline get() = data["sendAnalysisInfo"]?.let { it as? Boolean } ?: false
+        inline set(value) {
+            data["sendAnalysisInfo"] = value
+            saveUserPreference(this)
+        }
 }
 
 @Suppress("UNCHECKED_CAST_TO_EXTERNAL_INTERFACE")

@@ -12,7 +12,9 @@ import org.dicthub.view.options.PluginSettings
 import org.dicthub.view.options.TranslationSettings
 import kotlinx.html.*
 import kotlinx.html.dom.append
+import org.dicthub.model.TranslationResult
 import kotlin.browser.document
+import kotlin.browser.window
 import kotlin.js.Promise
 
 const val ID_TRANSLATION_SETTINGS = "translationSettings"
@@ -58,6 +60,8 @@ class OptionsPage(private val userPreference: UserPreference,
 
         val advancedSettings = AdvancedSettings(getElementById(ID_ADVANCED_SETTINGS), userPreference)
         advancedSettings.render()
+
+        sendAnalysisInfo()
     }
 
     private fun getPluginInfoList() =  Promise<Map<PluginInfo, Boolean>> { resolve, _ ->
@@ -70,4 +74,14 @@ class OptionsPage(private val userPreference: UserPreference,
             }
         }
     }
+
+    private fun sendAnalysisInfo() {
+        if (!userPreference.sendAnalysisInfo) {
+            return
+        }
+
+        ga("send", "pageview", window.location.pathname)
+    }
 }
+
+private external fun ga(command: String, pageView: String, location: String)

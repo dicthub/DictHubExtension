@@ -9,6 +9,7 @@ import org.dicthub.view.Component
 import org.dicthub.view.TagAppender
 import kotlinx.html.*
 import kotlinx.html.dom.append
+import kotlinx.html.js.onChangeFunction
 import kotlinx.html.js.onClickFunction
 import org.w3c.dom.HTMLElement
 import org.w3c.dom.HTMLTextAreaElement
@@ -33,6 +34,9 @@ class AdvancedSettings(private val parent: HTMLElement,
             div(classes = CSS_SETTINGS_ROW) {
                 renderAdvancedSettings(this)
             }
+            div(classes = CSS_SETTINGS_ROW) {
+                renderAnalysisSettings(this)
+            }
         }
 
         jsonSettingsTextArea = getElementById(ID_JSON_SETTINGS_CONTENT)
@@ -44,7 +48,7 @@ class AdvancedSettings(private val parent: HTMLElement,
             +i18nMessage("edit_settings_directly")
         }
         div(classes = CSS_SETTINGS_ROW_CONTENT) {
-            button(classes = "btn btn-primary c") {
+            button(classes = "btn btn-primary") {
                 attributes["data-toggle"] = "modal"
                 attributes["data-target"] = "#$ID_JSON_SETTINGS"
                 +i18nMessage("show_advanced_settings")
@@ -86,6 +90,22 @@ class AdvancedSettings(private val parent: HTMLElement,
                             onClickFunction = onSaveSettingsClicked
                         }
                     }
+                }
+            }
+        }
+    }
+
+    private val renderAnalysisSettings : TagAppender = {
+        label(classes = CSS_SETTINGS_ROW_LABEL) {
+            +i18nMessage("send_analysis_info")
+        }
+        div(classes = "$CSS_SETTINGS_ROW_CONTENT form-check") {
+            checkBoxInput(classes = "form-check-input") {
+                var checked = userPreference.sendAnalysisInfo
+                this.checked = checked
+                onChangeFunction = {
+                    checked = !checked
+                    userPreference.sendAnalysisInfo = checked
                 }
             }
         }

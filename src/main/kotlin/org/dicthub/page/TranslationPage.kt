@@ -19,7 +19,6 @@ import org.w3c.dom.events.Event
 import kotlin.browser.document
 import kotlin.browser.window
 import kotlin.js.Json
-import kotlin.js.Promise
 import kotlin.js.json
 
 class TranslationPage(private val userPreference: UserPreference,
@@ -42,7 +41,7 @@ class TranslationPage(private val userPreference: UserPreference,
 
         resultContainer.clearResults()
         if (sandBoxReady) {
-            sendSandBoxMessage(Command.QUERY, it)
+            sendQueryMessage(it)
         } else {
             pendingQuery = it
         }
@@ -64,22 +63,23 @@ class TranslationPage(private val userPreference: UserPreference,
                 pluginOptionsAdapter.loadOptions(pluginIds)
                 pluginContentAdapter.load(pluginIds).then { pluginContents ->
                     pluginOptionsAdapter.loadOptions(pluginIds).then { pluginOptions ->
-                        val pluginContents = pluginContents.map { Pair(it, pluginOptions[it.id] ?: json()) }
-                        sendSandBoxMessage(Command.PLUGINS, PluginContents(pluginContents).data)
+                        val contents = pluginContents.map { Pair(it, pluginOptions[it.id] ?: json()) }
+                        sendSandBoxMessage(Command.PLUGINS, PluginContents(contents).data)
                     }.catch {
                         console.warn("No plugin options found")
-                        val pluginContents = pluginContents.map { Pair(it, json()) }
-                        sendSandBoxMessage(Command.PLUGINS, PluginContents(pluginContents).data)
+                        val contents = pluginContents.map { Pair(it, json()) }
+                        sendSandBoxMessage(Command.PLUGINS, PluginContents(contents).data)
                     }
                 }
             }
             Command.SANDBOX_READY -> {
                 sandBoxReady = true
-                pendingQuery?.let { sendSandBoxMessage(Command.QUERY, it) }
+                pendingQuery?.let { sendQueryMessage(it) }
             }
             Command.TRANSLATION_RESULT -> {
                 val translationResult = TranslationResult(packet.payload)
                 resultContainer.appendResult(translationResult.htmlContent)
+                sendAnalysisInfo(translationResult)
             }
             else -> {
                 console.warn("Unknown message", packet)
@@ -127,9 +127,47 @@ class TranslationPage(private val userPreference: UserPreference,
         window.addEventListener("message", messageListener, false)
     }
 
+    private fun sendQueryMessage(query: Query) {
+        sendSandBoxMessage(Command.QUERY, query)
+        sendAnalysisInfo(query)
+    }
+
     private fun sendSandBoxMessage(cmd: Command, payload: Json?) {
         console.log("Popup --> Sandbox", cmd, payload)
         sandbox.contentWindow?.postMessage(Packet(cmd, payload).data, sandbox.contentWindow?.origin
                 ?: "", emptyArray())
     }
+
+    private fun sendAnalysisInfo(query: Query) {
+        if (!userPreference.sendAnalysisInfo) {
+            return
+        }
+
+        ga("send", "pageview", window.location.pathname)
+        ga("send", "event", "FromLang", query.getFrom().code)
+        ga("send", "event", "ToLang", query.getTo().code)
+        ga("send", "event", "FromLangToLang", "${query.getFrom().code}_${query.getTo().code}")
+    }
+
+    private fun sendAnalysisInfo(translationResult: TranslationResult) {
+        if (!userPreference.sendAnalysisInfo) {
+            return
+        }
+
+        ga("send", "event", "Plugin", translationResult.pluginId)
+
+        val action = if (translationResult.success) "TranslationSuccess" else "TranslationFailure"
+        ga("send", "event", action, translationResult.pluginId)
+    }
 }
+
+private external fun ga(command: String, pageView: String, location: String)
+
+private external fun ga(command: String, type: String,
+                        eventCategory: String, eventAction: String)
+
+private external fun ga(command: String, type: String,
+                        eventCategory: String, eventAction: String, eventLabel: String)
+
+private external fun ga(command: String, type: String,
+                        eventCategory: String, eventAction: String, eventLabel: String, eventValue: String)
