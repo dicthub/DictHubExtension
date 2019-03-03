@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "సవరణలను నేరుగా సవరించండి"
     },
+    "express_setup_btn": {
+        "message": "ఎక్స్ప్రెస్ సెటప్!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "ఈ పొడిగింపును మెరుగుపరచడంలో సహాయపడటానికి Google Analytics కు అజ్ఞాతంగా భాగస్వామ్యం చేయండి. "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "Google అనువాదం ప్లగిన్ ఇన్స్టాల్"
+    },
+    "express_setup_details_language": {
+        "message": "ఆటో UI భాష నుండి ప్రాధమిక lang ను ఎంచుకోండి"
+    },
     "insecure_translation_script_warning": {
         "message": "అనువాద ఫలితం అసురక్షిత స్క్రిప్ట్ ట్యాగ్ను కలిగి ఉంది."
     },
@@ -39,10 +51,13 @@
         "message": "మార్పులను ఊంచు"
     },
     "send_analysis_info": {
-        "message": "ఈ పొడిగింపును మెరుగుపరచడంలో సహాయం చేయడానికి అనామక ఉపయోగ డేటాను పంపండి."
+        "message": "ఈ పొడిగింపును మెరుగుపరచడంలో సహాయపడటానికి Google Analytics ద్వారా అనామక వినియోగ డేటాను పంపండి."
     },
     "show_advanced_settings": {
         "message": "సెట్టింగ్లను చూపు"
+    },
+    "show_details_btn": {
+        "message": "వివరాలు చుపించండి"
     },
     "translation_settings": {
         "message": "అనువాద సెట్టింగులు"

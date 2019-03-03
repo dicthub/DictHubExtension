@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "直接编辑设置"
     },
+    "express_setup_btn": {
+        "message": "快速安装！"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "匿名分享给Google Analytics以帮助改进此扩展程序。 "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "安装Google翻译插件"
+    },
+    "express_setup_details_language": {
+        "message": "从系统UI语言自动选择主要语言"
+    },
     "insecure_translation_script_warning": {
         "message": "翻译结果包含不安全的脚本标记。"
     },
@@ -39,10 +51,13 @@
         "message": "保存更改"
     },
     "send_analysis_info": {
-        "message": "发送匿名使用数据以帮助改进此扩展程序。"
+        "message": "通过Google Analytics发送匿名使用数据，以帮助改进此扩展程序。"
     },
     "show_advanced_settings": {
         "message": "显示设置"
+    },
+    "show_details_btn": {
+        "message": "显示详细资料"
     },
     "translation_settings": {
         "message": "翻译设置"

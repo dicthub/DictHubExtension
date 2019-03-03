@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "Editați direct setările"
     },
+    "express_setup_btn": {
+        "message": "Configurare rapidă!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "Distribuiți anonim la Google Analytics pentru a vă ajuta să îmbunătățiți această extensie. "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "Instalați pluginul de traducere Google"
+    },
+    "express_setup_details_language": {
+        "message": "Selectați automat limbajul principal din limbajul UI al sistemului"
+    },
     "insecure_translation_script_warning": {
         "message": "Rezultatul traducerii conține eticheta de script nesigură."
     },
@@ -39,10 +51,13 @@
         "message": "Salvează modificările"
     },
     "send_analysis_info": {
-        "message": "Trimiteți date de utilizare anonime pentru a îmbunătăți această extensie."
+        "message": "Trimiteți datele de utilizare anonime prin Google Analytics pentru a îmbunătăți această extensie."
     },
     "show_advanced_settings": {
         "message": "Afișați setările"
+    },
+    "show_details_btn": {
+        "message": "Arata detaliile"
     },
     "translation_settings": {
         "message": "Setările de traducere"

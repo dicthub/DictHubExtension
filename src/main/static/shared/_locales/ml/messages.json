@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "ക്രമീകരണങ്ങൾ നേരിട്ട് എഡിറ്റുചെയ്യുക"
     },
+    "express_setup_btn": {
+        "message": "എക്സ്പ്രസ് സെറ്റപ്പ്!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "ഈ വിപുലീകരണം മെച്ചപ്പെടുത്താൻ സഹായിക്കുന്നതിന് Google Analytics- ൽ അജ്ഞാതമായി പങ്കിടുക. "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "Google വിവർത്തന പ്ലഗിൻ ഇൻസ്റ്റാൾ ചെയ്യുക"
+    },
+    "express_setup_details_language": {
+        "message": "സിസ്റ്റം UI ഭാഷയിൽ നിന്നും ഓട്ടോമാറ്റിക് lang തിരഞ്ഞെടുക്കുക"
+    },
     "insecure_translation_script_warning": {
         "message": "വിവർത്തന ഫലം അരക്ഷിതമായ സ്ക്രിപ്റ്റ് ടാഗ് ഉൾക്കൊള്ളുന്നു."
     },
@@ -39,10 +51,13 @@
         "message": "മാറ്റങ്ങൾ സൂക്ഷിക്കുക"
     },
     "send_analysis_info": {
-        "message": "ഈ വിപുലീകരണം മെച്ചപ്പെടുത്താൻ സഹായിക്കുന്നതിന് അജ്ഞാത ഉപയോഗ ഡാറ്റ അയയ്ക്കുക."
+        "message": "ഈ വിപുലീകരണം മെച്ചപ്പെടുത്താൻ സഹായിക്കുന്നതിന് Google Analytics വഴി അജ്ഞാത ഉപയോഗ ഡാറ്റ അയയ്ക്കുക."
     },
     "show_advanced_settings": {
         "message": "ക്രമീകരണങ്ങൾ കാണിക്കുക"
+    },
+    "show_details_btn": {
+        "message": "വിശദാംശങ്ങള് കാണിക്കുക"
     },
     "translation_settings": {
         "message": "വിവർത്തന ക്രമീകരണം"

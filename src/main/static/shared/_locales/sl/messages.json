@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "Uredite nastavitve neposredno"
     },
+    "express_setup_btn": {
+        "message": "Hitra namestitev!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "Delite anonimno s storitvijo Google Analytics, da bi izboljšali to razširitev. "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "Namestite vtičnik Google Translation Plugin"
+    },
+    "express_setup_details_language": {
+        "message": "Samodejno izberite primarni jezik iz jezika uporabniškega vmesnika sistema"
+    },
     "insecure_translation_script_warning": {
         "message": "Rezultat prevoda vsebuje negotovo skriptno oznako."
     },
@@ -39,10 +51,13 @@
         "message": "Shrani spremembe"
     },
     "send_analysis_info": {
-        "message": "Pošljite anonimne podatke o uporabi, da izboljšate to razširitev."
+        "message": "Pošljite anonimne podatke o uporabi prek storitve Google Analytics, da izboljšate to razširitev."
     },
     "show_advanced_settings": {
         "message": "Prikaži nastavitve"
+    },
+    "show_details_btn": {
+        "message": "Pokaži podrobnosti"
     },
     "translation_settings": {
         "message": "Nastavitve prevajanja"

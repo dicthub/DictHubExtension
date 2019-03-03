@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "Awtomatikong I-edit ang Mga Setting"
     },
+    "express_setup_btn": {
+        "message": "Express Setup!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "Ibahagi anonymous sa Google Analytics upang makatulong na mapabuti ang extension na ito. "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "I-install ang Plugin ng Google Translation"
+    },
+    "express_setup_details_language": {
+        "message": "Piliin ang pangunahing pangunahing mula sa Wika ng System UI"
+    },
     "insecure_translation_script_warning": {
         "message": "Ang resulta ng pagsasalin ay naglalaman ng hindi secure na tag ng script."
     },
@@ -39,10 +51,13 @@
         "message": "I-save ang mga pagbabago"
     },
     "send_analysis_info": {
-        "message": "Magpadala ng data na hindi nakikilalang paggamit upang makatulong na mapabuti ang extension na ito."
+        "message": "Magpadala ng data ng hindi nakikilalang paggamit sa pamamagitan ng Google Analytics upang makatulong na mapabuti ang extension na ito."
     },
     "show_advanced_settings": {
         "message": "Ipakita ang Mga Setting"
+    },
+    "show_details_btn": {
+        "message": "Ipakita ang mga detalye"
     },
     "translation_settings": {
         "message": "Mga Setting ng Pagsasalin"

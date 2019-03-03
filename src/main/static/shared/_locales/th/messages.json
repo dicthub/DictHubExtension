@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "แก้ไขการตั้งค่าโดยตรง"
     },
+    "express_setup_btn": {
+        "message": "ตั้งค่าด่วน!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "แบ่งปันแบบไม่ระบุชื่อกับ Google Analytics เพื่อช่วยปรับปรุงส่วนขยายนี้ "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "ติดตั้งปลั๊กอินการแปลของ Google"
+    },
+    "express_setup_details_language": {
+        "message": "เลือก lang หลักอัตโนมัติจากภาษา UI ของระบบ"
+    },
     "insecure_translation_script_warning": {
         "message": "ผลลัพธ์การแปลมีแท็กสคริปต์ที่ไม่ปลอดภัย"
     },
@@ -39,10 +51,13 @@
         "message": "บันทึกการเปลี่ยนแปลง"
     },
     "send_analysis_info": {
-        "message": "ส่งข้อมูลการใช้งานที่ไม่ระบุชื่อเพื่อช่วยปรับปรุงส่วนขยายนี้"
+        "message": "ส่งข้อมูลการใช้งานที่ไม่ระบุชื่อผ่าน Google Analytics เพื่อช่วยปรับปรุงส่วนขยายนี้"
     },
     "show_advanced_settings": {
         "message": "แสดงการตั้งค่า"
+    },
+    "show_details_btn": {
+        "message": "แสดงรายละเอียด"
     },
     "translation_settings": {
         "message": "การตั้งค่าการแปล"

@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "Beállítások szerkesztése közvetlenül"
     },
+    "express_setup_btn": {
+        "message": "Expressz beállítás!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "A kiterjesztés javítása érdekében anonim megosztása a Google Analytics szolgáltatással. "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "Telepítse a Google Fordítási bővítményt"
+    },
+    "express_setup_details_language": {
+        "message": "Automatikusan válassza ki az elsődleges nyelvet a Rendszer UI nyelvén"
+    },
     "insecure_translation_script_warning": {
         "message": "A fordítási eredmény bizonytalan script címkét tartalmaz."
     },
@@ -39,10 +51,13 @@
         "message": "Változtatások mentése"
     },
     "send_analysis_info": {
-        "message": "Anonim felhasználási adatok küldése a bővítés javítása érdekében."
+        "message": "A kiterjesztés javítása érdekében a Google Analytics segítségével küldjön névtelen használati adatokat."
     },
     "show_advanced_settings": {
         "message": "Beállítások megjelenítése"
+    },
+    "show_details_btn": {
+        "message": "Mutasd a részleteket"
     },
     "translation_settings": {
         "message": "Fordítási beállítások"

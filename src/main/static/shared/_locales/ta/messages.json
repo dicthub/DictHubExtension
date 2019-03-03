@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "நேரடியாக அமைப்புகள் திருத்தவும்"
     },
+    "express_setup_btn": {
+        "message": "எக்ஸ்பிரஸ் அமைப்பு!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "இந்த நீட்டிப்பை மேம்படுத்த உதவ, Google Analytics க்கு அநாமதேய பகிர். "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "Google Translate நீட்சியை நிறுவவும்"
+    },
+    "express_setup_details_language": {
+        "message": "தானியங்கு முறைமை UI மொழியில் இருந்து தானியங்கு தேர்வு முக்கியமானது"
+    },
     "insecure_translation_script_warning": {
         "message": "மொழிபெயர்ப்பு முடிவில் பாதுகாப்பற்ற ஸ்கிரிப்ட் குறிச்சொல் உள்ளது."
     },
@@ -39,10 +51,13 @@
         "message": "மாற்றங்களை சேமியுங்கள்"
     },
     "send_analysis_info": {
-        "message": "இந்த நீட்டிப்பை மேம்படுத்த உதவ அநாமதேய பயன்பாட்டுத் தரவை அனுப்பவும்."
+        "message": "இந்த நீட்டிப்பை மேம்படுத்த உதவ, Google Analytics வழியாக அநாமதேய பயன்பாட்டுத் தரவை அனுப்பவும்."
     },
     "show_advanced_settings": {
         "message": "அமைப்புகள் காட்டு"
+    },
+    "show_details_btn": {
+        "message": "விவரங்களை காட்டு"
     },
     "translation_settings": {
         "message": "மொழிபெயர்ப்பு அமைப்புகள்"

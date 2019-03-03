@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "सेटिंग्स को सीधे संपादित करें"
     },
+    "express_setup_btn": {
+        "message": "एक्सप्रेस सेटअप!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "इस एक्सटेंशन को बेहतर बनाने में सहायता करने के लिए Google Analytics से अनाम साझा करें। "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "Google अनुवाद प्लगइन स्थापित करें"
+    },
+    "express_setup_details_language": {
+        "message": "सिस्टम UI भाषा से ऑटो प्राथमिक लैंग का चयन करें"
+    },
     "insecure_translation_script_warning": {
         "message": "अनुवाद परिणाम में असुरक्षित स्क्रिप्ट टैग होता है।"
     },
@@ -39,10 +51,13 @@
         "message": "परिवर्तनों को सुरक्षित करें"
     },
     "send_analysis_info": {
-        "message": "इस एक्सटेंशन को बेहतर बनाने में सहायता के लिए अनाम उपयोग डेटा भेजें।"
+        "message": "इस एक्सटेंशन को बेहतर बनाने में सहायता के लिए Google Analytics के माध्यम से अनाम उपयोग डेटा भेजें।"
     },
     "show_advanced_settings": {
         "message": "सेटिंग दिखाएँ"
+    },
+    "show_details_btn": {
+        "message": "प्रदर्शन का विवरण"
     },
     "translation_settings": {
         "message": "अनुवाद सेटिंग्स"

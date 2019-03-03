@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "Edit Tetapan secara langsung"
     },
+    "express_setup_btn": {
+        "message": "Persediaan Express!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "Kongsi tanpa nama kepada Google Analytics untuk membantu meningkatkan pelanjutan ini. "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "Pasang Plugin Terjemahan Google"
+    },
+    "express_setup_details_language": {
+        "message": "Auto pilih main utama dari Bahasa UI Sistem"
+    },
     "insecure_translation_script_warning": {
         "message": "Hasil terjemahan mengandungi tag skrip yang tidak selamat."
     },
@@ -39,10 +51,13 @@
         "message": "Simpan Perubahan"
     },
     "send_analysis_info": {
-        "message": "Hantar data penggunaan tanpa nama untuk membantu meningkatkan pelanjutan ini."
+        "message": "Hantar data penggunaan tanpa nama melalui Google Analytics untuk membantu meningkatkan pelanjutan ini."
     },
     "show_advanced_settings": {
         "message": "Tunjukkan Tetapan"
+    },
+    "show_details_btn": {
+        "message": "Tunjukkan Butiran"
     },
     "translation_settings": {
         "message": "Tetapan Terjemahan"

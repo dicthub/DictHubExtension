@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "સીધા સેટિંગ્સ સંપાદિત કરો"
     },
+    "express_setup_btn": {
+        "message": "એક્સપ્રેસ સેટઅપ!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "આ એક્સ્ટેંશનને બહેતર બનાવવામાં સહાય માટે Google ઍનલિટિક્સમાં અનામ શેર કરો. "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "ગૂગલ અનુવાદ પ્લગઇન સ્થાપિત કરો"
+    },
+    "express_setup_details_language": {
+        "message": "ઑટો પ્રાયમરી લેંગ સિસ્ટમ યુઆઇ લેંગ્વેજમાંથી પસંદ કરો"
+    },
     "insecure_translation_script_warning": {
         "message": "ભાષાંતર પરિણામમાં અસુરક્ષિત સ્ક્રિપ્ટ ટૅગ શામેલ છે."
     },
@@ -39,10 +51,13 @@
         "message": "ફેરફારો સંગ્રહ"
     },
     "send_analysis_info": {
-        "message": "આ એક્સ્ટેંશનને સુધારવામાં સહાય માટે અનામ ઉપયોગ ડેટા મોકલો."
+        "message": "આ એક્સ્ટેન્શનને સુધારવામાં સહાય માટે Google Analytics દ્વારા અનામ વપરાશ ડેટા મોકલો."
     },
     "show_advanced_settings": {
         "message": "સેટિંગ્સ બતાવો"
+    },
+    "show_details_btn": {
+        "message": "વિગતો બતાવો"
     },
     "translation_settings": {
         "message": "ભાષાંતર સેટિંગ્સ"

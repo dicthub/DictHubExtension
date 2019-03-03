@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "Rediģējiet iestatījumus tieši"
     },
+    "express_setup_btn": {
+        "message": "Express iestatīšana!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "Kopīgojiet anonīmu Google Analytics, lai palīdzētu uzlabot šo paplašinājumu. "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "Instalējiet Google tulkošanas spraudni"
+    },
+    "express_setup_details_language": {
+        "message": "Automātiski atlasiet primāro valodu no sistēmas UI valodas"
+    },
     "insecure_translation_script_warning": {
         "message": "Tulkošanas rezultāts satur nedrošu skriptu tagu."
     },
@@ -39,10 +51,13 @@
         "message": "Saglabāt izmaiņas"
     },
     "send_analysis_info": {
-        "message": "Lai uzlabotu šo paplašinājumu, nosūtiet anonīmus lietošanas datus."
+        "message": "Sūtiet anonīmus lietošanas datus, izmantojot Google Analytics, lai palīdzētu uzlabot šo paplašinājumu."
     },
     "show_advanced_settings": {
         "message": "Rādīt iestatījumus"
+    },
+    "show_details_btn": {
+        "message": "Parādīt detaļas"
     },
     "translation_settings": {
         "message": "Tulkošanas iestatījumi"

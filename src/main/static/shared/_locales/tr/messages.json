@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "Ayarları doğrudan düzenle"
     },
+    "express_setup_btn": {
+        "message": "Hızlı Kurulum!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "Bu eklentinin geliştirilmesine yardımcı olmak için Google Analytics’te anonim olarak paylaşın. "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "Google Translation Plugin'i yükle"
+    },
+    "express_setup_details_language": {
+        "message": "Sistem Kullanıcı Arabirimi Dilinden otomatik olarak birincil dil seçimi"
+    },
     "insecure_translation_script_warning": {
         "message": "Çeviri sonucu güvensiz komut dosyası etiketi var."
     },
@@ -39,10 +51,13 @@
         "message": "Değişiklikleri Kaydet"
     },
     "send_analysis_info": {
-        "message": "Bu uzantıyı iyileştirmeye yardımcı olmak için adsız kullanım verileri gönderin."
+        "message": "Bu uzantıyı iyileştirmeye yardımcı olmak için Google Analytics aracılığıyla adsız kullanım verileri gönderin."
     },
     "show_advanced_settings": {
         "message": "Ayarları göster"
+    },
+    "show_details_btn": {
+        "message": "Detayları göster"
     },
     "translation_settings": {
         "message": "Çeviri Ayarları"

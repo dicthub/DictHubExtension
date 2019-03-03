@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "Edytuj ustawienia bezpośrednio"
     },
+    "express_setup_btn": {
+        "message": "Ekspresowa konfiguracja!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "Udostępnij anonimowe Google Analytics, aby ulepszyć to rozszerzenie. "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "Zainstaluj wtyczkę Google Translation"
+    },
+    "express_setup_details_language": {
+        "message": "Automatycznie wybierz język podstawowy z języka System UI"
+    },
     "insecure_translation_script_warning": {
         "message": "Wynik tłumaczenia zawiera niezabezpieczony znacznik skryptu."
     },
@@ -39,10 +51,13 @@
         "message": "Zapisz zmiany"
     },
     "send_analysis_info": {
-        "message": "Wyślij anonimowe dane o użytkowaniu, aby ulepszyć to rozszerzenie."
+        "message": "Przesyłaj anonimowe dane o użytkowaniu za pomocą Google Analytics, aby ulepszyć to rozszerzenie."
     },
     "show_advanced_settings": {
         "message": "Pokaż ustawienia"
+    },
+    "show_details_btn": {
+        "message": "Pokaż szczegóły"
     },
     "translation_settings": {
         "message": "Ustawienia tłumaczenia"

@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "Editar configurações diretamente"
     },
+    "express_setup_btn": {
+        "message": "Configuração Expressa!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "Compartilhe anônimo com o Google Analytics para ajudar a melhorar essa extensão. "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "Instalar o plug-in de tradução do Google"
+    },
+    "express_setup_details_language": {
+        "message": "Auto seleção de idioma principal do idioma da interface do usuário do sistema"
+    },
     "insecure_translation_script_warning": {
         "message": "O resultado da tradução contém uma tag de script insegura."
     },
@@ -39,10 +51,13 @@
         "message": "Salvar alterações"
     },
     "send_analysis_info": {
-        "message": "Envie dados anônimos de uso para ajudar a melhorar essa extensão."
+        "message": "Envie dados anônimos de uso por meio do Google Analytics para ajudar a melhorar essa extensão."
     },
     "show_advanced_settings": {
         "message": "Mostrar configurações"
+    },
+    "show_details_btn": {
+        "message": "Mostrar detalhes"
     },
     "translation_settings": {
         "message": "Configurações de tradução"

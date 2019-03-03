@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "Editeu la configuració directament"
     },
+    "express_setup_btn": {
+        "message": "Configuració ràpida!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "Compartiu l'anònim amb Google Analytics per ajudar a millorar aquesta extensió. "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "Instal·leu el connector de traducció de Google"
+    },
+    "express_setup_details_language": {
+        "message": "Seleccioneu automàticament l'idioma principal de l'idioma de la UI del sistema"
+    },
     "insecure_translation_script_warning": {
         "message": "El resultat de la traducció conté una etiqueta de seqüència insegura."
     },
@@ -39,10 +51,13 @@
         "message": "Guardar canvis"
     },
     "send_analysis_info": {
-        "message": "Envia dades d'ús anònimes per ajudar a millorar aquesta extensió."
+        "message": "Envieu dades d'ús anònimes a través de Google Analytics per ajudar a millorar aquesta extensió."
     },
     "show_advanced_settings": {
         "message": "Mostra la configuració"
+    },
+    "show_details_btn": {
+        "message": "Mostra els detalls"
     },
     "translation_settings": {
         "message": "Configuració de la traducció"

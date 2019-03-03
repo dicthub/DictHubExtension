@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "Bewerk instellingen rechtstreeks"
     },
+    "express_setup_btn": {
+        "message": "Snelle installatie!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "Deel anoniem met Google Analytics om deze extensie te helpen verbeteren. "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "Installeer de vertaalplugin voor Google"
+    },
+    "express_setup_details_language": {
+        "message": "Auto select primary lang uit System UI Language"
+    },
     "insecure_translation_script_warning": {
         "message": "Het resultaat van de vertaling bevat een onveilige scripttag."
     },
@@ -39,10 +51,13 @@
         "message": "Wijzigingen opslaan"
     },
     "send_analysis_info": {
-        "message": "Verzend anonieme gebruiksgegevens om deze extensie te helpen verbeteren."
+        "message": "Verzend anonieme gebruiksgegevens via Google Analytics om deze extensie te helpen verbeteren."
     },
     "show_advanced_settings": {
         "message": "Toon instellingen"
+    },
+    "show_details_btn": {
+        "message": "Toon details"
     },
     "translation_settings": {
         "message": "Vertaalinstellingen"

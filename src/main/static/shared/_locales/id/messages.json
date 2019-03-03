@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "Edit Pengaturan secara langsung"
     },
+    "express_setup_btn": {
+        "message": "Penyiapan Cepat!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "Bagikan anonim ke Google Analytics untuk membantu meningkatkan ekstensi ini. "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "Pasang Plugin Terjemahan Google"
+    },
+    "express_setup_details_language": {
+        "message": "Pilih bahasa primer otomatis dari Bahasa Sistem UI"
+    },
     "insecure_translation_script_warning": {
         "message": "Hasil terjemahan berisi tag skrip yang tidak aman."
     },
@@ -39,10 +51,13 @@
         "message": "Simpan perubahan"
     },
     "send_analysis_info": {
-        "message": "Kirim data penggunaan anonim untuk membantu meningkatkan ekstensi ini."
+        "message": "Kirim data penggunaan anonim melalui Google Analytics untuk membantu meningkatkan ekstensi ini."
     },
     "show_advanced_settings": {
         "message": "Tampilkan Pengaturan"
+    },
+    "show_details_btn": {
+        "message": "Tampilkan Detail"
     },
     "translation_settings": {
         "message": "Pengaturan Terjemahan"

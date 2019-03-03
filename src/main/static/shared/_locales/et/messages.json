@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "Muuda seadeid otse"
     },
+    "express_setup_btn": {
+        "message": "Express Setup!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "Selle laienduse parandamiseks jagage Google Analyticsi anonüümset. "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "Installige Google'i tõlke plugin"
+    },
+    "express_setup_details_language": {
+        "message": "Automaatne esmase keele valimine süsteemi UI keelest"
+    },
     "insecure_translation_script_warning": {
         "message": "Tõlke tulemus sisaldab ebaturvalist skripti silt."
     },
@@ -39,10 +51,13 @@
         "message": "Salvesta muudatused"
     },
     "send_analysis_info": {
-        "message": "Selle laienduse parandamiseks saatke anonüümsed kasutusandmed."
+        "message": "Selle laienduse parandamiseks saatke Google Analyticsi kaudu anonüümsed kasutusandmed."
     },
     "show_advanced_settings": {
         "message": "Kuva seaded"
+    },
+    "show_details_btn": {
+        "message": "Näita detaile"
     },
     "translation_settings": {
         "message": "Tõlkeseaded"

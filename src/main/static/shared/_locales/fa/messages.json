@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "ویرایش تنظیمات به طور مستقیم"
     },
+    "express_setup_btn": {
+        "message": "اکسپرس راه اندازی!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "برای کمک به بهبود این افزونه، ناشناس به Google Analytics به اشتراک بگذارید. "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "پلاگین ترجمه Google را نصب کنید"
+    },
+    "express_setup_details_language": {
+        "message": "خودکار انتخاب پنجره اصلی از زبان سیستم UI"
+    },
     "insecure_translation_script_warning": {
         "message": "نتیجه ترجمه شامل برچسب اسکریپت ناامن است."
     },
@@ -39,10 +51,13 @@
         "message": "ذخیره تغییرات"
     },
     "send_analysis_info": {
-        "message": "برای کمک به بهبود این افزونه، دادههای استفاده ناشناس ارسال کنید."
+        "message": "ارسال داده های ناشناس ناشناس از طریق Google Analytics برای کمک به بهبود این افزونه."
     },
     "show_advanced_settings": {
         "message": "نمایش تنظیمات"
+    },
+    "show_details_btn": {
+        "message": "نمایش جزئیات"
     },
     "translation_settings": {
         "message": "تنظیمات ترجمه"

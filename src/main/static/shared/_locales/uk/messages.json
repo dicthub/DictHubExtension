@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "Змінити налаштування безпосередньо"
     },
+    "express_setup_btn": {
+        "message": "Експрес-налаштування!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "Надайте анонімний доступ до Google Analytics, щоб покращити це розширення. "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "Встановіть модуль перекладу Google"
+    },
+    "express_setup_details_language": {
+        "message": "Автоматично вибирати первинний lang з System UI Language"
+    },
     "insecure_translation_script_warning": {
         "message": "Результат перекладу містить небезпечний тег сценарію."
     },
@@ -39,10 +51,13 @@
         "message": "Зберегти зміни"
     },
     "send_analysis_info": {
-        "message": "Надіслати анонімні дані про використання, щоб покращити це розширення."
+        "message": "Надсилайте анонімні дані про використання через Google Analytics, щоб покращити це розширення."
     },
     "show_advanced_settings": {
         "message": "Показати налаштування"
+    },
+    "show_details_btn": {
+        "message": "Показати деталі"
     },
     "translation_settings": {
         "message": "Налаштування перекладу"

@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "Einstellungen direkt bearbeiten"
     },
+    "express_setup_btn": {
+        "message": "Express Setup!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "Teilen Sie anonym an Google Analytics, um diese Erweiterung zu verbessern. "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "Installieren Sie das Google Translation Plugin"
+    },
+    "express_setup_details_language": {
+        "message": "Automatische Auswahl der Primärsprache aus der System-Oberflächensprache"
+    },
     "insecure_translation_script_warning": {
         "message": "Das Übersetzungsergebnis enthält ein unsicheres Skript-Tag."
     },
@@ -39,10 +51,13 @@
         "message": "Änderungen speichern"
     },
     "send_analysis_info": {
-        "message": "Senden Sie anonyme Nutzungsdaten, um diese Erweiterung zu verbessern."
+        "message": "Senden Sie anonyme Nutzungsdaten über Google Analytics, um diese Erweiterung zu verbessern."
     },
     "show_advanced_settings": {
         "message": "Einstellungen anzeigen"
+    },
+    "show_details_btn": {
+        "message": "Zeige Details"
     },
     "translation_settings": {
         "message": "Übersetzungseinstellungen"

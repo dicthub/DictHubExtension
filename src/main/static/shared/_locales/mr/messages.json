@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "थेट सेटिंग्ज संपादित करा"
     },
+    "express_setup_btn": {
+        "message": "एक्सप्रेस सेटअप!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "हा विस्तार सुधारण्यात मदतीसाठी Google Analytics मध्ये निनावी सामायिक करा. "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "Google भाषांतर प्लगइन स्थापित करा"
+    },
+    "express_setup_details_language": {
+        "message": "सिस्टम UI भाषेमधून स्वयं प्राथमिक प्राथमिक निवडा"
+    },
     "insecure_translation_script_warning": {
         "message": "अनुवाद परिणामामध्ये असुरक्षित स्क्रिप्ट टॅग आहे."
     },
@@ -39,10 +51,13 @@
         "message": "बदल जतन करा"
     },
     "send_analysis_info": {
-        "message": "हा विस्तार सुधारण्यात मदतीसाठी निनावी वापर डेटा पाठवा."
+        "message": "हा विस्तार सुधारण्यास मदत करण्यासाठी Google Analytics द्वारे अनामित वापर डेटा पाठवा."
     },
     "show_advanced_settings": {
         "message": "सेटिंग्ज दर्शवा"
+    },
+    "show_details_btn": {
+        "message": "तपशील दाखवा"
     },
     "translation_settings": {
         "message": "अनुवाद सेटिंग्ज"

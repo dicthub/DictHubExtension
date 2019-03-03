@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "Измените подешавања директно"
     },
+    "express_setup_btn": {
+        "message": "Екпресс Сетуп!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "Делите анонимно са Гоогле Аналитицс како бисте побољшали ово проширење. "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "Инсталирајте Гоогле преводилачки додатак"
+    },
+    "express_setup_details_language": {
+        "message": "Аутоматски одаберите примарни језик из Систем УИ језика"
+    },
     "insecure_translation_script_warning": {
         "message": "Резултат превода садржи ознаку несигурне скрипте."
     },
@@ -39,10 +51,13 @@
         "message": "Сачувај измене"
     },
     "send_analysis_info": {
-        "message": "Пошаљите анонимне податке о коришћењу како бисте побољшали ово проширење."
+        "message": "Пошаљите анонимне податке о коришћењу помоћу услуге Гоогле Аналитицс да бисте побољшали ово проширење."
     },
     "show_advanced_settings": {
         "message": "Прикажи поставке"
+    },
+    "show_details_btn": {
+        "message": "Прикажи детаље"
     },
     "translation_settings": {
         "message": "Подешавања превода"

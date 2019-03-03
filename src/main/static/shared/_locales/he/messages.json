@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "ערוך הגדרות ישירות"
     },
+    "express_setup_btn": {
+        "message": "התקנה מהירה!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "שתף אנונימי ל- Google Analytics כדי לשפר את התוסף. "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "התקן את תוסף התרגום של Google"
+    },
+    "express_setup_details_language": {
+        "message": "בחר אוטומטית lang מ שפת מערכת UI"
+    },
     "insecure_translation_script_warning": {
         "message": "תוצאת התרגום מכילה תג סקריפט לא מאובטח."
     },
@@ -39,10 +51,13 @@
         "message": "שמור שינויים"
     },
     "send_analysis_info": {
-        "message": "שלח נתוני שימוש אנונימיים כדי לשפר את התוסף."
+        "message": "שלח נתוני שימוש אנונימיים באמצעות Google Analytics כדי לשפר את התוסף."
     },
     "show_advanced_settings": {
         "message": "הצג הגדרות"
+    },
+    "show_details_btn": {
+        "message": "הראה פרטים"
     },
     "translation_settings": {
         "message": "הגדרות תרגום"

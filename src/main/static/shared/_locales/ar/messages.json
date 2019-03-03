@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "تحرير الإعدادات مباشرة"
     },
+    "express_setup_btn": {
+        "message": "الإعداد السريع!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "مشاركة المجهول لبرنامج Google Analytics للمساعدة في تحسين هذه الإضافة. "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "تثبيت Google Translation Plugin"
+    },
+    "express_setup_details_language": {
+        "message": "تحديد تلقائي lang الأساسي من لغة واجهة مستخدم النظام"
+    },
     "insecure_translation_script_warning": {
         "message": "تحتوي نتيجة الترجمة على علامة نصية غير آمنة."
     },
@@ -39,10 +51,13 @@
         "message": "حفظ التغييرات"
     },
     "send_analysis_info": {
-        "message": "إرسال بيانات استخدام مجهولة الهوية للمساعدة في تحسين هذا الامتداد."
+        "message": "إرسال بيانات استخدام مجهولة الهوية عبر Google Analytics للمساعدة في تحسين هذه الإضافة."
     },
     "show_advanced_settings": {
         "message": "إعدادات العرض"
+    },
+    "show_details_btn": {
+        "message": "اظهر التفاصيل"
     },
     "translation_settings": {
         "message": "إعدادات الترجمة"

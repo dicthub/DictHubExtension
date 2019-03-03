@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "Redigera inställningar direkt"
     },
+    "express_setup_btn": {
+        "message": "Express Setup!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "Dela anonyma till Google Analytics för att förbättra den här utvidgningen. "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "Installera Google Översättnings Plugin"
+    },
+    "express_setup_details_language": {
+        "message": "Auto väljer primär lang från System UI Språk"
+    },
     "insecure_translation_script_warning": {
         "message": "Översättningsresultatet innehåller osäker script-tagg."
     },
@@ -39,10 +51,13 @@
         "message": "Spara ändringar"
     },
     "send_analysis_info": {
-        "message": "Skicka anonyma användardata för att förbättra den här utvidgningen."
+        "message": "Skicka anonyma användardata via Google Analytics för att förbättra den här utvidgningen."
     },
     "show_advanced_settings": {
         "message": "Visa inställningar"
+    },
+    "show_details_btn": {
+        "message": "Visa detaljer"
     },
     "translation_settings": {
         "message": "Översättningsinställningar"

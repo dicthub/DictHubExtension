@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "Chỉnh sửa cài đặt trực tiếp"
     },
+    "express_setup_btn": {
+        "message": "Cài đặt nhanh!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "Chia sẻ ẩn danh với Google Analytics để giúp cải thiện tiện ích mở rộng này. "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "Cài đặt Plugin dịch thuật của Google"
+    },
+    "express_setup_details_language": {
+        "message": "Tự động chọn lang chính từ Ngôn ngữ giao diện người dùng hệ thống"
+    },
     "insecure_translation_script_warning": {
         "message": "Kết quả dịch chứa thẻ script không an toàn."
     },
@@ -39,10 +51,13 @@
         "message": "Lưu thay đổi"
     },
     "send_analysis_info": {
-        "message": "Gửi dữ liệu sử dụng ẩn danh để giúp cải thiện phần mở rộng này."
+        "message": "Gửi dữ liệu sử dụng ẩn danh qua Google Analytics để giúp cải thiện tiện ích mở rộng này."
     },
     "show_advanced_settings": {
         "message": "Hiển thị cài đặt"
+    },
+    "show_details_btn": {
+        "message": "Hiển thị chi tiết"
     },
     "translation_settings": {
         "message": "Cài đặt dịch"

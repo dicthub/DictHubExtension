@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "ቅንብሮችን በቀጥታ ያርትዑ"
     },
+    "express_setup_btn": {
+        "message": "አፕስ አዘጋጅ!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "ይህን ቅጥያ ለማሻሻል ለማገዝ ስም-አልባ ለ Google Analytics ያጋሩ. "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "የ Google ትርጉም የትግበራ ጫን"
+    },
+    "express_setup_details_language": {
+        "message": "ዋና የስርዓት ቋንቋን ከስርዓት UI ቋንቋ ይምረጡ"
+    },
     "insecure_translation_script_warning": {
         "message": "የትርጉም ትርጉሙ ደህንነቱ ያልተጠበቀ ስክሪፕት መለያ ይዟል."
     },
@@ -39,10 +51,13 @@
         "message": "ለውጦችን አስቀምጥ"
     },
     "send_analysis_info": {
-        "message": "ይህን ቅጥያ ለማሻሻል ስም-አልባ የአጠቃቀም ውሂብ ይላኩ."
+        "message": "ይህንን ቅጥያ ለማሻሻል ስም-አልባ የአጠቃቀም ውሂብ በ Google ትንታኔዎች ይላኩ."
     },
     "show_advanced_settings": {
         "message": "ቅንብሮችን አሳይ"
+    },
+    "show_details_btn": {
+        "message": "ዝርዝሩን አሳይ"
     },
     "translation_settings": {
         "message": "የትርጉም ቅንብሮች"

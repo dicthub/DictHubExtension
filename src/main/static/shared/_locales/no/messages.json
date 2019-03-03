@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "Rediger innstillinger direkte"
     },
+    "express_setup_btn": {
+        "message": "Express Setup!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "Del anonyme til Google Analytics for å forbedre denne utvidelsen. "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "Installer Google Oversettelsesplugin"
+    },
+    "express_setup_details_language": {
+        "message": "Automatisk velg primær lang fra System UI Language"
+    },
     "insecure_translation_script_warning": {
         "message": "Oversetterresultatet inneholder usikker script-kode."
     },
@@ -39,10 +51,13 @@
         "message": "Lagre endringer"
     },
     "send_analysis_info": {
-        "message": "Send anonyme bruksdata for å forbedre denne utvidelsen."
+        "message": "Send anonyme bruksdata via Google Analytics for å forbedre denne utvidelsen."
     },
     "show_advanced_settings": {
         "message": "Vis innstillinger"
+    },
+    "show_details_btn": {
+        "message": "Vis detaljer"
     },
     "translation_settings": {
         "message": "Oversettelsesinnstillinger"

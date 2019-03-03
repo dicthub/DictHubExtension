@@ -14,6 +14,18 @@
     "edit_settings_directly": {
         "message": "Izravno uredite Postavke"
     },
+    "express_setup_btn": {
+        "message": "Express Setup!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "Podijelite anonimno s uslugom Google Analytics kako biste poboljšali ovo proširenje. "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "Instalirajte dodatak za Google prijevod"
+    },
+    "express_setup_details_language": {
+        "message": "Automatski odaberite primarni jezik iz jezika korisničkog sučelja sustava"
+    },
     "insecure_translation_script_warning": {
         "message": "Rezultat prijevoda sadrži oznaku nesigurne skripte."
     },
@@ -39,10 +51,13 @@
         "message": "Spremi promjene"
     },
     "send_analysis_info": {
-        "message": "Pošaljite anonimne podatke o upotrebi kako biste poboljšali ovo proširenje."
+        "message": "Pošaljite anonimne podatke o upotrebi putem usluge Google Analytics kako biste poboljšali ovo proširenje."
     },
     "show_advanced_settings": {
         "message": "Prikaži postavke"
+    },
+    "show_details_btn": {
+        "message": "Pokaži detalje"
     },
     "translation_settings": {
         "message": "Postavke prijevoda"
