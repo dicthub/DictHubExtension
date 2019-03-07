@@ -9,6 +9,7 @@ import org.dicthub.view.Component
 import org.dicthub.view.TagAppender
 import kotlinx.html.*
 import kotlinx.html.dom.append
+import kotlinx.html.js.onChangeFunction
 import org.w3c.dom.HTMLElement
 import org.w3c.dom.HTMLInputElement
 import org.w3c.dom.HTMLSelectElement
@@ -27,6 +28,9 @@ class TranslationSettings(private val parent: HTMLElement, private val userPrefe
             }
             div (classes = CSS_SETTINGS_ROW) {
                 renderPrimaryLangSelect(this)
+            }
+            div (classes = CSS_SETTINGS_ROW) {
+                renderAutoLangDetectionCheckbox(this)
             }
             div (classes = CSS_SETTINGS_ROW) {
                 renderMaxTranslationResult(this)
@@ -64,6 +68,21 @@ class TranslationSettings(private val parent: HTMLElement, private val userPrefe
         }
     }
 
+    private val renderAutoLangDetectionCheckbox: TagAppender = {
+        label(classes = CSS_SETTINGS_ROW_LABEL) {
+            +i18nMessage("auto_detect_language")
+        }
+        div(classes = "$CSS_SETTINGS_ROW_CONTENT align-self-center") {
+            var autoDetectLang = userPreference.autoDetectLang
+            checkBoxInput {
+                checked = autoDetectLang
+                onChangeFunction = {
+                    autoDetectLang = !autoDetectLang
+                    userPreference.autoDetectLang = autoDetectLang
+                }
+            }
+        }
+    }
 
     private val renderMaxTranslationResult: TagAppender = {
         label(classes = CSS_SETTINGS_ROW_LABEL) {

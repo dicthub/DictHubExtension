@@ -10,8 +10,8 @@ import org.dicthub.view.TagAppender
 import kotlinx.html.*
 import kotlinx.html.dom.append
 import kotlinx.html.js.onChangeFunction
-import kotlinx.html.js.onClickFunction
 import kotlinx.html.js.onSubmitFunction
+import org.dicthub.lang.LangDetector
 import org.w3c.dom.*
 import org.w3c.dom.events.Event
 
@@ -29,6 +29,7 @@ private const val ID_FROM_LANG = "fromLang"
 private const val ID_TO_LANG = "toLang"
 
 class QueryContainer(private val parent: HTMLElement,
+                     private val langDetector: LangDetector,
                      private val listener: QueryListener,
                      private val initialQueryText: String? = "",
                      private val initialFromLang: Lang? = null,
@@ -88,7 +89,16 @@ class QueryContainer(private val parent: HTMLElement,
         parent.append {
             form(classes = "form-inline ${if (uiMode == UIMode.OVERLAY && initialFromLang != null) "collapse" else ""}") {
                 id = ID_FORM
-                onSubmitFunction = { it.preventDefault(); onValueChange(it) }
+                onSubmitFunction = { evt ->
+                    evt.preventDefault()
+                    queryTextInput.value.takeIf { it.isNotBlank() }?.let { text ->
+                        langDetector.detectLang(text).then {
+                            onValueChange(evt)
+                        }.catch {
+                            onValueChange(evt)
+                        }
+                    }
+                }
                 div(classes = "form-row") {
                     div(classes = "col-auto") {
                         renderQueryInput(this)
@@ -138,7 +148,14 @@ class QueryContainer(private val parent: HTMLElement,
         toLangSelect.required = true
         toLangSelect.value = initialToLang?.code ?: ""
 
-        invokeListenerIfReady()
+        initialQueryText?.takeIf { it.isNotBlank() }?.let { text ->
+            langDetector.detectLang(text).then { lang ->
+                fromLangSelect.value = lang.code
+                invokeListenerIfReady()
+            }.catch {
+                invokeListenerIfReady()
+            }
+        }
     }
 
     private val onValueChange = { _: Event ->

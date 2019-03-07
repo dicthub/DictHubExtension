@@ -1,3 +1,4 @@
+import org.dicthub.lang.BingLangDetector
 import org.dicthub.model.loadUserPreference
 import org.dicthub.page.OptionsPage
 import org.dicthub.page.SandboxPage
@@ -15,7 +16,7 @@ import kotlin.js.Json
 import kotlin.js.Promise
 import kotlin.js.json
 
-fun main(args: Array<String>) {
+fun main() {
 
     document.onreadystatechange =  {
         if (document.readyState == DocumentReadyState.COMPLETE) {
@@ -44,11 +45,12 @@ private fun initPopupPage() {
     document.documentElement?.setAttribute("style", "font-size: 13px")
 
     val pluginOptionsAdapter = PluginOptionsAdapter(browserObj.storage.local)
+    val langDetector = BingLangDetector(AjaxHttpClient)
 
     extractQueryFromTabs().then {
         loadUserPreference().then { userPreference ->
             val translationPage = TranslationPage(userPreference, PluginContentAdapter(AjaxHttpClient, browserObj.storage.local),
-                    pluginOptionsAdapter, it.first, it.second, userPreference.primaryLang.code, false)
+                    pluginOptionsAdapter, langDetector, it.first, it.second, userPreference.primaryLang.code, false)
             translationPage.render()
         }
     }
@@ -58,11 +60,12 @@ private fun initOverlayPage() {
     document.documentElement?.setAttribute("style", "font-size: 12px")
 
     val pluginOptionsAdapter = PluginOptionsAdapter(browserObj.storage.local)
+    val langDetector = BingLangDetector(AjaxHttpClient)
 
     val queryContext = extractQueryFromUrl()
     loadUserPreference().then { userPreference ->
         val translationPage = TranslationPage(userPreference, PluginContentAdapter(AjaxHttpClient, browserObj.storage.local),
-                pluginOptionsAdapter, queryContext.first, queryContext.second, userPreference.primaryLang.code, true)
+                pluginOptionsAdapter, langDetector, queryContext.first, queryContext.second, userPreference.primaryLang.code, true)
         translationPage.render()
     }
 }

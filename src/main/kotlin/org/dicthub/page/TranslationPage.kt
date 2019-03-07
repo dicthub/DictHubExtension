@@ -15,17 +15,21 @@ import kotlinx.html.dom.append
 import kotlinx.html.js.div
 import kotlinx.html.js.iframe
 import kotlinx.html.stream.appendHTML
+import org.dicthub.lang.Lang
+import org.dicthub.lang.LangDetector
 import org.w3c.dom.HTMLIFrameElement
 import org.w3c.dom.MessageEvent
 import org.w3c.dom.events.Event
 import kotlin.browser.document
 import kotlin.browser.window
 import kotlin.js.Json
+import kotlin.js.Promise
 import kotlin.js.json
 
 class TranslationPage(private val userPreference: UserPreference,
                       private val pluginContentAdapter: PluginContentAdapter,
                       private val pluginOptionsAdapter: PluginOptionsAdapter,
+                      private val langDetector: LangDetector,
                       private val queryText: String,
                       private val fromLangStr: String?,
                       private val toLangStr: String?,
@@ -124,8 +128,10 @@ class TranslationPage(private val userPreference: UserPreference,
             }
         }
 
+        val effectiveLangDetector: LangDetector = if (userPreference.autoDetectLang) langDetector else NullLangDetector
+
         sandbox = getElementById(sandboxId)
-        queryContainer = QueryContainer(getElementById(queryContainerId), queryListener,
+        queryContainer = QueryContainer(getElementById(queryContainerId),effectiveLangDetector, queryListener,
                 queryText, fromLang, toLang, if (inFrame) UIMode.OVERLAY else UIMode.POPUP)
         resultContainer = ResultContainer(getElementById(resultContainerId))
 
@@ -177,6 +183,12 @@ class TranslationPage(private val userPreference: UserPreference,
             +"${i18nMessage("insecure_translation_script_warning")} ID: $pluginId"
         }
         return htmlContent.toString()
+    }
+}
+
+private object NullLangDetector : LangDetector {
+    override fun detectLang(text: String) = Promise<Lang> {_, reject ->
+        reject(UnsupportedOperationException("Lang detection is not supported"))
     }
 }
 

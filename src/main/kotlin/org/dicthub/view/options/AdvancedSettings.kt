@@ -99,8 +99,8 @@ class AdvancedSettings(private val parent: HTMLElement,
         label(classes = CSS_SETTINGS_ROW_LABEL) {
             +i18nMessage("send_analysis_info")
         }
-        div(classes = "$CSS_SETTINGS_ROW_CONTENT form-check") {
-            checkBoxInput(classes = "form-check-input") {
+        div(classes = "$CSS_SETTINGS_ROW_CONTENT align-self-center") {
+            checkBoxInput {
                 var checked = userPreference.sendAnalysisInfo
                 this.checked = checked
                 onChangeFunction = {

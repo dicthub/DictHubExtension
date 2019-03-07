@@ -25,6 +25,13 @@ class UserPreference(val data: Json) {
             saveUserPreference(this)
         }
 
+    var autoDetectLang: Boolean
+        inline get() = data["autoDetectLang"]?.let {it as? Boolean} ?: true
+        inline set(value) {
+            data["autoDetectLang"] = value
+            saveUserPreference(this)
+        }
+
     var maxTranslationResult: Int
         inline get() = data["maxTranslationResult"]?.let { it as? Int } ?: DEFAULT_MAX_TRANSLATION_RESULTS
         inline set(value) {
