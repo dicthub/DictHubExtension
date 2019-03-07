@@ -72,6 +72,9 @@ class OptionsPage(private val userPreference: UserPreference,
                 val pluginStatus = pluginList.map { it to (it.version == pluginVersions[it.id]) }.toMap()
                 resolve(pluginStatus)
             }
+        }.catch {
+            val pluginStatus = userPreference.enabledPlugins.associate { it to false }
+            resolve(pluginStatus)
         }
     }
 

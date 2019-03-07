@@ -328,7 +328,7 @@ class PluginSettings(private val parent: HTMLElement,
         }
         PluginIndex(AjaxHttpClient, listOf(urlStr)).load().then {
             userPreference.pluginRepository = userPreference.pluginRepository.toMutableList().apply {
-                add(urlStr)
+                add(0, urlStr)
             }
 
             reload()
