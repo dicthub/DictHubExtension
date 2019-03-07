@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "nerekomenduojama bendram vartotojui"
     },
+    "auto_detect_language": {
+        "message": "Automatiškai aptikti kalbos užklausą"
+    },
     "close_btn": {
         "message": "Uždaryti"
     },

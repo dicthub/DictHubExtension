@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "不建議一般用戶使用"
     },
+    "auto_detect_language": {
+        "message": "從查詢輸入中自動檢測語言"
+    },
     "close_btn": {
         "message": "關"
     },

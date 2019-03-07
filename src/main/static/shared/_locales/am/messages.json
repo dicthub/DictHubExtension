@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "ለጠቅላላ ተጠቃሚ አይመከርም"
     },
+    "auto_detect_language": {
+        "message": "ቋንቋ ከውስጣዊ ግቤት በራስ-ሰር አግኝ"
+    },
     "close_btn": {
         "message": "ገጠመ"
     },

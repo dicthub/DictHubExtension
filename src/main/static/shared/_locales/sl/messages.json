@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "ni priporočljivo za splošne uporabnike"
     },
+    "auto_detect_language": {
+        "message": "Samodejno zazna jezik iz vnosa poizvedbe"
+    },
     "close_btn": {
         "message": "Zapri"
     },
@@ -18,7 +21,7 @@
         "message": "Hitra namestitev!"
     },
     "express_setup_details_google_analytics": {
-        "message": "Delite anonimno s storitvijo Google Analytics, da bi izboljšali to razširitev. "
+        "message": "Delite anonimno z Google Analytics, da bi izboljšali to razširitev. "
     },
     "express_setup_details_google_plugin": {
         "message": "Namestite vtičnik Google Translation Plugin"

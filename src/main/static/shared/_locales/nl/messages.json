@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "niet aanbevolen voor algemene gebruiker"
     },
+    "auto_detect_language": {
+        "message": "Automatische detectie van taal uit queryinvoer"
+    },
     "close_btn": {
         "message": "Dichtbij"
     },

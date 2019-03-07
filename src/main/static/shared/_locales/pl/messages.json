@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "nie zalecane dla zwykłego użytkownika"
     },
+    "auto_detect_language": {
+        "message": "Automatycznie wykrywa język z wprowadzania zapytań"
+    },
     "close_btn": {
         "message": "Blisko"
     },

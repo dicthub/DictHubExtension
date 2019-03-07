@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "rekommenderas inte för allmän användare"
     },
+    "auto_detect_language": {
+        "message": "Upptäck automatiskt språket från inmatningsinmatningen"
+    },
     "close_btn": {
         "message": "Stänga"
     },

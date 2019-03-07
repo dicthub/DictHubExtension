@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "പൊതുവായ ഉപയോക്താവിന് ശുപാർശ ചെയ്യപ്പെടുന്നില്ല"
     },
+    "auto_detect_language": {
+        "message": "ചോദ്യ ഇൻപുട്ടിൽ നിന്ന് ഭാഷ യാന്ത്രികമായി കണ്ടെത്തുക"
+    },
     "close_btn": {
         "message": "അടയ്ക്കുക"
     },

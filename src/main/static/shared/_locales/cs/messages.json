@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "nedoporučuje se pro obecné uživatele"
     },
+    "auto_detect_language": {
+        "message": "Automatické rozpoznání jazyka z zadání dotazu"
+    },
     "close_btn": {
         "message": "Zavřít"
     },

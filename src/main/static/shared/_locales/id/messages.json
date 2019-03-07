@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "tidak disarankan untuk pengguna umum"
     },
+    "auto_detect_language": {
+        "message": "Secara otomatis mendeteksi bahasa dari input permintaan"
+    },
     "close_btn": {
         "message": "Dekat"
     },

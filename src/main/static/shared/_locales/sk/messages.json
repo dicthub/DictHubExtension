@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "neodporúča pre všeobecného používateľa"
     },
+    "auto_detect_language": {
+        "message": "Automaticky rozpoznávať jazyk z zadávania dopytu"
+    },
     "close_btn": {
         "message": "Zavrieť"
     },
@@ -13,6 +16,18 @@
     },
     "edit_settings_directly": {
         "message": "Upravte priamo nastavenia"
+    },
+    "express_setup_btn": {
+        "message": "Express Setup!"
+    },
+    "express_setup_details_google_analytics": {
+        "message": "Ak chcete zdokonaliť toto rozšírenie, zdieľajte službu Google Analytics anonymne. "
+    },
+    "express_setup_details_google_plugin": {
+        "message": "Nainštalujte Plugin prekladu Google"
+    },
+    "express_setup_details_language": {
+        "message": "Automaticky vyberiete primárny jazyk z jazyka systémového rozhrania"
     },
     "insecure_translation_script_warning": {
         "message": "Výsledok prekladu obsahuje nezabezpečenú značku skriptu."
@@ -39,10 +54,13 @@
         "message": "Uložiť zmeny"
     },
     "send_analysis_info": {
-        "message": "Odoslať anonymné údaje o používaní, ktoré vám pomôžu zlepšiť toto rozšírenie."
+        "message": "Odoslať anonymné údaje o používaní prostredníctvom služby Google Analytics, ktoré vám pomôžu zlepšiť toto rozšírenie."
     },
     "show_advanced_settings": {
         "message": "Zobraziť nastavenia"
+    },
+    "show_details_btn": {
+        "message": "Zobraziť podrobnosti"
     },
     "translation_settings": {
         "message": "Nastavenia prekladu"

@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "không khuyến khích cho người dùng phổ thông"
     },
+    "auto_detect_language": {
+        "message": "Tự động phát hiện ngôn ngữ từ đầu vào truy vấn"
+    },
     "close_btn": {
         "message": "Gần"
     },

@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "haipendekezi kwa mtumiaji wa jumla"
     },
+    "auto_detect_language": {
+        "message": "Pata moja kwa moja lugha kutoka kwa pembejeo ya swala"
+    },
     "close_btn": {
         "message": "Funga"
     },

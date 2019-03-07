@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "nav ieteicams vispārējam lietotājam"
     },
+    "auto_detect_language": {
+        "message": "Automātiski atklāj vaicājuma ievadīšanas valodu"
+    },
     "close_btn": {
         "message": "Aizvērt"
     },

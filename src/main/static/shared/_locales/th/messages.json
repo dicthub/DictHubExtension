@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "ไม่แนะนำสำหรับผู้ใช้ทั่วไป"
     },
+    "auto_detect_language": {
+        "message": "ตรวจจับภาษาโดยอัตโนมัติจากการป้อนข้อมูลแบบสอบถาม"
+    },
     "close_btn": {
         "message": "ปิด"
     },

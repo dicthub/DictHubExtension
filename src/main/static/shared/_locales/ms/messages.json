@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "tidak disyorkan untuk pengguna am"
     },
+    "auto_detect_language": {
+        "message": "Secara automatik mengesan bahasa dari input pertanyaan"
+    },
     "close_btn": {
         "message": "Tutup"
     },

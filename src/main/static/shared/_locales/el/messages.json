@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "δεν συνιστάται για γενικούς χρήστες"
     },
+    "auto_detect_language": {
+        "message": "Αυτόματη ανίχνευση γλώσσας από την εισαγωγή ερωτήματος"
+    },
     "close_btn": {
         "message": "Κοντά"
     },

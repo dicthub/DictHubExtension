@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "برای کاربر عمومی توصیه نمی شود"
     },
+    "auto_detect_language": {
+        "message": "به صورت خودکار زبان از ورودی پرس و جو را شناسایی کنید"
+    },
     "close_btn": {
         "message": "نزدیک"
     },

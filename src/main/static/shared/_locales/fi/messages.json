@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "ei suositella yleiselle käyttäjälle"
     },
+    "auto_detect_language": {
+        "message": "Tunnista kieli automaattisesti kyselyn syötöstä"
+    },
     "close_btn": {
         "message": "kiinni"
     },

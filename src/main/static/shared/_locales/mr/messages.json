@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "सामान्य वापरकर्त्यासाठी शिफारस केलेली नाही"
     },
+    "auto_detect_language": {
+        "message": "क्वेरी इनपुटमधून स्वयंचलितपणे भाषा शोधा"
+    },
     "close_btn": {
         "message": "बंद"
     },

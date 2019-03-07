@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "no recomanat per a usuaris generals"
     },
+    "auto_detect_language": {
+        "message": "Detecta automàticament el llenguatge de l'entrada de consulta"
+    },
     "close_btn": {
         "message": "Tanca"
     },
@@ -18,7 +21,7 @@
         "message": "Configuració ràpida!"
     },
     "express_setup_details_google_analytics": {
-        "message": "Compartiu l'anònim amb Google Analytics per ajudar a millorar aquesta extensió. "
+        "message": "Compartiu anònim amb Google Analytics per ajudar a millorar aquesta extensió. "
     },
     "express_setup_details_google_plugin": {
         "message": "Instal·leu el connector de traducció de Google"

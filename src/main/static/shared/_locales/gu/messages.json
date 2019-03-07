@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "સામાન્ય વપરાશકર્તા માટે આગ્રહણીય નથી"
     },
+    "auto_detect_language": {
+        "message": "ક્વેરી ઇનપુટથી આપમેળે ભાષા શોધે છે"
+    },
     "close_btn": {
         "message": "બંધ"
     },

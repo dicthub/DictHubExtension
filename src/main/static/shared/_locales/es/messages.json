@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "no recomendado para usuario general"
     },
+    "auto_detect_language": {
+        "message": "Detectar automáticamente el idioma desde la entrada de consulta"
+    },
     "close_btn": {
         "message": "Cerrar"
     },
@@ -24,7 +27,7 @@
         "message": "Instalar el complemento de traducción de Google"
     },
     "express_setup_details_language": {
-        "message": "Selección automática del idioma principal del sistema UI"
+        "message": "Selección automática del idioma principal del sistema UI Language"
     },
     "insecure_translation_script_warning": {
         "message": "El resultado de la traducción contiene una etiqueta de script insegura."

@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "nem ajánlott általános felhasználók számára"
     },
+    "auto_detect_language": {
+        "message": "Automatikusan észleli a nyelvet a lekérdezésbevitelből"
+    },
     "close_btn": {
         "message": "Bezárás"
     },
@@ -18,7 +21,7 @@
         "message": "Expressz beállítás!"
     },
     "express_setup_details_google_analytics": {
-        "message": "A kiterjesztés javítása érdekében anonim megosztása a Google Analytics szolgáltatással. "
+        "message": "Anonim megosztása a Google Analytics szolgáltatással, hogy javítsa ezt a bővítményt. "
     },
     "express_setup_details_google_plugin": {
         "message": "Telepítse a Google Fordítási bővítményt"

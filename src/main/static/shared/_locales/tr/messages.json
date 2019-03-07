@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "genel kullanıcı için önerilmez"
     },
+    "auto_detect_language": {
+        "message": "Sorgu girişinden dili otomatik olarak algıla"
+    },
     "close_btn": {
         "message": "Kapat"
     },

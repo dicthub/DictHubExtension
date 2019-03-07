@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "ಸಾಮಾನ್ಯ ಬಳಕೆದಾರರಿಗೆ ಶಿಫಾರಸು ಮಾಡಲಾಗಿಲ್ಲ"
     },
+    "auto_detect_language": {
+        "message": "ಪ್ರಶ್ನಾವಳಿಯ ಇನ್ಪುಟ್ನಿಂದ ಭಾಷೆಯನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಪತ್ತೆಹಚ್ಚಿ"
+    },
     "close_btn": {
         "message": "ಮುಚ್ಚಿ"
     },

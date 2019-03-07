@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "सामान्य उपयोगकर्ता के लिए अनुशंसित नहीं है"
     },
+    "auto_detect_language": {
+        "message": "स्वचालित रूप से क्वेरी इनपुट से भाषा का पता लगाएं"
+    },
     "close_btn": {
         "message": "बंद करे"
     },
@@ -18,7 +21,7 @@
         "message": "एक्सप्रेस सेटअप!"
     },
     "express_setup_details_google_analytics": {
-        "message": "इस एक्सटेंशन को बेहतर बनाने में सहायता करने के लिए Google Analytics से अनाम साझा करें। "
+        "message": "इस एक्सटेंशन को बेहतर बनाने में सहायता करने के लिए Google Analytics से अनाम साझा करें "
     },
     "express_setup_details_google_plugin": {
         "message": "Google अनुवाद प्लगइन स्थापित करें"

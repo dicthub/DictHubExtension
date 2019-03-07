@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "সাধারণ ব্যবহারকারীর জন্য সুপারিশ করা হয় না"
     },
+    "auto_detect_language": {
+        "message": "স্বয়ংক্রিয়ভাবে কোয়েরি ইনপুট থেকে ভাষা সনাক্ত করুন"
+    },
     "close_btn": {
         "message": "ঘনিষ্ঠ"
     },

@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "not recommended for general user"
     },
+    "auto_detect_language": {
+        "message": "Automatically detect language from query input"
+    },
     "close_btn": {
         "message": "Close"
     },

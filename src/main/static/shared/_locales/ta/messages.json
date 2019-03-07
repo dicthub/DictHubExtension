@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "பொது பயனருக்கு பரிந்துரைக்கப்படவில்லை"
     },
+    "auto_detect_language": {
+        "message": "கேள்வி உள்ளீட்டிலிருந்து மொழியைத் தானாக கண்டறியவும்"
+    },
     "close_btn": {
         "message": "நெருக்கமான"
     },

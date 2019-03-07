@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "일반 사용자에게는 권장하지 않음"
     },
+    "auto_detect_language": {
+        "message": "검색어 입력에서 언어 자동 감지"
+    },
     "close_btn": {
         "message": "닫기"
     },

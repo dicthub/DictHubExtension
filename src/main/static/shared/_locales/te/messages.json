@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "సాధారణ వినియోగదారు కోసం సిఫార్సు చేయబడలేదు"
     },
+    "auto_detect_language": {
+        "message": "ప్రశ్న ఇన్పుట్ నుండి భాషను స్వయంచాలకంగా గుర్తించండి"
+    },
     "close_btn": {
         "message": "Close"
     },

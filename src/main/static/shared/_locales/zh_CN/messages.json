@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "不建议一般用户使用"
     },
+    "auto_detect_language": {
+        "message": "从查询输入中自动检测语言"
+    },
     "close_btn": {
         "message": "关"
     },

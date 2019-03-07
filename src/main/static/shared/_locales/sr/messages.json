@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "не препоручује се за опште кориснике"
     },
+    "auto_detect_language": {
+        "message": "Аутоматски детектујте језик из уноса упита"
+    },
     "close_btn": {
         "message": "Близу"
     },

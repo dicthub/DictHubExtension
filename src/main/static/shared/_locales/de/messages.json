@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "nicht für allgemeine Benutzer empfohlen"
     },
+    "auto_detect_language": {
+        "message": "Sprache automatisch anhand der Abfrageingabe ermitteln"
+    },
     "close_btn": {
         "message": "Schließen"
     },
@@ -24,7 +27,7 @@
         "message": "Installieren Sie das Google Translation Plugin"
     },
     "express_setup_details_language": {
-        "message": "Automatische Auswahl der Primärsprache aus der System-Oberflächensprache"
+        "message": "Automatische Auswahl der Primärsprache aus der Systembenutzersprache"
     },
     "insecure_translation_script_warning": {
         "message": "Das Übersetzungsergebnis enthält ein unsicheres Skript-Tag."

@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "anbefales ikke til generel bruger"
     },
+    "auto_detect_language": {
+        "message": "Find automatisk sprog fra forespørgselsindgang"
+    },
     "close_btn": {
         "message": "Tæt"
     },

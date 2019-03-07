@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "ei soovitata üldkasutajale"
     },
+    "auto_detect_language": {
+        "message": "Avastage automaatselt päringu sisend keel"
+    },
     "close_btn": {
         "message": "Sulge"
     },

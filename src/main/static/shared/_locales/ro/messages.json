@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "nu este recomandat pentru utilizatorul general"
     },
+    "auto_detect_language": {
+        "message": "Detectarea automată a limbii de la introducerea interogării"
+    },
     "close_btn": {
         "message": "Închide"
     },

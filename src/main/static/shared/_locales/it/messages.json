@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "non raccomandato per l'utente generale"
     },
+    "auto_detect_language": {
+        "message": "Rileva automaticamente la lingua dall'input della query"
+    },
     "close_btn": {
         "message": "Vicino"
     },

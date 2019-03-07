@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "לא מומלץ למשתמש כללי"
     },
+    "auto_detect_language": {
+        "message": "זיהוי שפה אוטומטית מתוך קלט השאילתה"
+    },
     "close_btn": {
         "message": "סגור"
     },

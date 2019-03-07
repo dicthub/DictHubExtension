@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "غير مستحسن للمستخدم العام"
     },
+    "auto_detect_language": {
+        "message": "اكتشاف اللغة تلقائيًا من إدخال الاستعلام"
+    },
     "close_btn": {
         "message": "قريب"
     },

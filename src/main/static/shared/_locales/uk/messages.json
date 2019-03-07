@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "не рекомендується для загального користувача"
     },
+    "auto_detect_language": {
+        "message": "Автоматично визначати мову з введення запиту"
+    },
     "close_btn": {
         "message": "Закрити"
     },

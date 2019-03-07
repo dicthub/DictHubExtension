@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "Anbefales ikke for generell bruker"
     },
+    "auto_detect_language": {
+        "message": "Oppdag språk automatisk fra spørringsinngang"
+    },
     "close_btn": {
         "message": "Lukk"
     },

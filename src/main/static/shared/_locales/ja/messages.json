@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "一般ユーザーにはお勧めできません"
     },
+    "auto_detect_language": {
+        "message": "クエリ入力から言語を自動的に検出"
+    },
     "close_btn": {
         "message": "閉じる"
     },

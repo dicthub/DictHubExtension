@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "hindi inirerekomenda para sa pangkalahatang gumagamit"
     },
+    "auto_detect_language": {
+        "message": "Awtomatikong makita ang wika mula sa input query"
+    },
     "close_btn": {
         "message": "Isara"
     },

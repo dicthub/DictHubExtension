@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "не рекомендуется для обычного пользователя"
     },
+    "auto_detect_language": {
+        "message": "Автоматически определять язык из запроса ввода"
+    },
     "close_btn": {
         "message": "близко"
     },
@@ -18,7 +21,7 @@
         "message": "Экспресс установка!"
     },
     "express_setup_details_google_analytics": {
-        "message": "Предоставьте анонимный доступ к Google Analytics, чтобы улучшить это расширение "
+        "message": "Предоставьте анонимный доступ к Google Analytics, чтобы улучшить это расширение. "
     },
     "express_setup_details_google_plugin": {
         "message": "Установите плагин для перевода Google"

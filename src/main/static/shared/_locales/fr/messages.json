@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "non recommandé pour l'utilisateur général"
     },
+    "auto_detect_language": {
+        "message": "Détecter automatiquement la langue à partir de la requête"
+    },
     "close_btn": {
         "message": "Fermer"
     },
