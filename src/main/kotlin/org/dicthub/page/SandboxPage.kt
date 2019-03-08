@@ -39,6 +39,9 @@ class SandboxPage {
         window.addEventListener("message", evtListener, false)
 
         sendMessageToPopUp(Command.SANDBOX_START, json())
+
+        // unset unnecessary variables
+        js("if(typeof chrome !== 'undefined')chrome=undefined;if(typeof browser !== 'undefined')browser=undefined;")
     }
 
     private fun handlePluginEvent(plugin: Pair<PluginContent, PluginOptions>): Promise<String> {
