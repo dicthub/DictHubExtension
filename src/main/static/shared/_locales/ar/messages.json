@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "حفظ التغييرات"
     },
+    "see_more_info_about_config": {
+        "message": "مزيد من المعلومات حول التكوين"
+    },
     "send_analysis_info": {
         "message": "إرسال بيانات استخدام مجهولة الهوية عبر Google Analytics للمساعدة في تحسين هذه الإضافة."
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "إعدادات الترجمة"
     },
+    "trouble_report": {
+        "message": "وجدت بعض القضايا؟"
+    },
+    "trouble_report_link": {
+        "message": "أخبرنا!"
+    },
     "update_btn": {
         "message": "تحديث"
+    },
+    "welcome_translation_notice": {
+        "message": "هذه الصفحة بالإنجليزية ، انقر فوق زر على اليمين لترجمتها إلى لغتك الأم."
     }
 }

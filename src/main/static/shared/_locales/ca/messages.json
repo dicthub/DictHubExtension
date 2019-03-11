@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "Guardar canvis"
     },
+    "see_more_info_about_config": {
+        "message": "Més informació sobre la configuració"
+    },
     "send_analysis_info": {
         "message": "Envieu dades d'ús anònimes a través de Google Analytics per ajudar a millorar aquesta extensió."
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "Configuració de la traducció"
     },
+    "trouble_report": {
+        "message": "S'ha produït un problema?"
+    },
+    "trouble_report_link": {
+        "message": "Explica'ns"
+    },
     "update_btn": {
         "message": "Actualització"
+    },
+    "welcome_translation_notice": {
+        "message": "Aquesta pàgina està en anglès, feu clic a la dreta per traduir a la vostra llengua materna."
     }
 }

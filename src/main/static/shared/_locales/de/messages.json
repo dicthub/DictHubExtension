@@ -27,7 +27,7 @@
         "message": "Installieren Sie das Google Translation Plugin"
     },
     "express_setup_details_language": {
-        "message": "Automatische Auswahl der Primärsprache aus der Systembenutzersprache"
+        "message": "Automatische Auswahl der Primärsprache aus der System-Oberflächensprache"
     },
     "insecure_translation_script_warning": {
         "message": "Das Übersetzungsergebnis enthält ein unsicheres Skript-Tag."
@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "Änderungen speichern"
     },
+    "see_more_info_about_config": {
+        "message": "Weitere Informationen zur Konfig"
+    },
     "send_analysis_info": {
         "message": "Senden Sie anonyme Nutzungsdaten über Google Analytics, um diese Erweiterung zu verbessern."
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "Übersetzungseinstellungen"
     },
+    "trouble_report": {
+        "message": "Haben Sie ein Problem gefunden?"
+    },
+    "trouble_report_link": {
+        "message": "Erzähl uns!"
+    },
     "update_btn": {
         "message": "Aktualisieren"
+    },
+    "welcome_translation_notice": {
+        "message": "Diese Seite ist in Englisch. Klicken Sie auf die Schaltfläche rechts, um diese in Ihre Muttersprache zu übersetzen."
     }
 }

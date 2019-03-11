@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "Spremi promjene"
     },
+    "see_more_info_about_config": {
+        "message": "Više informacija o konfiguraciji"
+    },
     "send_analysis_info": {
         "message": "Pošaljite anonimne podatke o upotrebi putem usluge Google Analytics kako biste poboljšali ovo proširenje."
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "Postavke prijevoda"
     },
+    "trouble_report": {
+        "message": "Pronašli ste neki problem?"
+    },
+    "trouble_report_link": {
+        "message": "Reci nam!"
+    },
     "update_btn": {
         "message": "ažuriranje"
+    },
+    "welcome_translation_notice": {
+        "message": "Ova stranica je na engleskom jeziku, kliknite gumb na desnoj strani za prijevod na vaš materinji jezik."
     }
 }

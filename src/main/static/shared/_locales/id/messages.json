@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "Simpan perubahan"
     },
+    "see_more_info_about_config": {
+        "message": "Informasi lebih lanjut tentang konfigurasi"
+    },
     "send_analysis_info": {
         "message": "Kirim data penggunaan anonim melalui Google Analytics untuk membantu meningkatkan ekstensi ini."
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "Pengaturan Terjemahan"
     },
+    "trouble_report": {
+        "message": "Menemukan masalah?"
+    },
+    "trouble_report_link": {
+        "message": "Beritahu kami!"
+    },
     "update_btn": {
         "message": "Memperbarui"
+    },
+    "welcome_translation_notice": {
+        "message": "Halaman ini dalam bahasa Inggris, klik tombol di sebelah kanan untuk menerjemahkan ke bahasa ibu Anda."
     }
 }

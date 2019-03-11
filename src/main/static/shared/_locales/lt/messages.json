@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "Išsaugoti pakeitimus"
     },
+    "see_more_info_about_config": {
+        "message": "Daugiau informacijos apie konfigūraciją"
+    },
     "send_analysis_info": {
         "message": "„Google Analytics“ siunčia anoniminius naudojimo duomenis, kad galėtumėte patobulinti šį plėtinį."
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "Vertimo nustatymai"
     },
+    "trouble_report": {
+        "message": "Suradote problemą?"
+    },
+    "trouble_report_link": {
+        "message": "Pasakyk mums!"
+    },
     "update_btn": {
         "message": "Atnaujinti"
+    },
+    "welcome_translation_notice": {
+        "message": "Šis puslapis yra anglų kalba, spustelėkite mygtuką, jei norite išversti į savo gimtąją kalbą."
     }
 }

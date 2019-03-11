@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "I-save ang mga pagbabago"
     },
+    "see_more_info_about_config": {
+        "message": "Higit pang impormasyon tungkol sa config"
+    },
     "send_analysis_info": {
         "message": "Magpadala ng data ng hindi nakikilalang paggamit sa pamamagitan ng Google Analytics upang makatulong na mapabuti ang extension na ito."
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "Mga Setting ng Pagsasalin"
     },
+    "trouble_report": {
+        "message": "Natagpuan ang ilang mga isyu?"
+    },
+    "trouble_report_link": {
+        "message": "Sabihin mo sa amin!"
+    },
     "update_btn": {
         "message": "I-update"
+    },
+    "welcome_translation_notice": {
+        "message": "Ang pahinang ito ay nasa ingles, i-click ang pindutan sa kanan upang isalin sa iyong katutubong wika."
     }
 }

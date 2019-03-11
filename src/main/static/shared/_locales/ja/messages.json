@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "変更内容を保存"
     },
+    "see_more_info_about_config": {
+        "message": "configに関する詳細情報"
+    },
     "send_analysis_info": {
         "message": "この拡張機能を改善するために、Google Analyticsを介して匿名の使用状況データを送信してください。"
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "翻訳設定"
     },
+    "trouble_report": {
+        "message": "いくつかの問題を見つけましたか？"
+    },
+    "trouble_report_link": {
+        "message": "教えて！"
+    },
     "update_btn": {
         "message": "更新"
+    },
+    "welcome_translation_notice": {
+        "message": "このページは英語です。右側のボタンをクリックしてあなたの母国語に翻訳してください。"
     }
 }

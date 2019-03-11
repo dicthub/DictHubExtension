@@ -27,7 +27,7 @@
         "message": "Установите плагин для перевода Google"
     },
     "express_setup_details_language": {
-        "message": "Автоматический выбор основного языка в System UI Language"
+        "message": "Автоматический выбор основного языка из языка интерфейса системы"
     },
     "insecure_translation_script_warning": {
         "message": "Результат перевода содержит небезопасный тег сценария."
@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "Сохранить изменения"
     },
+    "see_more_info_about_config": {
+        "message": "Больше информации о конфигурации"
+    },
     "send_analysis_info": {
         "message": "Отправьте анонимные данные об использовании через Google Analytics, чтобы улучшить это расширение."
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "Настройки перевода"
     },
+    "trouble_report": {
+        "message": "Нашли какую-то проблему?"
+    },
+    "trouble_report_link": {
+        "message": "Расскажи нам!"
+    },
     "update_btn": {
         "message": "Обновить"
+    },
+    "welcome_translation_notice": {
+        "message": "Эта страница на английском языке, нажмите кнопку справа, чтобы перевести на ваш родной язык."
     }
 }

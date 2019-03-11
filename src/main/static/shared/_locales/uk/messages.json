@@ -21,7 +21,7 @@
         "message": "Експрес-налаштування!"
     },
     "express_setup_details_google_analytics": {
-        "message": "Надайте анонімний доступ до Google Analytics, щоб покращити це розширення. "
+        "message": "Поділіться анонімно з Google Analytics, щоб покращити це розширення "
     },
     "express_setup_details_google_plugin": {
         "message": "Встановіть модуль перекладу Google"
@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "Зберегти зміни"
     },
+    "see_more_info_about_config": {
+        "message": "Докладніше про конфігурацію"
+    },
     "send_analysis_info": {
         "message": "Надсилайте анонімні дані про використання через Google Analytics, щоб покращити це розширення."
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "Налаштування перекладу"
     },
+    "trouble_report": {
+        "message": "Виявили певну проблему?"
+    },
+    "trouble_report_link": {
+        "message": "Скажи нам!"
+    },
     "update_btn": {
         "message": "Оновлення"
+    },
+    "welcome_translation_notice": {
+        "message": "Ця сторінка англійською мовою, натисніть кнопку праворуч перекласти на рідну мову."
     }
 }

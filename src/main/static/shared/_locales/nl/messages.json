@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "Wijzigingen opslaan"
     },
+    "see_more_info_about_config": {
+        "message": "Meer informatie over config"
+    },
     "send_analysis_info": {
         "message": "Verzend anonieme gebruiksgegevens via Google Analytics om deze extensie te helpen verbeteren."
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "Vertaalinstellingen"
     },
+    "trouble_report": {
+        "message": "Heb je een probleem gevonden?"
+    },
+    "trouble_report_link": {
+        "message": "Vertel ons!"
+    },
     "update_btn": {
         "message": "Bijwerken"
+    },
+    "welcome_translation_notice": {
+        "message": "Deze pagina is in het Engels, klik op de knop rechts om te vertalen naar uw moedertaal."
     }
 }

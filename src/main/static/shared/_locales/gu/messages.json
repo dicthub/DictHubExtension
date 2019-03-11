@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "ફેરફારો સંગ્રહ"
     },
+    "see_more_info_about_config": {
+        "message": "રૂપરેખા વિશે વધુ માહિતી"
+    },
     "send_analysis_info": {
         "message": "આ એક્સ્ટેન્શનને સુધારવામાં સહાય માટે Google Analytics દ્વારા અનામ વપરાશ ડેટા મોકલો."
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "ભાષાંતર સેટિંગ્સ"
     },
+    "trouble_report": {
+        "message": "કોઈ મુદ્દો મળ્યો?"
+    },
+    "trouble_report_link": {
+        "message": "અમને જણાવો!"
+    },
     "update_btn": {
         "message": "સુધારો"
+    },
+    "welcome_translation_notice": {
+        "message": "આ પૃષ્ઠ અંગ્રેજીમાં છે, તમારી મૂળ ભાષામાં ભાષાંતર કરવા માટે જમણા બટન પર ક્લિક કરો."
     }
 }

@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "변경 사항을 저장하다"
     },
+    "see_more_info_about_config": {
+        "message": "구성에 대한 추가 정보"
+    },
     "send_analysis_info": {
         "message": "이 확장 기능을 개선하기 위해 Google 웹 로그 분석을 통해 익명의 사용 데이터를 보냅니다."
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "번역 설정"
     },
+    "trouble_report": {
+        "message": "문제가 있습니까?"
+    },
+    "trouble_report_link": {
+        "message": "우리에게 말해!"
+    },
     "update_btn": {
         "message": "최신 정보"
+    },
+    "welcome_translation_notice": {
+        "message": "이 페이지는 영어로되어 있으며 오른쪽에있는 버튼을 클릭하면 모국어로 번역됩니다."
     }
 }

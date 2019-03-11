@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "Salvesta muudatused"
     },
+    "see_more_info_about_config": {
+        "message": "Lisateavet konfiguratsiooni kohta"
+    },
     "send_analysis_info": {
         "message": "Selle laienduse parandamiseks saatke Google Analyticsi kaudu anonüümsed kasutusandmed."
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "Tõlkeseaded"
     },
+    "trouble_report": {
+        "message": "Leidis mõne probleemi?"
+    },
+    "trouble_report_link": {
+        "message": "Räägi meile!"
+    },
     "update_btn": {
         "message": "Uuenda"
+    },
+    "welcome_translation_notice": {
+        "message": "See lehekülg on inglise keeles, klõpsa paremale, et tõlkida oma emakeeles."
     }
 }

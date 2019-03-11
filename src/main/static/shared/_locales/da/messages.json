@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "Gem ændringer"
     },
+    "see_more_info_about_config": {
+        "message": "Flere oplysninger om config"
+    },
     "send_analysis_info": {
         "message": "Send anonyme brugsdata via Google Analytics for at hjælpe med at forbedre denne udvidelse."
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "Oversættelsesindstillinger"
     },
+    "trouble_report": {
+        "message": "Har du fundet noget problem?"
+    },
+    "trouble_report_link": {
+        "message": "Fortæl os!"
+    },
     "update_btn": {
         "message": "Opdatering"
+    },
+    "welcome_translation_notice": {
+        "message": "Denne side er på engelsk, klik på knappen til højre for oversættelse til dit modersmål."
     }
 }

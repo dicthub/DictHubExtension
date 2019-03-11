@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "Spara ändringar"
     },
+    "see_more_info_about_config": {
+        "message": "Mer information om config"
+    },
     "send_analysis_info": {
         "message": "Skicka anonyma användardata via Google Analytics för att förbättra den här utvidgningen."
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "Översättningsinställningar"
     },
+    "trouble_report": {
+        "message": "Hittade några problem?"
+    },
+    "trouble_report_link": {
+        "message": "Berätta för oss!"
+    },
     "update_btn": {
         "message": "Uppdatering"
+    },
+    "welcome_translation_notice": {
+        "message": "Den här sidan är på engelska, klicka på knappen till höger för att översätta till ditt modersmål."
     }
 }

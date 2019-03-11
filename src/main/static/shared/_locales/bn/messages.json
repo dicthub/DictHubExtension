@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "পরিবর্তনগুলোর সংরক্ষন"
     },
+    "see_more_info_about_config": {
+        "message": "কনফিগ সম্পর্কে আরও তথ্য"
+    },
     "send_analysis_info": {
         "message": "এই এক্সটেনশনটি উন্নত করতে সহায়তার জন্য Google Analytics এর মাধ্যমে বেনামী ব্যবহার ডেটা পাঠান।"
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "অনুবাদ সেটিংস"
     },
+    "trouble_report": {
+        "message": "কিছু সমস্যা খুঁজে পেয়েছেন?"
+    },
+    "trouble_report_link": {
+        "message": "আমাদেরকে বল!"
+    },
     "update_btn": {
         "message": "হালনাগাদ"
+    },
+    "welcome_translation_notice": {
+        "message": "এই পৃষ্ঠাটি ইংরেজিতে, আপনার স্থানীয় ভাষাতে অনুবাদ করার জন্য ডান বোতামে ক্লিক করুন।"
     }
 }

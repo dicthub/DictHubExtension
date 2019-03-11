@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "మార్పులను ఊంచు"
     },
+    "see_more_info_about_config": {
+        "message": "Config గురించి మరింత సమాచారం"
+    },
     "send_analysis_info": {
         "message": "ఈ పొడిగింపును మెరుగుపరచడంలో సహాయపడటానికి Google Analytics ద్వారా అనామక వినియోగ డేటాను పంపండి."
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "అనువాద సెట్టింగులు"
     },
+    "trouble_report": {
+        "message": "కొన్ని సమస్య కనుగొనబడిందా?"
+    },
+    "trouble_report_link": {
+        "message": "మాకు చెప్పండి!"
+    },
     "update_btn": {
         "message": "నవీకరణ"
+    },
+    "welcome_translation_notice": {
+        "message": "ఈ పేజీ ఆంగ్లంలో ఉంది, మీ స్థానిక భాషలోకి అనువదించడానికి కుడివైపు బటన్ను క్లిక్ చేయండి."
     }
 }

@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "Lưu thay đổi"
     },
+    "see_more_info_about_config": {
+        "message": "Thêm thông tin về cấu hình"
+    },
     "send_analysis_info": {
         "message": "Gửi dữ liệu sử dụng ẩn danh qua Google Analytics để giúp cải thiện tiện ích mở rộng này."
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "Cài đặt dịch"
     },
+    "trouble_report": {
+        "message": "Tìm thấy một số vấn đề?"
+    },
+    "trouble_report_link": {
+        "message": "Nói với chúng tôi!"
+    },
     "update_btn": {
         "message": "Cập nhật"
+    },
+    "welcome_translation_notice": {
+        "message": "Trang này bằng tiếng Anh, nhấp vào nút bên phải để dịch sang ngôn ngữ mẹ đẻ của bạn."
     }
 }

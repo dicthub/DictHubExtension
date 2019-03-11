@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "Αποθήκευσε τις αλλαγές"
     },
+    "see_more_info_about_config": {
+        "message": "Περισσότερες πληροφορίες σχετικά με το config"
+    },
     "send_analysis_info": {
         "message": "Στείλτε ανώνυμα δεδομένα χρήσης μέσω του Google Analytics για να βελτιώσετε αυτήν την επέκταση."
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "Ρυθμίσεις μετάφρασης"
     },
+    "trouble_report": {
+        "message": "Βρήκατε κάποιο ζήτημα;"
+    },
+    "trouble_report_link": {
+        "message": "Πες μας!"
+    },
     "update_btn": {
         "message": "Εκσυγχρονίζω"
+    },
+    "welcome_translation_notice": {
+        "message": "Αυτή η σελίδα είναι στα αγγλικά, κάντε κλικ στο κουμπί στα δεξιά για να μεταφράσετε στη μητρική σας γλώσσα."
     }
 }

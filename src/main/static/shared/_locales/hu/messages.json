@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "Változtatások mentése"
     },
+    "see_more_info_about_config": {
+        "message": "További információ a config-ról"
+    },
     "send_analysis_info": {
         "message": "A kiterjesztés javítása érdekében a Google Analytics segítségével küldjön névtelen használati adatokat."
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "Fordítási beállítások"
     },
+    "trouble_report": {
+        "message": "Talált valamilyen problémát?"
+    },
+    "trouble_report_link": {
+        "message": "Mondd el nekünk!"
+    },
     "update_btn": {
         "message": "frissítés"
+    },
+    "welcome_translation_notice": {
+        "message": "Ez az oldal angol nyelven érhető el, kattintson a jobb oldali gombra az anyanyelvre való fordításhoz."
     }
 }

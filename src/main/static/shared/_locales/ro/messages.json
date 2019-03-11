@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "Salvează modificările"
     },
+    "see_more_info_about_config": {
+        "message": "Mai multe informații despre config"
+    },
     "send_analysis_info": {
         "message": "Trimiteți datele de utilizare anonime prin Google Analytics pentru a îmbunătăți această extensie."
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "Setările de traducere"
     },
+    "trouble_report": {
+        "message": "Ați găsit ceva?"
+    },
+    "trouble_report_link": {
+        "message": "Spune-ne!"
+    },
     "update_btn": {
         "message": "Actualizați"
+    },
+    "welcome_translation_notice": {
+        "message": "Această pagină este în limba engleză, faceți clic pe butonul din dreapta pentru a traduce în limba maternă."
     }
 }

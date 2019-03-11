@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "Değişiklikleri Kaydet"
     },
+    "see_more_info_about_config": {
+        "message": "Config hakkında daha fazla bilgi"
+    },
     "send_analysis_info": {
         "message": "Bu uzantıyı iyileştirmeye yardımcı olmak için Google Analytics aracılığıyla adsız kullanım verileri gönderin."
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "Çeviri Ayarları"
     },
+    "trouble_report": {
+        "message": "Bir sorun mu buldun?"
+    },
+    "trouble_report_link": {
+        "message": "Bize söyle!"
+    },
     "update_btn": {
         "message": "Güncelleştirme"
+    },
+    "welcome_translation_notice": {
+        "message": "Bu sayfa ingilizcedir, ana dilinize çevirmek için sağdaki düğmeye tıklayınız."
     }
 }

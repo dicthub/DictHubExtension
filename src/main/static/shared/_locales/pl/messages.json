@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "Zapisz zmiany"
     },
+    "see_more_info_about_config": {
+        "message": "Więcej informacji o konfiguracji"
+    },
     "send_analysis_info": {
         "message": "Przesyłaj anonimowe dane o użytkowaniu za pomocą Google Analytics, aby ulepszyć to rozszerzenie."
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "Ustawienia tłumaczenia"
     },
+    "trouble_report": {
+        "message": "Znalazłeś jakiś problem?"
+    },
+    "trouble_report_link": {
+        "message": "Powiedz nam!"
+    },
     "update_btn": {
         "message": "Aktualizacja"
+    },
+    "welcome_translation_notice": {
+        "message": "Ta strona jest w języku angielskim, kliknij przycisk po prawej, aby przetłumaczyć na twój język ojczysty."
     }
 }

@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "ለውጦችን አስቀምጥ"
     },
+    "see_more_info_about_config": {
+        "message": "ስለማክክለኛ ተጨማሪ መረጃ"
+    },
     "send_analysis_info": {
         "message": "ይህንን ቅጥያ ለማሻሻል ስም-አልባ የአጠቃቀም ውሂብ በ Google ትንታኔዎች ይላኩ."
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "የትርጉም ቅንብሮች"
     },
+    "trouble_report": {
+        "message": "የሆነ ችግር አጋጠመ?"
+    },
+    "trouble_report_link": {
+        "message": "ንገረን!"
+    },
     "update_btn": {
         "message": "አዘምን"
+    },
+    "welcome_translation_notice": {
+        "message": "ይህ ገጽ በእንግሊዝኛ ነው, ወደ የአፍ መፍቻ ቋንቋዎ ለመተርጎም በስተቀኝ በኩል ያለው አዝራርን ጠቅ ያድርጉ."
     }
 }

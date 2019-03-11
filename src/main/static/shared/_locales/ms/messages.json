@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "Simpan Perubahan"
     },
+    "see_more_info_about_config": {
+        "message": "Maklumat lanjut mengenai config"
+    },
     "send_analysis_info": {
         "message": "Hantar data penggunaan tanpa nama melalui Google Analytics untuk membantu meningkatkan pelanjutan ini."
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "Tetapan Terjemahan"
     },
+    "trouble_report": {
+        "message": "Menemui beberapa isu?"
+    },
+    "trouble_report_link": {
+        "message": "Beritahu kami!"
+    },
     "update_btn": {
         "message": "Kemas kini"
+    },
+    "welcome_translation_notice": {
+        "message": "Halaman ini dalam bahasa inggeris, klik butang di sebelah kanan untuk menterjemahkan ke bahasa ibunda anda."
     }
 }

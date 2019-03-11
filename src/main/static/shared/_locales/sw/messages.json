@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "Hifadhi mabadiliko"
     },
+    "see_more_info_about_config": {
+        "message": "Maelezo zaidi kuhusu config"
+    },
     "send_analysis_info": {
         "message": "Tuma data ya matumizi isiyojulikana kupitia Google Analytics ili kusaidia kuboresha ugani huu."
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "Mipangilio ya Tafsiri"
     },
+    "trouble_report": {
+        "message": "Je, umepata suala fulani?"
+    },
+    "trouble_report_link": {
+        "message": "Tuambie!"
+    },
     "update_btn": {
         "message": "Sasisha"
+    },
+    "welcome_translation_notice": {
+        "message": "Ukurasa huu uko katika swahili, bonyeza kifungo upande wa kulia wa kutafsiri kwa lugha yako ya asili."
     }
 }

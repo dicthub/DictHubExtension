@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "Save Changes"
     },
+    "see_more_info_about_config": {
+        "message": "More information about config"
+    },
     "send_analysis_info": {
         "message": "Send anonymous usage data via Google Analytics to help improve this extension."
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "Translation Settings"
     },
+    "trouble_report": {
+        "message": "Found some issue?"
+    },
+    "trouble_report_link": {
+        "message": "Tell us!"
+    },
     "update_btn": {
         "message": "Update"
+    },
+    "welcome_translation_notice": {
+        "message": "This page is in english, click button on the right to translate to your native language."
     }
 }

@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "ذخیره تغییرات"
     },
+    "see_more_info_about_config": {
+        "message": "اطلاعات بیشتر درباره پیکربندی"
+    },
     "send_analysis_info": {
         "message": "ارسال داده های ناشناس ناشناس از طریق Google Analytics برای کمک به بهبود این افزونه."
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "تنظیمات ترجمه"
     },
+    "trouble_report": {
+        "message": "برخی از مسائل را در بر داشت؟"
+    },
+    "trouble_report_link": {
+        "message": "به ما بگو!"
+    },
     "update_btn": {
         "message": "به روز رسانی"
+    },
+    "welcome_translation_notice": {
+        "message": "این صفحه به زبان انگلیسی است و دکمهی کلیک راست را برای ترجمه به زبان مادری خود دارد."
     }
 }

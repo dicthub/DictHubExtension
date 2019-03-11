@@ -21,7 +21,7 @@
         "message": "Екпресс Сетуп!"
     },
     "express_setup_details_google_analytics": {
-        "message": "Делите анонимно са Гоогле Аналитицс како бисте побољшали ово проширење. "
+        "message": "Делите анонимно са Гоогле Аналитицс да бисте побољшали ово проширење "
     },
     "express_setup_details_google_plugin": {
         "message": "Инсталирајте Гоогле преводилачки додатак"
@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "Сачувај измене"
     },
+    "see_more_info_about_config": {
+        "message": "Више информација о конфигурацији"
+    },
     "send_analysis_info": {
         "message": "Пошаљите анонимне податке о коришћењу помоћу услуге Гоогле Аналитицс да бисте побољшали ово проширење."
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "Подешавања превода"
     },
+    "trouble_report": {
+        "message": "Пронашли сте неки проблем?"
+    },
+    "trouble_report_link": {
+        "message": "Реците нам!"
+    },
     "update_btn": {
         "message": "ажурирање"
+    },
+    "welcome_translation_notice": {
+        "message": "Ова страница је на енглеском језику, кликните на гумб за превођење на ваш матерњи језик."
     }
 }

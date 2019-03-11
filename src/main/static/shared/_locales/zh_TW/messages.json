@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "保存更改"
     },
+    "see_more_info_about_config": {
+        "message": "有關配置的更多信息"
+    },
     "send_analysis_info": {
         "message": "通過Google Analytics發送匿名使用數據，以幫助改進此擴展程序。"
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "翻譯設置"
     },
+    "trouble_report": {
+        "message": "發現了一些問題？"
+    },
+    "trouble_report_link": {
+        "message": "告訴我們！"
+    },
     "update_btn": {
         "message": "更新"
+    },
+    "welcome_translation_notice": {
+        "message": "此頁面為英文，單擊右側的按鈕可翻譯為您的母語。"
     }
 }

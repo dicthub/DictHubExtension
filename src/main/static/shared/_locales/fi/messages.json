@@ -33,7 +33,7 @@
         "message": "Käännöstulos sisältää epävarman komentosarjan."
     },
     "max_translation_result": {
-        "message": "Käännöstuloksen enimmäismäärä"
+        "message": "Kääntämisen tulos"
     },
     "options_btn": {
         "message": "vaihtoehdot"
@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "Tallenna muutokset"
     },
+    "see_more_info_about_config": {
+        "message": "Lisätietoja konfiguroinnista"
+    },
     "send_analysis_info": {
         "message": "Lähetä anonyymit käyttötiedot Google Analyticsin avulla tämän laajennuksen parantamiseksi."
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "Käännösasetukset"
     },
+    "trouble_report": {
+        "message": "Löysin jonkin ongelman?"
+    },
+    "trouble_report_link": {
+        "message": "Kerro meille!"
+    },
     "update_btn": {
         "message": "Päivittää"
+    },
+    "welcome_translation_notice": {
+        "message": "Tämä sivu on englanniksi, napsauta painiketta oikealla kääntääksesi äidinkielesi."
     }
 }

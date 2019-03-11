@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "மாற்றங்களை சேமியுங்கள்"
     },
+    "see_more_info_about_config": {
+        "message": "கட்டமைப்பு பற்றி மேலும் தகவல்"
+    },
     "send_analysis_info": {
         "message": "இந்த நீட்டிப்பை மேம்படுத்த உதவ, Google Analytics வழியாக அநாமதேய பயன்பாட்டுத் தரவை அனுப்பவும்."
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "மொழிபெயர்ப்பு அமைப்புகள்"
     },
+    "trouble_report": {
+        "message": "சில சிக்கல்களைக் கண்டீர்களா?"
+    },
+    "trouble_report_link": {
+        "message": "எங்களிடம் சொல்!"
+    },
     "update_btn": {
         "message": "புதுப்பிக்கப்பட்டது"
+    },
+    "welcome_translation_notice": {
+        "message": "இந்த பக்கம் ஆங்கிலத்தில் உள்ளது, உங்கள் சொந்த மொழியில் மொழிபெயர்க்க வலதுபக்கத்தில் பொத்தானைக் கிளிக் செய்யவும்."
     }
 }

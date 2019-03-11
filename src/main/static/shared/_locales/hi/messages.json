@@ -53,6 +53,9 @@
     "save_changes_btn": {
         "message": "परिवर्तनों को सुरक्षित करें"
     },
+    "see_more_info_about_config": {
+        "message": "कॉन्फ़िगरेशन के बारे में अधिक जानकारी"
+    },
     "send_analysis_info": {
         "message": "इस एक्सटेंशन को बेहतर बनाने में सहायता के लिए Google Analytics के माध्यम से अनाम उपयोग डेटा भेजें।"
     },
@@ -65,7 +68,16 @@
     "translation_settings": {
         "message": "अनुवाद सेटिंग्स"
     },
+    "trouble_report": {
+        "message": "कुछ मुद्दा मिला?"
+    },
+    "trouble_report_link": {
+        "message": "हमें बताओ!"
+    },
     "update_btn": {
         "message": "अद्यतन करें"
+    },
+    "welcome_translation_notice": {
+        "message": "यह पृष्ठ अंग्रेजी में है, अपनी मूल भाषा में अनुवाद करने के अधिकार पर बटन पर क्लिक करें।"
     }
 }
