@@ -1,5 +1,6 @@
 package org.dicthub.page
 
+import i18nMessage
 import org.dicthub.model.PluginInfo
 import org.dicthub.model.UserPreference
 import org.dicthub.plugin.PluginIndex
@@ -29,6 +30,16 @@ class OptionsPage(private val userPreference: UserPreference,
     fun render() {
         document.body?.append {
             div(classes = "container card") {
+                div(classes = "alert alert-info mt-3") {
+                    role = "alert"
+                    i("fas fa-hand-point-right mr-1") { }
+                    +i18nMessage("see_more_info_about_config")
+                    +": "
+                    a(href = "https://dicthub.org/docs/manual/config/") {
+                        target = "_blank"
+                        +"Config Manual"
+                    }
+                }
                 div(classes = CSS_SETTINGS_SECTION) {
                     id = ID_TRANSLATION_SETTINGS
                 }
@@ -37,6 +48,15 @@ class OptionsPage(private val userPreference: UserPreference,
                 }
                 div(classes = CSS_SETTINGS_SECTION) {
                     id = ID_ADVANCED_SETTINGS
+                }
+                div(classes = "alert alert-info my-3") {
+                    role = "alert"
+                    +i18nMessage("trouble_report")
+                    i("fas fa-bug mr-1") { }
+                    a(href = "https://github.com/dicthub/DictHubExtension/issues/new") {
+                        target = "_blank"
+                        +i18nMessage("trouble_report_link")
+                    }
                 }
             }
         }

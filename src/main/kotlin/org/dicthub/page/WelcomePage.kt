@@ -18,8 +18,17 @@ class WelcomePage(private val userPreference: UserPreference,
                   private val pluginIndex: PluginIndex,
                   private val pluginUpdater: PluginContentAdapter) {
 
+    private val guideUrl = "https://dicthub.org/docs/getting-started/quick-start/"
+
     fun render() {
         document.body?.append {
+            div (classes = "alert alert-info mt-1 mb-0 py-0") {
+                +i18nMessage("welcome_translation_notice")
+                a (classes = "btn", href = "https://translate.google.com/translate?sl=en&u=${encodeURIComponent(guideUrl)}&tl=${browserObj.i18n.getUILanguage()}") {
+                    target = "_blank"
+                    +"\uD83C\uDF0F"
+                }
+            }
             div {
                 style = "width:100%;height:100%;margin-bottom:4rem;"
                 appendHelpIframe(this)
@@ -36,7 +45,7 @@ class WelcomePage(private val userPreference: UserPreference,
             style = "border:0; padding-bottom: 4rem"
             width = "100%"
             height = "100%"
-            src = "https://dicthub.org/" // FIXME: Change to correct url
+            src = guideUrl
         }
     }
 
@@ -86,3 +95,5 @@ class WelcomePage(private val userPreference: UserPreference,
         }
     }
 }
+
+private external fun encodeURIComponent(urlComponent: String): String
