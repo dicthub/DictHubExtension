@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "Dict Hub",
+  "name": "DictHub",
   "author": "DictHub",
-  "version": "1.0",
+  "version": "1.0.1",
 
-  "description": "This extension helps pull translation result from multiple provider via one-click",
+  "description": "One-click to get translation/dictionary from all sources, supporting 100+ languages.",
 
   "browser_action": {
     "default_icon": "ico/dicthub-19.png",
@@ -24,8 +24,7 @@
   "commands": {
     "_execute_browser_action": {
       "suggested_key": {
-        "default": "Alt+W",
-        "linux": "Alt+W"
+        "default": "Alt+W"
       },
       "description": "Send a 'toggle-feature' event to the extension"
     }
@@ -36,11 +35,11 @@
   "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.google-analytics.com https://ssl.google-analytics.com; object-src 'self'",
 
   "permissions": [
-    "activeTab",
     "storage",
+    "activeTab",
     "tabs",
     "contextMenus",
-    "<all_urls>"
+    "\u003Call_urls>"
   ],
 
   "web_accessible_resources": [
@@ -57,7 +56,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
+      "matches": ["http://*/*", "https://*/*"],
       "js": ["js/injectContextMenu.js"]
     }
   ]
