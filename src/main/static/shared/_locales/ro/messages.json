@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "nu este recomandat pentru utilizatorul general"
     },
+    "appDesc": {
+        "message": "Faceți un clic pentru a obține traducere / dicționar din toate sursele, sprijinind peste 100 de limbi."
+    },
     "auto_detect_language": {
         "message": "Detectarea automată a limbii de la introducerea interogării"
     },

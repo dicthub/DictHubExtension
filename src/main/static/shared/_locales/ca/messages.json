@@ -3,10 +3,13 @@
         "message": "Configuració avançada"
     },
     "advanced_settings_warn": {
-        "message": "no recomanat per a usuaris generals"
+        "message": "no es recomana per a usuaris generals"
+    },
+    "appDesc": {
+        "message": "Un sol clic per obtenir traducció / diccionari de totes les fonts, donant suport a més de 100 idiomes."
     },
     "auto_detect_language": {
-        "message": "Detecta automàticament el llenguatge de l'entrada de consulta"
+        "message": "Detecta automàticament l'idioma des de l'entrada de consulta"
     },
     "close_btn": {
         "message": "Tanca"
@@ -15,34 +18,34 @@
         "message": "arrossegueu per canviar l'ordre"
     },
     "edit_settings_directly": {
-        "message": "Editeu la configuració directament"
+        "message": "Editeu els paràmetres directament"
     },
     "express_setup_btn": {
-        "message": "Configuració ràpida!"
+        "message": "Configuració expressa!"
     },
     "express_setup_details_google_analytics": {
-        "message": "Compartiu anònim amb Google Analytics per ajudar a millorar aquesta extensió. "
+        "message": "Comparteix anònimament amb Google Analytics per ajudar a millorar aquesta extensió. "
     },
     "express_setup_details_google_plugin": {
         "message": "Instal·leu el connector de traducció de Google"
     },
     "express_setup_details_language": {
-        "message": "Seleccioneu automàticament l'idioma principal de l'idioma de la UI del sistema"
+        "message": "Seleccioneu automàticament el llenguatge principal del Llenguatge d'interfície d'usuari del sistema"
     },
     "insecure_translation_script_warning": {
-        "message": "El resultat de la traducció conté una etiqueta de seqüència insegura."
+        "message": "El resultat de la traducció conté una etiqueta d’escriptura insegura."
     },
     "max_translation_result": {
-        "message": "Resultat de traducció màx"
+        "message": "Resultat de la traducció màxima"
     },
     "options_btn": {
         "message": "Opcions"
     },
     "plugin_repository_list": {
-        "message": "Llista de dipòsits del complement"
+        "message": "Llista de repositori de connectors"
     },
     "plugin_settings": {
-        "message": "Configuració del complement"
+        "message": "Configuració del connector"
     },
     "preferred_language": {
         "message": "Idioma preferit"
@@ -54,30 +57,30 @@
         "message": "Guardar canvis"
     },
     "see_more_info_about_config": {
-        "message": "Més informació sobre la configuració"
+        "message": "Més informació sobre configuració"
     },
     "send_analysis_info": {
         "message": "Envieu dades d'ús anònimes a través de Google Analytics per ajudar a millorar aquesta extensió."
     },
     "show_advanced_settings": {
-        "message": "Mostra la configuració"
+        "message": "Mostra els paràmetres"
     },
     "show_details_btn": {
         "message": "Mostra els detalls"
     },
     "translation_settings": {
-        "message": "Configuració de la traducció"
+        "message": "Configuració de traducció"
     },
     "trouble_report": {
-        "message": "S'ha produït un problema?"
+        "message": "He trobat algun problema?"
     },
     "trouble_report_link": {
-        "message": "Explica'ns"
+        "message": "Digueu-nos-ho!"
     },
     "update_btn": {
         "message": "Actualització"
     },
     "welcome_translation_notice": {
-        "message": "Aquesta pàgina està en anglès, feu clic a la dreta per traduir a la vostra llengua materna."
+        "message": "Aquesta pàgina està en anglès, feu clic al botó de la dreta per traduir a la vostra llengua materna."
     }
 }

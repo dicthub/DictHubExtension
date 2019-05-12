@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "ለጠቅላላ ተጠቃሚ አይመከርም"
     },
+    "appDesc": {
+        "message": "ከአንድ በላይ ጠቅ ማድረግ, ከሁሉም ምንጮች / መዝገበ ቃላት, 100+ ቋንቋዎችን በመደገፍ."
+    },
     "auto_detect_language": {
         "message": "ቋንቋ ከውስጣዊ ግቤት በራስ-ሰር አግኝ"
     },

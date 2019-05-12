@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "não recomendado para usuário geral"
     },
+    "appDesc": {
+        "message": "Um clique para obter tradução / dicionário de todas as fontes, suportando mais de 100 idiomas."
+    },
     "auto_detect_language": {
         "message": "Detectar automaticamente o idioma da entrada de consulta"
     },

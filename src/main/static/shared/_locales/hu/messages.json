@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "nem ajánlott általános felhasználók számára"
     },
+    "appDesc": {
+        "message": "Egy kattintás, hogy minden forrásból fordítást / szótárat kaphasson, amely 100 + nyelvet támogat."
+    },
     "auto_detect_language": {
         "message": "Automatikusan észleli a nyelvet a lekérdezésbevitelből"
     },
@@ -45,7 +48,7 @@
         "message": "Plugin beállítások"
     },
     "preferred_language": {
-        "message": "Előnyben részesített nyelv"
+        "message": "Preferált nyelv"
     },
     "raw_json_config_title": {
         "message": "Nyers json konfiguráció"
@@ -57,7 +60,7 @@
         "message": "További információ a config-ról"
     },
     "send_analysis_info": {
-        "message": "A kiterjesztés javítása érdekében a Google Analytics segítségével küldjön névtelen használati adatokat."
+        "message": "A kiterjesztés javításához küldjön névtelen használati adatokat a Google Analytics segítségével."
     },
     "show_advanced_settings": {
         "message": "Beállítások megjelenítése"
@@ -78,6 +81,6 @@
         "message": "frissítés"
     },
     "welcome_translation_notice": {
-        "message": "Ez az oldal angol nyelven érhető el, kattintson a jobb oldali gombra az anyanyelvre való fordításhoz."
+        "message": "Ez az oldal angol nyelven érhető el, kattintson a jobb oldali gombra, hogy lefordítsa anyanyelvét."
     }
 }

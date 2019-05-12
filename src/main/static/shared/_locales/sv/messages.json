@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "rekommenderas inte för allmän användare"
     },
+    "appDesc": {
+        "message": "Ett klick för att få översättning / ordbok från alla källor, stödja 100 + språk."
+    },
     "auto_detect_language": {
         "message": "Upptäck automatiskt språket från inmatningsinmatningen"
     },

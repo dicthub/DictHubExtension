@@ -3,7 +3,10 @@
         "message": "Pengaturan lanjutan"
     },
     "advanced_settings_warn": {
-        "message": "tidak disarankan untuk pengguna umum"
+        "message": "tidak direkomendasikan untuk pengguna umum"
+    },
+    "appDesc": {
+        "message": "Satu klik untuk mendapatkan terjemahan / kamus dari semua sumber, mendukung 100+ bahasa."
     },
     "auto_detect_language": {
         "message": "Secara otomatis mendeteksi bahasa dari input permintaan"

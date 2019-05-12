@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "לא מומלץ למשתמש כללי"
     },
+    "appDesc": {
+        "message": "בלחיצה אחת כדי לקבל תרגום / מילון מכל המקורות, תמיכה 100 שפות +."
+    },
     "auto_detect_language": {
         "message": "זיהוי שפה אוטומטית מתוך קלט השאילתה"
     },

@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "일반 사용자에게는 권장하지 않음"
     },
+    "appDesc": {
+        "message": "한 번 클릭으로 100 개 이상의 언어를 지원하는 모든 출처에서 번역 / 사전을 가져옵니다."
+    },
     "auto_detect_language": {
         "message": "검색어 입력에서 언어 자동 감지"
     },

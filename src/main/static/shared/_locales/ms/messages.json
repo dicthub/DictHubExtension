@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "tidak disyorkan untuk pengguna am"
     },
+    "appDesc": {
+        "message": "Satu klik untuk mendapatkan terjemahan / kamus dari semua sumber, menyokong 100+ bahasa."
+    },
     "auto_detect_language": {
         "message": "Secara automatik mengesan bahasa dari input pertanyaan"
     },
@@ -30,7 +33,7 @@
         "message": "Auto pilih main utama dari Bahasa UI Sistem"
     },
     "insecure_translation_script_warning": {
-        "message": "Hasil terjemahan mengandungi tag skrip yang tidak selamat."
+        "message": "Hasil terjemahan mengandungi tag skrip tidak selamat."
     },
     "max_translation_result": {
         "message": "Hasil Terjemahan Terjemahan"

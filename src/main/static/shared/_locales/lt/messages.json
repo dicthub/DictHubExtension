@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "nerekomenduojama bendram vartotojui"
     },
+    "appDesc": {
+        "message": "Vienu paspaudimu, norėdami gauti vertimą / žodyną iš visų šaltinių, palaikančių 100 + kalbų."
+    },
     "auto_detect_language": {
         "message": "Automatiškai aptikti kalbos užklausą"
     },
@@ -27,7 +30,7 @@
         "message": "Įdiekite „Google“ vertimo įskiepį"
     },
     "express_setup_details_language": {
-        "message": "Automatinis pirminio lango pasirinkimas iš sistemos UI kalbos"
+        "message": "Automatiškai pasirinkite pirminį langą iš sistemos UI kalbos"
     },
     "insecure_translation_script_warning": {
         "message": "Vertimo rezultate yra nesaugių scenarijų žyma."

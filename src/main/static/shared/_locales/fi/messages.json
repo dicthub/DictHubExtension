@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "ei suositella yleiselle käyttäjälle"
     },
+    "appDesc": {
+        "message": "Yhdellä napsautuksella saat käännöksen / sanakirjan kaikista lähteistä, jotka tukevat 100 + kieltä."
+    },
     "auto_detect_language": {
         "message": "Tunnista kieli automaattisesti kyselyn syötöstä"
     },
@@ -33,7 +36,7 @@
         "message": "Käännöstulos sisältää epävarman komentosarjan."
     },
     "max_translation_result": {
-        "message": "Kääntämisen tulos"
+        "message": "Käännöstuloksen enimmäismäärä"
     },
     "options_btn": {
         "message": "vaihtoehdot"
@@ -78,6 +81,6 @@
         "message": "Päivittää"
     },
     "welcome_translation_notice": {
-        "message": "Tämä sivu on englanniksi, napsauta painiketta oikealla kääntääksesi äidinkielesi."
+        "message": "Tämä sivu on englanninkielinen, napsauta painiketta oikealla kääntääksesi äidinkielesi."
     }
 }

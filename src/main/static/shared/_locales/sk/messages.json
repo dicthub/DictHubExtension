@@ -3,34 +3,37 @@
         "message": "Pokročilé nastavenia"
     },
     "advanced_settings_warn": {
-        "message": "neodporúča pre všeobecného používateľa"
+        "message": "neodporúča sa pre všeobecných používateľov"
+    },
+    "appDesc": {
+        "message": "Jedným kliknutím získate preklad / slovník zo všetkých zdrojov, ktorý podporuje viac ako 100 jazykov."
     },
     "auto_detect_language": {
-        "message": "Automaticky rozpoznávať jazyk z zadávania dopytu"
+        "message": "Automaticky zisťovať jazyk zo zadávania dopytov"
     },
     "close_btn": {
         "message": "Zavrieť"
     },
     "drag_to_change_order": {
-        "message": "presuňte, ak chcete zmeniť poradie"
+        "message": "ťahom zmeníte poradie"
     },
     "edit_settings_directly": {
-        "message": "Upravte priamo nastavenia"
+        "message": "Upravte nastavenia priamo"
     },
     "express_setup_btn": {
-        "message": "Express Setup!"
+        "message": "Expresné nastavenie!"
     },
     "express_setup_details_google_analytics": {
-        "message": "Ak chcete zdokonaliť toto rozšírenie, zdieľajte službu Google Analytics anonymne. "
+        "message": "Zdieľajte anonymitu so službou Google Analytics, aby ste mohli toto rozšírenie zlepšiť. "
     },
     "express_setup_details_google_plugin": {
-        "message": "Nainštalujte Plugin prekladu Google"
+        "message": "Nainštalujte doplnok na preklad Google"
     },
     "express_setup_details_language": {
-        "message": "Automaticky vyberiete primárny jazyk z jazyka systémového rozhrania"
+        "message": "Automatická voľba primárneho zaostrenia z jazyka System UI Language"
     },
     "insecure_translation_script_warning": {
-        "message": "Výsledok prekladu obsahuje nezabezpečenú značku skriptu."
+        "message": "Výsledok prekladu obsahuje značku nezabezpečeného skriptu."
     },
     "max_translation_result": {
         "message": "Maximálny výsledok prekladu"
@@ -39,7 +42,7 @@
         "message": "možnosti"
     },
     "plugin_repository_list": {
-        "message": "Zoznam úložiska doplnkov"
+        "message": "Zoznam úložísk doplnkov"
     },
     "plugin_settings": {
         "message": "Nastavenia doplnkov"
@@ -48,16 +51,16 @@
         "message": "uprednostňovaný jazyk"
     },
     "raw_json_config_title": {
-        "message": "Raw json config"
+        "message": "Konfigurácia raw json"
     },
     "save_changes_btn": {
         "message": "Uložiť zmeny"
     },
     "see_more_info_about_config": {
-        "message": "Ďalšie informácie o konfigurácii"
+        "message": "Viac informácií o konfigurácii"
     },
     "send_analysis_info": {
-        "message": "Odoslať anonymné údaje o používaní prostredníctvom služby Google Analytics, ktoré vám pomôžu zlepšiť toto rozšírenie."
+        "message": "Odoslanie anonymných údajov o používaní prostredníctvom služby Google Analytics vám pomôže zlepšiť toto rozšírenie."
     },
     "show_advanced_settings": {
         "message": "Zobraziť nastavenia"
@@ -78,6 +81,6 @@
         "message": "aktualizovať"
     },
     "welcome_translation_notice": {
-        "message": "Táto stránka je v angličtine, kliknutím na tlačidlo vpravo preložte do svojho materinského jazyka."
+        "message": "Táto stránka je v angličtine, kliknite na tlačidlo vpravo preložiť do svojho rodného jazyka."
     }
 }

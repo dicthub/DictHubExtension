@@ -5,8 +5,11 @@
     "advanced_settings_warn": {
         "message": "غير مستحسن للمستخدم العام"
     },
+    "appDesc": {
+        "message": "نقرة واحدة للحصول على ترجمة / قاموس من جميع المصادر ، يدعم 100+ لغة."
+    },
     "auto_detect_language": {
-        "message": "اكتشاف اللغة تلقائيًا من إدخال الاستعلام"
+        "message": "الكشف عن اللغة تلقائيًا من إدخال الاستعلام"
     },
     "close_btn": {
         "message": "قريب"
@@ -21,25 +24,25 @@
         "message": "الإعداد السريع!"
     },
     "express_setup_details_google_analytics": {
-        "message": "مشاركة المجهول لبرنامج Google Analytics للمساعدة في تحسين هذه الإضافة. "
+        "message": "مشاركة مجهول لـ Google Analytics للمساعدة في تحسين هذا الامتداد. "
     },
     "express_setup_details_google_plugin": {
-        "message": "تثبيت Google Translation Plugin"
+        "message": "تثبيت جوجل ترجمة البرنامج المساعد"
     },
     "express_setup_details_language": {
-        "message": "تحديد تلقائي lang الأساسي من لغة واجهة مستخدم النظام"
+        "message": "حدد تلقائي lang الأساسي من System UI Language"
     },
     "insecure_translation_script_warning": {
-        "message": "تحتوي نتيجة الترجمة على علامة نصية غير آمنة."
+        "message": "تحتوي نتيجة الترجمة على علامة برنامج نصي غير آمنة."
     },
     "max_translation_result": {
-        "message": "ماكس الترجمة النتيجة"
+        "message": "ماكس نتيجة الترجمة"
     },
     "options_btn": {
         "message": "خيارات"
     },
     "plugin_repository_list": {
-        "message": "قائمة المستودع"
+        "message": "مستودع قائمة المساعد"
     },
     "plugin_settings": {
         "message": "إعدادات البرنامج المساعد"
@@ -48,7 +51,7 @@
         "message": "اللغة المفضلة"
     },
     "raw_json_config_title": {
-        "message": "التكوين الخام جونسون"
+        "message": "الخام json التكوين"
     },
     "save_changes_btn": {
         "message": "حفظ التغييرات"
@@ -57,7 +60,7 @@
         "message": "مزيد من المعلومات حول التكوين"
     },
     "send_analysis_info": {
-        "message": "إرسال بيانات استخدام مجهولة الهوية عبر Google Analytics للمساعدة في تحسين هذه الإضافة."
+        "message": "أرسل بيانات استخدام مجهولة الهوية عبر Google Analytics للمساعدة في تحسين هذا الامتداد."
     },
     "show_advanced_settings": {
         "message": "إعدادات العرض"
@@ -69,7 +72,7 @@
         "message": "إعدادات الترجمة"
     },
     "trouble_report": {
-        "message": "وجدت بعض القضايا؟"
+        "message": "وجدت بعض القضية؟"
     },
     "trouble_report_link": {
         "message": "أخبرنا!"
@@ -78,6 +81,6 @@
         "message": "تحديث"
     },
     "welcome_translation_notice": {
-        "message": "هذه الصفحة بالإنجليزية ، انقر فوق زر على اليمين لترجمتها إلى لغتك الأم."
+        "message": "هذه الصفحة باللغة الإنجليزية ، انقر فوق زر على اليمين للترجمة إلى لغتك الأم."
     }
 }

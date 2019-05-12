@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "ne preporučuje se za opće korisnike"
     },
+    "appDesc": {
+        "message": "Jedan klik da biste dobili prijevod / rječnik iz svih izvora, podržavajući više od 100 jezika."
+    },
     "auto_detect_language": {
         "message": "Automatski otkrijte jezik iz unosa upita"
     },
@@ -78,6 +81,6 @@
         "message": "ažuriranje"
     },
     "welcome_translation_notice": {
-        "message": "Ova stranica je na engleskom jeziku, kliknite gumb na desnoj strani za prijevod na vaš materinji jezik."
+        "message": "Ova stranica je na engleskom jeziku, kliknite na gumb za pravo prevođenja na vaš materinji jezik."
     }
 }

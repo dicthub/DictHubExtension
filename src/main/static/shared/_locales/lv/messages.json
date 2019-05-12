@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "nav ieteicams vispārējam lietotājam"
     },
+    "appDesc": {
+        "message": "Vienu klikšķi, lai iegūtu tulkojumu / vārdnīcu no visiem avotiem, atbalstot 100+ valodas."
+    },
     "auto_detect_language": {
         "message": "Automātiski atklāj vaicājuma ievadīšanas valodu"
     },
@@ -57,7 +60,7 @@
         "message": "Plašāka informācija par config"
     },
     "send_analysis_info": {
-        "message": "Sūtiet anonīmus lietošanas datus, izmantojot Google Analytics, lai palīdzētu uzlabot šo paplašinājumu."
+        "message": "Sūtīt anonīmus lietošanas datus, izmantojot Google Analytics, lai palīdzētu uzlabot šo paplašinājumu."
     },
     "show_advanced_settings": {
         "message": "Rādīt iestatījumus"

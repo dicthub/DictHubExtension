@@ -5,8 +5,11 @@
     "advanced_settings_warn": {
         "message": "не рекомендується для загального користувача"
     },
+    "appDesc": {
+        "message": "Один клік для отримання перекладу / словника з усіх джерел, що підтримує більше 100 мов."
+    },
     "auto_detect_language": {
-        "message": "Автоматично визначати мову з введення запиту"
+        "message": "Автоматично визначати мову з вводу запиту"
     },
     "close_btn": {
         "message": "Закрити"
@@ -21,7 +24,7 @@
         "message": "Експрес-налаштування!"
     },
     "express_setup_details_google_analytics": {
-        "message": "Поділіться анонімно з Google Analytics, щоб покращити це розширення "
+        "message": "Надайте анонімний доступ до Google Analytics, щоб покращити це розширення. "
     },
     "express_setup_details_google_plugin": {
         "message": "Встановіть модуль перекладу Google"

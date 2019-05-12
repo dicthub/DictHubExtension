@@ -3,43 +3,46 @@
         "message": "Pokročilé nastavení"
     },
     "advanced_settings_warn": {
-        "message": "nedoporučuje se pro obecné uživatele"
+        "message": "nedoporučuje se pro běžného uživatele"
+    },
+    "appDesc": {
+        "message": "Jedním kliknutím získáte překlad / slovník ze všech zdrojů, který podporuje více než 100 jazyků."
     },
     "auto_detect_language": {
-        "message": "Automatické rozpoznání jazyka z zadání dotazu"
+        "message": "Automaticky rozpoznat jazyk ze vstupu dotazu"
     },
     "close_btn": {
         "message": "Zavřít"
     },
     "drag_to_change_order": {
-        "message": "tažením změňte pořadí"
+        "message": "přetažením změníte pořadí"
     },
     "edit_settings_directly": {
         "message": "Upravte nastavení přímo"
     },
     "express_setup_btn": {
-        "message": "Express Setup!"
+        "message": "Expresní nastavení!"
     },
     "express_setup_details_google_analytics": {
-        "message": "Chcete-li zlepšit toto rozšíření, sdílejte službu Google Analytics anonymní. "
+        "message": "Chcete-li toto rozšíření vylepšit, sdílejte anonymitu se službou Google Analytics. "
     },
     "express_setup_details_google_plugin": {
-        "message": "Nainstalujte Plugin pro překlad Google"
+        "message": "Nainstalujte plugin pro překlad Google"
     },
     "express_setup_details_language": {
-        "message": "Automaticky vyberte primární jazyk z jazyka systému UI"
+        "message": "Automaticky vyberte primární zaostření z jazyka System UI Language"
     },
     "insecure_translation_script_warning": {
-        "message": "Výsledek překladu obsahuje nezabezpečenou značku skriptu."
+        "message": "Výsledek překladu obsahuje značku nezabezpečeného skriptu."
     },
     "max_translation_result": {
-        "message": "Maximální výsledek překladu"
+        "message": "Výsledek Max"
     },
     "options_btn": {
         "message": "Možnosti"
     },
     "plugin_repository_list": {
-        "message": "Seznam úložišť pluginů"
+        "message": "Seznam úložiště zásuvných modulů"
     },
     "plugin_settings": {
         "message": "Nastavení pluginu"
@@ -48,16 +51,16 @@
         "message": "preferovaný jazyk"
     },
     "raw_json_config_title": {
-        "message": "Raw json config"
+        "message": "Konfigurace raw json"
     },
     "save_changes_btn": {
         "message": "Uložit změny"
     },
     "see_more_info_about_config": {
-        "message": "Další informace o config"
+        "message": "Více informací o config"
     },
     "send_analysis_info": {
-        "message": "Pošlete anonymní údaje o použití pomocí služby Google Analytics a vylepšete toto rozšíření."
+        "message": "Chcete-li toto rozšíření zlepšit, odešlete anonymní údaje o používání prostřednictvím služby Google Analytics."
     },
     "show_advanced_settings": {
         "message": "Zobrazit nastavení"
@@ -66,10 +69,10 @@
         "message": "Ukázat detaily"
     },
     "translation_settings": {
-        "message": "Nastavení převodu"
+        "message": "Nastavení překladu"
     },
     "trouble_report": {
-        "message": "Našel jste nějaký problém?"
+        "message": "Našli jste nějaký problém?"
     },
     "trouble_report_link": {
         "message": "Řekni nám!"
@@ -78,6 +81,6 @@
         "message": "Aktualizace"
     },
     "welcome_translation_notice": {
-        "message": "Tato stránka je v angličtině, klikněte na tlačítko vpravo pro překlady do vašeho rodného jazyka."
+        "message": "Tato stránka je v angličtině, klikněte na tlačítko vpravo a přeložit do svého rodného jazyka."
     }
 }

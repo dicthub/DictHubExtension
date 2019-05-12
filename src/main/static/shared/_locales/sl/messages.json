@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "ni priporočljivo za splošne uporabnike"
     },
+    "appDesc": {
+        "message": "En klik za prevajanje / slovar iz vseh virov, ki podpira več kot 100 jezikov."
+    },
     "auto_detect_language": {
         "message": "Samodejno zazna jezik iz vnosa poizvedbe"
     },
@@ -21,7 +24,7 @@
         "message": "Hitra namestitev!"
     },
     "express_setup_details_google_analytics": {
-        "message": "Delite anonimno z Google Analytics, da bi izboljšali to razširitev. "
+        "message": "Delite anonimno s storitvijo Google Analytics in tako izboljšajte to razširitev. "
     },
     "express_setup_details_google_plugin": {
         "message": "Namestite vtičnik Google Translation Plugin"
@@ -48,7 +51,7 @@
         "message": "Želeni jezik"
     },
     "raw_json_config_title": {
-        "message": "Raw json config"
+        "message": "Surova konfiguracija json"
     },
     "save_changes_btn": {
         "message": "Shrani spremembe"
@@ -57,7 +60,7 @@
         "message": "Več informacij o config"
     },
     "send_analysis_info": {
-        "message": "Pošljite anonimne podatke o uporabi prek storitve Google Analytics, da izboljšate to razširitev."
+        "message": "Pošiljanje anonimnih podatkov o uporabi prek storitve Google Analytics za izboljšanje te razširitve."
     },
     "show_advanced_settings": {
         "message": "Prikaži nastavitve"
@@ -78,6 +81,6 @@
         "message": "Nadgradnja"
     },
     "welcome_translation_notice": {
-        "message": "Ta stran je v angleščini, kliknite na desni gumb za prevajanje v vaš materni jezik."
+        "message": "Ta stran je v angleščini, kliknite gumb na desni strani za prevajanje v vaš materni jezik."
     }
 }

@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "haipendekezi kwa mtumiaji wa jumla"
     },
+    "appDesc": {
+        "message": "Click moja kupata tafsiri / kamusi kutoka vyanzo vyote, kusaidia lugha 100+."
+    },
     "auto_detect_language": {
         "message": "Pata moja kwa moja lugha kutoka kwa pembejeo ya swala"
     },
@@ -78,6 +81,6 @@
         "message": "Sasisha"
     },
     "welcome_translation_notice": {
-        "message": "Ukurasa huu uko katika swahili, bonyeza kifungo upande wa kulia wa kutafsiri kwa lugha yako ya asili."
+        "message": "Ukurasa huu uko katika swahili, bonyeza kifungo juu ya haki ya kutafsiri kwa lugha yako ya asili."
     }
 }

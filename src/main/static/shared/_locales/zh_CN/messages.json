@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "不建议一般用户使用"
     },
+    "appDesc": {
+        "message": "一键式获取所有来源的翻译/词典，支持100多种语言。"
+    },
     "auto_detect_language": {
         "message": "从查询输入中自动检测语言"
     },

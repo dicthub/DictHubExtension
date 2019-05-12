@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "không khuyến khích cho người dùng phổ thông"
     },
+    "appDesc": {
+        "message": "Một cú nhấp chuột để có được bản dịch / từ điển từ tất cả các nguồn, hỗ trợ hơn 100 ngôn ngữ."
+    },
     "auto_detect_language": {
         "message": "Tự động phát hiện ngôn ngữ từ đầu vào truy vấn"
     },

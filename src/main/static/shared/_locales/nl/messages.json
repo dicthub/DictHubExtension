@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "niet aanbevolen voor algemene gebruiker"
     },
+    "appDesc": {
+        "message": "Eén klik om een ​​vertaling / woordenboek uit alle bronnen te krijgen, ondersteuning voor 100+ talen."
+    },
     "auto_detect_language": {
         "message": "Automatische detectie van taal uit queryinvoer"
     },

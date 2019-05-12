@@ -4,8 +4,8 @@
   "author": "DictHub",
   "version": "1.0.1",
 
-  "description": "One-click to get translation/dictionary from all sources, supporting 100+ languages.",
-
+  "description": "__MSG_appDesc__",
+  "homepage_url": "https://github.com/dicthub",
   "browser_action": {
     "default_icon": "ico/dicthub-19.png",
     "default_popup": "popup.html"

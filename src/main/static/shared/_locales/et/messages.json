@@ -5,8 +5,11 @@
     "advanced_settings_warn": {
         "message": "ei soovitata üldkasutajale"
     },
+    "appDesc": {
+        "message": "Üks klõps, et saada tõlget / sõnastikku kõigist allikatest, toetades 100+ keelt."
+    },
     "auto_detect_language": {
-        "message": "Avastage automaatselt päringu sisend keel"
+        "message": "Avastage automaatselt päringu sisendist keel"
     },
     "close_btn": {
         "message": "Sulge"

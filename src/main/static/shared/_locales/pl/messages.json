@@ -3,10 +3,13 @@
         "message": "Zaawansowane ustawienia"
     },
     "advanced_settings_warn": {
-        "message": "nie zalecane dla zwykłego użytkownika"
+        "message": "nie zalecany dla ogólnego użytkownika"
+    },
+    "appDesc": {
+        "message": "Jedno kliknięcie pozwala uzyskać tłumaczenie / słownik ze wszystkich źródeł, obsługując ponad 100 języków."
     },
     "auto_detect_language": {
-        "message": "Automatycznie wykrywa język z wprowadzania zapytań"
+        "message": "Automatycznie wykryj język z wejścia zapytania"
     },
     "close_btn": {
         "message": "Blisko"
@@ -21,13 +24,13 @@
         "message": "Ekspresowa konfiguracja!"
     },
     "express_setup_details_google_analytics": {
-        "message": "Udostępnij anonimowe Google Analytics, aby ulepszyć to rozszerzenie. "
+        "message": "Udostępnij anonimowo Google Analytics, aby poprawić to rozszerzenie. "
     },
     "express_setup_details_google_plugin": {
         "message": "Zainstaluj wtyczkę Google Translation"
     },
     "express_setup_details_language": {
-        "message": "Automatycznie wybierz język podstawowy z języka System UI"
+        "message": "Automatycznie wybierz główny język z języka interfejsu systemu"
     },
     "insecure_translation_script_warning": {
         "message": "Wynik tłumaczenia zawiera niezabezpieczony znacznik skryptu."
@@ -48,7 +51,7 @@
         "message": "preferowany język"
     },
     "raw_json_config_title": {
-        "message": "Surowa konfiguracja json"
+        "message": "Raw json config"
     },
     "save_changes_btn": {
         "message": "Zapisz zmiany"
@@ -57,7 +60,7 @@
         "message": "Więcej informacji o konfiguracji"
     },
     "send_analysis_info": {
-        "message": "Przesyłaj anonimowe dane o użytkowaniu za pomocą Google Analytics, aby ulepszyć to rozszerzenie."
+        "message": "Wysyłaj anonimowe dane dotyczące użytkowania za pośrednictwem Google Analytics, aby poprawić to rozszerzenie."
     },
     "show_advanced_settings": {
         "message": "Pokaż ustawienia"
@@ -78,6 +81,6 @@
         "message": "Aktualizacja"
     },
     "welcome_translation_notice": {
-        "message": "Ta strona jest w języku angielskim, kliknij przycisk po prawej, aby przetłumaczyć na twój język ojczysty."
+        "message": "Ta strona jest w języku angielskim, kliknij przycisk po prawej stronie, aby przetłumaczyć na swój język ojczysty."
     }
 }

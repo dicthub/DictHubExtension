@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "hindi inirerekomenda para sa pangkalahatang gumagamit"
     },
+    "appDesc": {
+        "message": "One-click upang makakuha ng pagsasalin / diksyunaryo mula sa lahat ng mga mapagkukunan, na sumusuporta sa 100+ wika."
+    },
     "auto_detect_language": {
         "message": "Awtomatikong makita ang wika mula sa input query"
     },

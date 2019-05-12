@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "一般ユーザーにはお勧めできません"
     },
+    "appDesc": {
+        "message": "ワンクリックで100以上の言語をサポートし、すべてのソースから翻訳/辞書を取得します。"
+    },
     "auto_detect_language": {
         "message": "クエリ入力から言語を自動的に検出"
     },
@@ -69,7 +72,7 @@
         "message": "翻訳設定"
     },
     "trouble_report": {
-        "message": "いくつかの問題を見つけましたか？"
+        "message": "いくつか問題がありますか？"
     },
     "trouble_report_link": {
         "message": "教えて！"

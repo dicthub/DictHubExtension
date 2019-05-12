@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "nicht für allgemeine Benutzer empfohlen"
     },
+    "appDesc": {
+        "message": "Klicken Sie mit einem Klick auf die Übersetzung / das Wörterbuch aus allen Quellen und unterstützen Sie 100+ Sprachen."
+    },
     "auto_detect_language": {
         "message": "Sprache automatisch anhand der Abfrageingabe ermitteln"
     },
@@ -12,7 +15,7 @@
         "message": "Schließen"
     },
     "drag_to_change_order": {
-        "message": "Ziehen Sie, um die Reihenfolge zu ändern"
+        "message": "ziehen Sie, um die Reihenfolge zu ändern"
     },
     "edit_settings_directly": {
         "message": "Einstellungen direkt bearbeiten"

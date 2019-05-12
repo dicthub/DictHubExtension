@@ -3,7 +3,10 @@
         "message": "Ajustes avanzados"
     },
     "advanced_settings_warn": {
-        "message": "no recomendado para usuario general"
+        "message": "no recomendado para el usuario general"
+    },
+    "appDesc": {
+        "message": "Un clic para obtener traducción / diccionario de todas las fuentes, con soporte para más de 100 idiomas."
     },
     "auto_detect_language": {
         "message": "Detectar automáticamente el idioma desde la entrada de consulta"

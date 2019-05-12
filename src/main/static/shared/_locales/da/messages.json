@@ -5,6 +5,9 @@
     "advanced_settings_warn": {
         "message": "anbefales ikke til generel bruger"
     },
+    "appDesc": {
+        "message": "Et klik for at få oversættelse / ordbog fra alle kilder, der understøtter 100 + sprog."
+    },
     "auto_detect_language": {
         "message": "Find automatisk sprog fra forespørgselsindgang"
     },
