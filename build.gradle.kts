@@ -135,4 +135,4 @@ platforms.forEach { platform ->
 tasks["build"].dependsOn(*platforms)
 
 
-defaultTasks = listOf("build")
+defaultTasks = mutableListOf("build")
