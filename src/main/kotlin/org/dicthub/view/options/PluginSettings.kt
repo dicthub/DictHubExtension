@@ -96,7 +96,7 @@ class PluginSettings(private val parent: HTMLElement,
                     div(classes = "form-group col-md-11 mb-2") {
                         input(type = InputType.url, classes = "form-control") {
                             id = ID_NEW_REPOSITORY_INPUT
-                            placeholder = "https://raw.githubusercontent.com/willings/DictHubPluginIndex/beta/index.json"
+                            placeholder = "https://raw.githubusercontent.com/dicthub/DictHubPluginRepository/beta/index.json"
                         }
                     }
 
