@@ -285,12 +285,14 @@ class PluginSettings(private val parent: HTMLElement,
             val plugins = userPreference.enabledPlugins.toMutableSet()
             val pluginId = input.id
             if (input.checked) {
+                sendAnalysisInfoOnPlugin("PluginEnable", pluginId)
                 val newPlugin = pluginStatus.keys.filter { it.id == pluginId }.single()
                 plugins.add(newPlugin)
                 updater(newPlugin).then {
                     reload()
                 }
             } else {
+                sendAnalysisInfoOnPlugin("PluginDisable", pluginId)
                 plugins.removeAll { it.id == input.id }
             }
             userPreference.enabledPlugins = plugins
@@ -301,6 +303,8 @@ class PluginSettings(private val parent: HTMLElement,
     private fun updatePlugin(pluginInfo: PluginInfo) {
         showMessage("Updating ${pluginInfo.name}... ")
         updater(pluginInfo).then {
+            sendAnalysisInfoOnPlugin("PluginUpdate", pluginInfo.id)
+
             val enabledPlugins = userPreference.enabledPlugins.toMutableSet()
             enabledPlugins.removeAll { it.id == pluginInfo.id }
             enabledPlugins.add(pluginInfo)
@@ -346,4 +350,22 @@ class PluginSettings(private val parent: HTMLElement,
     private fun showMessage(message: String, cssClass: String = "alert-info", autoHidden: Boolean = true) =
             console.log(message)
 
+
+    private fun sendAnalysisInfoOnPlugin(action: String, pluginId: String) {
+        if (!userPreference.sendAnalysisInfo) {
+            return
+        }
+
+        ga("send", "event", "Plugins", action, pluginId)
+    }
 }
+
+
+private external fun ga(command: String, type: String,
+                        eventCategory: String, eventAction: String)
+
+private external fun ga(command: String, type: String,
+                        eventCategory: String, eventAction: String, eventLabel: String)
+
+private external fun ga(command: String, type: String,
+                        eventCategory: String, eventAction: String, eventLabel: String, eventValue: Int)

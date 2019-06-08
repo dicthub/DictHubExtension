@@ -158,8 +158,6 @@ class TranslationPage(private val userPreference: UserPreference,
         }
 
         ga("send", "pageview", window.location.pathname)
-        ga("send", "event", "FromLang", query.getFrom().code)
-        ga("send", "event", "ToLang", query.getTo().code)
         ga("send", "event", "FromLangToLang", "${query.getFrom().code}_${query.getTo().code}")
     }
 
@@ -168,10 +166,9 @@ class TranslationPage(private val userPreference: UserPreference,
             return
         }
 
-        ga("send", "event", "Plugin", translationResult.pluginId)
-
         val action = if (translationResult.success) "TranslationSuccess" else "TranslationFailure"
-        ga("send", "event", action, translationResult.pluginId)
+        val label = "${translationResult.query.getFrom().code}_${translationResult.query.getTo().code}"
+        ga("send", "event", action, translationResult.pluginId, label, 1)
     }
 
     private fun isTranslationResultUnsafe(result: TranslationResult) = result.htmlContent.contains("<script>")
@@ -201,4 +198,4 @@ private external fun ga(command: String, type: String,
                         eventCategory: String, eventAction: String, eventLabel: String)
 
 private external fun ga(command: String, type: String,
-                        eventCategory: String, eventAction: String, eventLabel: String, eventValue: String)
+                        eventCategory: String, eventAction: String, eventLabel: String, eventValue: Int)
