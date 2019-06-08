@@ -34,6 +34,7 @@ class QueryContainer(private val parent: HTMLElement,
                      private val initialQueryText: String? = "",
                      private val initialFromLang: Lang? = null,
                      private val initialToLang: Lang? = null,
+                     private val preferredLangs: List<Lang> = emptyList(),
                      private val uiMode: UIMode) : Component {
 
     private lateinit var queryTextInput: HTMLInputElement
@@ -57,32 +58,26 @@ class QueryContainer(private val parent: HTMLElement,
         }
     }
 
-    private val renderFromLangSelect: TagAppender = {
+    private fun renderLangSelect(formId: String): TagAppender = {
         select(classes = "form-control form-control-sm mb-2 lang-select-optional") {
-            id = ID_FROM_LANG
+            id = formId
             option { +"" }
-            Lang.values().forEach { lang ->
+            langList().forEach { lang ->
                 option {
                     +lang.getCode()
                 }
+
             }
 
             onChangeFunction = onValueChange
         }
     }
 
-    private val renderToLangSelect: TagAppender = {
-        select(classes = "form-control form-control-sm mb-2 lang-select-optional") {
-            id = ID_TO_LANG
-            option { +"" }
-            Lang.values().forEach { lang ->
-                option {
-                    +lang.getCode()
-                }
-            }
-
-            onChangeFunction = onValueChange
-        }
+    private fun langList(): List<Lang> {
+        val langList = mutableListOf<Lang>()
+        langList.addAll(preferredLangs.distinct())
+        langList.addAll(Lang.values().filterNot { preferredLangs.contains(it) })
+        return langList
     }
 
     override fun render() {
@@ -108,11 +103,11 @@ class QueryContainer(private val parent: HTMLElement,
                     }
                     div(classes = "col-auto") {
                         div(classes = "input-group") {
-                            renderFromLangSelect(this)
+                            renderLangSelect(ID_FROM_LANG)(this)
                             label {
                                 +"⇒"
                             }
-                            renderToLangSelect(this)
+                            renderLangSelect(ID_TO_LANG)(this)
                         }
                     }
                     if (uiMode == UIMode.POPUP) {

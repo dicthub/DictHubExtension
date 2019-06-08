@@ -132,7 +132,7 @@ class TranslationPage(private val userPreference: UserPreference,
 
         sandbox = getElementById(sandboxId)
         queryContainer = QueryContainer(getElementById(queryContainerId),effectiveLangDetector, queryListener,
-                queryText, fromLang, toLang, if (inFrame) UIMode.OVERLAY else UIMode.POPUP)
+                queryText, fromLang, toLang, listOf(userPreference.primaryLang), if (inFrame) UIMode.OVERLAY else UIMode.POPUP)
         resultContainer = ResultContainer(getElementById(resultContainerId))
 
         resultContainer.render()
