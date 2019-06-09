@@ -3,9 +3,10 @@ var MENU_ID = "WordhubQuery";
 
 chrome.runtime.onInstalled.addListener(function (details) {
 
-    if (details && !details.previousVersion) {
-        chrome.tabs.create({'url': chrome.extension.getURL('welcome.html')}, function(tab) {
-        });
+    if (details.reason == 'install') {
+        chrome.tabs.create({'url': chrome.extension.getURL('welcome.html')}, function(tab) {});
+    } else if (details.reason == 'update') {
+        chrome.tabs.create({'url': 'https://dicthub.org/docs/getting-started/release/'}, function(tab) {});
     }
 
     chrome.contextMenus.create({
