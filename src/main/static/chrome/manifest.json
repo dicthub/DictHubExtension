@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "DictHub",
   "author": "DictHub",
-  "version": "1.0.2",
+  "version": "1.0.3",
 
   "description": "__MSG_appDesc__",
   "homepage_url": "https://github.com/dicthub",
