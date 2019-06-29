@@ -101,8 +101,9 @@ private fun initWelcomePage() {
     loadUserPreference().then { userPreference ->
         val pluginIndex = PluginIndex(AjaxHttpClient, userPreference.pluginRepository)
         val pluginUpdater = PluginContentAdapter(AjaxHttpClient, browserObj.storage.local)
+        val pluginOptionsAdapter = PluginOptionsAdapter(browserObj.storage.local)
 
-        val welcomePage = WelcomePage(userPreference, pluginIndex, pluginUpdater)
+        val welcomePage = WelcomePage(userPreference, pluginIndex, pluginUpdater, pluginOptionsAdapter)
         welcomePage.render()
     }
 }

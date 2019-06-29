@@ -10,21 +10,26 @@ import org.dicthub.lang.fromCode
 import org.dicthub.model.UserPreference
 import org.dicthub.plugin.PluginContentAdapter
 import org.dicthub.plugin.PluginIndex
+import org.dicthub.plugin.PluginOptionsAdapter
 import org.dicthub.view.TagAppender
+import org.w3c.xhr.XMLHttpRequest
 import kotlin.browser.document
 import kotlin.browser.window
+import kotlin.js.Promise
 
 class WelcomePage(private val userPreference: UserPreference,
                   private val pluginIndex: PluginIndex,
-                  private val pluginUpdater: PluginContentAdapter) {
+                  private val pluginUpdater: PluginContentAdapter,
+                  private val pluginOptionsAdapter: PluginOptionsAdapter) {
 
     private val guideUrl = "https://dicthub.org/docs/getting-started/quick-start/"
+    private val googleTranslateId = "plugin-com-google-translate"
 
     fun render() {
         document.body?.append {
-            div (classes = "alert alert-info mt-1 mb-0 py-0") {
+            div(classes = "alert alert-info mt-1 mb-0 py-0") {
                 +i18nMessage("welcome_translation_notice")
-                a (classes = "btn", href = "https://translate.google.com/translate?sl=en&u=${encodeURIComponent(guideUrl)}&tl=${browserObj.i18n.getUILanguage()}") {
+                a(classes = "btn", href = "https://translate.google.com/translate?sl=en&u=${encodeURIComponent(guideUrl)}&tl=${browserObj.i18n.getUILanguage()}") {
                     target = "_blank"
                     +"\uD83C\uDF0F"
                 }
@@ -59,13 +64,15 @@ class WelcomePage(private val userPreference: UserPreference,
                     userPreference.primaryLang = fromCode(browserObj.i18n.getUILanguage()) ?: Lang.EN
                     userPreference.sendAnalysisInfo = true
                     pluginIndex.load().then { plugins ->
-                        plugins.firstOrNull { it.id == "plugin-com-google-translate" }?.let { googleTranslationPlugin ->
+                        plugins.firstOrNull { it.id == googleTranslateId }?.let { googleTranslationPlugin ->
                             pluginUpdater.update(googleTranslationPlugin).then {
                                 val enabledPlugins = userPreference.enabledPlugins.toMutableSet().apply {
                                     add(googleTranslationPlugin)
                                 }
                                 userPreference.enabledPlugins = enabledPlugins
-                                window.location.href = "/options.html"
+                                setGoogleTranslateOptions().then {
+                                    window.location.href = "/options.html"
+                                }
                             }
                         }
                     }
@@ -92,6 +99,37 @@ class WelcomePage(private val userPreference: UserPreference,
                     +"✅ ${i18nMessage("express_setup_details_google_analytics")}"
                 }
             }
+        }
+    }
+
+    private fun setGoogleTranslateOptions(): Promise<Boolean> {
+        val checkErrorWithTimeout = { url: String, timeout: Int, onSuccess: () -> Unit, onError: () -> Unit ->
+            val xhr = XMLHttpRequest()
+            xhr.timeout = timeout
+            xhr.open("GET", url)
+            xhr.onloadend = {
+                onSuccess()
+            }
+            xhr.onerror = {
+                onError()
+            }
+            xhr.send()
+        }
+
+        return Promise { resolve, reject ->
+            checkErrorWithTimeout("https://translate.google.com/robots.txt", 1000, {
+                console.info("Access to https://translate.google.com/robots.txt succeeded")
+                resolve(false)
+            }, {
+                checkErrorWithTimeout("https://translate.google.cn/robots.txt", 1000, {
+                    console.info("Set useGoogleCn to true for cn ip address. (avoid GFW).")
+                    pluginOptionsAdapter.saveOptionValue(googleTranslateId, "useGoogleCn", "true")
+                    resolve(true)
+                }, {
+                    console.warn("Access to https://translate.google.cn/robots.txt failed")
+                    resolve(false)
+                })
+            })
         }
     }
 }
