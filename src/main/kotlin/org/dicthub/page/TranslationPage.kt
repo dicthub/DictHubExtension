@@ -188,9 +188,16 @@ class TranslationPage(private val userPreference: UserPreference,
             return
         }
 
+        val pluginVersion = userPreference.enabledPlugins.firstOrNull { it.id == translationResult.pluginId }?.version ?: ""
+        ga("send", "event", "PluginVersion", translationResult.pluginId, pluginVersion)
+
         val action = if (translationResult.success) "TranslationSuccess" else "TranslationFailure"
-        val label = "${translationResult.query.getFrom().code}_${translationResult.query.getTo().code}"
-        ga("send", "event", action, translationResult.pluginId, label, 1)
+        val fromLangToLang = "${translationResult.query.getFrom().code}_${translationResult.query.getTo().code}"
+        ga("send", "event", action, translationResult.pluginId, fromLangToLang, 1)
+        if (!translationResult.success) {
+            // Send failed query for debugging
+            ga("send", "event", "PluginFailure-${translationResult.pluginId}", fromLangToLang, translationResult.query.getText())
+        }
     }
 
     private fun isTranslationResultUnsafe(result: TranslationResult) = result.htmlContent.contains("<script>")
