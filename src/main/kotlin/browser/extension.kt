@@ -112,4 +112,5 @@ external class ContextMenusOnClicked {
 
 external class Runtime {
     fun getURL(path: String): String
+    fun sendMessage(data: Json)
 }

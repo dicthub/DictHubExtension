@@ -4,9 +4,10 @@ import org.dicthub.page.OptionsPage
 import org.dicthub.page.SandboxPage
 import org.dicthub.page.TranslationPage
 import org.dicthub.page.WelcomePage
-import org.dicthub.plugin.PluginIndex
 import org.dicthub.plugin.PluginContentAdapter
+import org.dicthub.plugin.PluginIndex
 import org.dicthub.plugin.PluginOptionsAdapter
+import org.dicthub.plugin.PluginUpdateChecker
 import org.dicthub.util.AjaxHttpClient
 import org.w3c.dom.COMPLETE
 import org.w3c.dom.DocumentReadyState
@@ -49,8 +50,11 @@ private fun initPopupPage() {
 
     extractQueryFromTabs().then {
         loadUserPreference().then { userPreference ->
-            val translationPage = TranslationPage(userPreference, PluginContentAdapter(AjaxHttpClient, browserObj.storage.local),
-                    pluginOptionsAdapter, langDetector, it.first, it.second, userPreference.primaryLang.code, false)
+            val pluginIndex = PluginIndex(AjaxHttpClient, userPreference.pluginRepository)
+            val pluginUpdateChecker = PluginUpdateChecker(pluginIndex, userPreference)
+            val pluginContentAdapter = PluginContentAdapter(AjaxHttpClient, browserObj.storage.local)
+            val translationPage = TranslationPage(userPreference, pluginContentAdapter, pluginOptionsAdapter,
+                    pluginUpdateChecker, langDetector, it.first, it.second, userPreference.primaryLang.code, false)
             translationPage.render()
         }
     }
@@ -64,8 +68,11 @@ private fun initOverlayPage() {
 
     val queryContext = extractQueryFromUrl()
     loadUserPreference().then { userPreference ->
-        val translationPage = TranslationPage(userPreference, PluginContentAdapter(AjaxHttpClient, browserObj.storage.local),
-                pluginOptionsAdapter, langDetector, queryContext.first, queryContext.second, userPreference.primaryLang.code, true)
+        val pluginIndex = PluginIndex(AjaxHttpClient, userPreference.pluginRepository)
+        val pluginUpdateChecker = PluginUpdateChecker(pluginIndex, userPreference)
+        val pluginContentAdapter = PluginContentAdapter(AjaxHttpClient, browserObj.storage.local)
+        val translationPage = TranslationPage(userPreference, pluginContentAdapter, pluginOptionsAdapter,
+                pluginUpdateChecker, langDetector, queryContext.first, queryContext.second, userPreference.primaryLang.code, true)
         translationPage.render()
     }
 }

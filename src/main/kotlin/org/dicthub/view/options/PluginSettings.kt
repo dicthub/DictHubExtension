@@ -53,6 +53,9 @@ class PluginSettings(private val parent: HTMLElement,
                 +i18nMessage("plugin_settings")
                 small { +"(${i18nMessage("drag_to_change_order")})" }
             }
+            div(classes = CSS_SETTINGS_ROW) {
+                renderAutoPluginUpdate(this)
+            }
             div(classes = "alert alert-danger") {
                 id = ID_PLUGIN_SETTINGS_INFO
                 role = "alert"
@@ -68,6 +71,22 @@ class PluginSettings(private val parent: HTMLElement,
         newPluginRepositoryInput = getElementById(ID_NEW_REPOSITORY_INPUT)
         pluginSettings = getElementById(ID_PLUGIN_SETTINGS_LIST)
         pluginSettingsMessage = getElementById(ID_PLUGIN_SETTINGS_INFO)
+    }
+
+    private val renderAutoPluginUpdate: TagAppender = {
+        label(classes = CSS_SETTINGS_ROW_LABEL) {
+            +i18nMessage("auto_update_plugin")
+        }
+        div(classes = "$CSS_SETTINGS_ROW_CONTENT align-self-center") {
+            checkBoxInput {
+                var checked = userPreference.autoUpdatePlugin
+                this.checked = checked
+                onChangeFunction = {
+                    checked = !checked
+                    userPreference.autoUpdatePlugin = checked
+                }
+            }
+        }
     }
 
     private val renderPluginRepositorySettings: TagAppender = {

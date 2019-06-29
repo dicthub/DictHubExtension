@@ -64,6 +64,13 @@ class UserPreference(val data: Json) {
             saveUserPreference(this)
         }
 
+    var autoUpdatePlugin: Boolean
+        inline get() = data["autoUpdatePlugin"]?.let { it as? Boolean } ?: true
+        inline set(value) {
+            data["autoUpdatePlugin"] = value
+            saveUserPreference(this)
+        }
+
     var sendAnalysisInfo: Boolean
         inline get() = data["sendAnalysisInfo"]?.let { it as? Boolean } ?: false
         inline set(value) {

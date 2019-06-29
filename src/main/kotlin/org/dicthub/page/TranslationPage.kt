@@ -1,5 +1,6 @@
 package org.dicthub.page
 
+import browserObj
 import i18nMessage
 import org.dicthub.lang.fromCode
 import org.dicthub.model.*
@@ -17,11 +18,13 @@ import kotlinx.html.js.iframe
 import kotlinx.html.stream.appendHTML
 import org.dicthub.lang.Lang
 import org.dicthub.lang.LangDetector
+import org.dicthub.plugin.PluginUpdateChecker
 import org.w3c.dom.HTMLIFrameElement
 import org.w3c.dom.MessageEvent
 import org.w3c.dom.events.Event
 import kotlin.browser.document
 import kotlin.browser.window
+import kotlin.js.Date
 import kotlin.js.Json
 import kotlin.js.Promise
 import kotlin.js.json
@@ -29,11 +32,14 @@ import kotlin.js.json
 class TranslationPage(private val userPreference: UserPreference,
                       private val pluginContentAdapter: PluginContentAdapter,
                       private val pluginOptionsAdapter: PluginOptionsAdapter,
+                      private val pluginUpdateChecker: PluginUpdateChecker,
                       private val langDetector: LangDetector,
                       private val queryText: String,
                       private val fromLangStr: String?,
                       private val toLangStr: String?,
                       private val inFrame: Boolean) {
+
+    private val PLUGIN_CHECK_INTERVAL = 24 * 3600 * 1000 // 1 day
 
     private lateinit var sandbox: HTMLIFrameElement
     private lateinit var queryContainer: QueryContainer
@@ -139,6 +145,8 @@ class TranslationPage(private val userPreference: UserPreference,
         queryContainer.render()
 
         window.addEventListener("message", messageListener, false)
+
+        checkPluginStatus()
     }
 
     private fun sendQueryMessage(query: Query) {
@@ -150,6 +158,20 @@ class TranslationPage(private val userPreference: UserPreference,
         console.log("Popup --> Sandbox", cmd, payload)
         sandbox.contentWindow?.postMessage(Packet(cmd, payload).data, sandbox.contentWindow?.origin
                 ?: "", emptyArray())
+    }
+
+    private fun sendPluginNotification(title: String, message: String) {
+        val notificationOptions = json(
+                "type" to "basic",
+                "title" to title,
+                "message" to message,
+                "iconUrl" to "ico/dicthub-48.png"
+        )
+
+        browserObj.runtime.sendMessage(json(
+                "cmd" to "plugin-notification",
+                "payload" to notificationOptions
+        ))
     }
 
     private fun sendAnalysisInfo(query: Query) {
@@ -180,6 +202,44 @@ class TranslationPage(private val userPreference: UserPreference,
             +"${i18nMessage("insecure_translation_script_warning")} ID: $pluginId"
         }
         return htmlContent.toString()
+    }
+
+    private fun checkPluginStatus() {
+
+        val lastPluginCheckTime = pluginUpdateChecker.getLastCheckTime()
+        if (Date().getTime() - lastPluginCheckTime < PLUGIN_CHECK_INTERVAL) {
+            return
+        }
+        pluginUpdateChecker.check().then { result ->
+            if (result.upgradablePlugins.isNotEmpty()) {
+                val upgradablePluginNames = result.upgradablePlugins.map { it.name }.joinToString("\n")
+                if (userPreference.autoUpdatePlugin) {
+                    val pluginUpdates = result.upgradablePlugins.map { pluginContentAdapter.update(it) }.toTypedArray()
+                    Promise.all(pluginUpdates).then {
+                        // Update enabled plugins
+                        val upgradedPluginIds = result.upgradablePlugins.map { it.id }.toSet()
+                        val enabledPlugins = userPreference.enabledPlugins.filterNot { upgradedPluginIds.contains(it.id) }.toMutableSet().apply {
+                            addAll(result.upgradablePlugins)
+                        }
+                        userPreference.enabledPlugins = enabledPlugins
+
+                        val upgradedPluginsNames = result.upgradablePlugins.map { it.name }.joinToString("\n")
+                        sendPluginNotification(i18nMessage("plugin_updated"), upgradedPluginsNames)
+                    }.catch {
+                        sendPluginNotification(i18nMessage("plugin_updates_available"), upgradablePluginNames)
+                    }
+                } else {
+                    sendPluginNotification(i18nMessage("plugin_updates_available"), upgradablePluginNames)
+                }
+            }
+
+            if (result.newPlugins.isNotEmpty()) {
+                val newPluginNames = result.newPlugins.map { it.name }.joinToString { "\n" }
+                sendPluginNotification(i18nMessage("new_plugins_available"), newPluginNames)
+            }
+        }.catch {
+            console.warn("Failed to check plugin updates", it)
+        }
     }
 }
 
