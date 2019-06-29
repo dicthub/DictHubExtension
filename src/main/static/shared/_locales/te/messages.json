@@ -3,40 +3,46 @@
         "message": "ఆధునిక సెట్టింగులు"
     },
     "advanced_settings_warn": {
-        "message": "సాధారణ వినియోగదారు కోసం సిఫార్సు చేయలేదు"
+        "message": "సాధారణ వినియోగదారు కోసం సిఫార్సు చేయబడలేదు"
     },
     "appDesc": {
-        "message": "అన్ని మూలాల నుండి అనువాద / నిఘంటువుని పొందడానికి ఒక క్లిక్, 100+ భాషలకు మద్దతు ఇస్తుంది."
+        "message": "100+ భాషలకు మద్దతు ఇస్తూ, అన్ని మూలాల నుండి అనువాదం / నిఘంటువు పొందడానికి ఒక క్లిక్ చేయండి."
     },
     "auto_detect_language": {
         "message": "ప్రశ్న ఇన్పుట్ నుండి భాషను స్వయంచాలకంగా గుర్తించండి"
+    },
+    "auto_update_plugin": {
+        "message": "ప్లగిన్‌లను స్వయంచాలకంగా నవీకరించండి."
     },
     "close_btn": {
         "message": "Close"
     },
     "drag_to_change_order": {
-        "message": "క్రమంలో మార్చడానికి లాగండి"
+        "message": "క్రమాన్ని మార్చడానికి లాగండి"
     },
     "edit_settings_directly": {
-        "message": "సవరణలను నేరుగా సవరించండి"
+        "message": "సెట్టింగులను నేరుగా సవరించండి"
     },
     "express_setup_btn": {
-        "message": "ఎక్స్ప్రెస్ సెటప్!"
+        "message": "ఎక్స్‌ప్రెస్ సెటప్!"
     },
     "express_setup_details_google_analytics": {
-        "message": "ఈ పొడిగింపును మెరుగుపరచడంలో సహాయపడటానికి Google Analytics కు అజ్ఞాతంగా భాగస్వామ్యం చేయండి. "
+        "message": "ఈ పొడిగింపును మెరుగుపరచడంలో సహాయపడటానికి Google Analytics కు అనామక భాగస్వామ్యం చేయండి. "
     },
     "express_setup_details_google_plugin": {
-        "message": "Google అనువాదం ప్లగిన్ ఇన్స్టాల్"
+        "message": "Google అనువాద ప్లగిన్‌ను ఇన్‌స్టాల్ చేయండి"
     },
     "express_setup_details_language": {
-        "message": "ఆటో UI భాష నుండి ప్రాధమిక lang ను ఎంచుకోండి"
+        "message": "సిస్టమ్ UI భాష నుండి ఆటో ఎంచుకోండి ప్రాథమిక లాంగ్"
     },
     "insecure_translation_script_warning": {
-        "message": "అనువాద ఫలితం అసురక్షిత స్క్రిప్ట్ ట్యాగ్ను కలిగి ఉంది."
+        "message": "అనువాద ఫలితం అసురక్షిత స్క్రిప్ట్ ట్యాగ్‌ను కలిగి ఉంది."
     },
     "max_translation_result": {
-        "message": "మాక్స్ అనువాద ఫలితం"
+        "message": "గరిష్ట అనువాద ఫలితం"
+    },
+    "new_plugins_available": {
+        "message": "క్రొత్త ప్లగిన్లు అందుబాటులో ఉన్నాయి"
     },
     "options_btn": {
         "message": "ఎంపికలు"
@@ -47,23 +53,29 @@
     "plugin_settings": {
         "message": "ప్లగిన్ సెట్టింగులు"
     },
+    "plugin_updated": {
+        "message": "ప్లగిన్ అప్‌గ్రేడ్ చేయబడింది"
+    },
+    "plugin_updates_available": {
+        "message": "ప్లగిన్ నవీకరణలు అందుబాటులో ఉన్నాయి"
+    },
     "preferred_language": {
         "message": "ప్రాధాన్య భాష"
     },
     "raw_json_config_title": {
-        "message": "రా json config"
+        "message": "ముడి json ఆకృతీకరణ"
     },
     "save_changes_btn": {
         "message": "మార్పులను ఊంచు"
     },
     "see_more_info_about_config": {
-        "message": "Config గురించి మరింత సమాచారం"
+        "message": "కాన్ఫిగర్ గురించి మరింత సమాచారం"
     },
     "send_analysis_info": {
         "message": "ఈ పొడిగింపును మెరుగుపరచడంలో సహాయపడటానికి Google Analytics ద్వారా అనామక వినియోగ డేటాను పంపండి."
     },
     "show_advanced_settings": {
-        "message": "సెట్టింగ్లను చూపు"
+        "message": "సెట్టింగులను చూపించు"
     },
     "show_details_btn": {
         "message": "వివరాలు చుపించండి"
@@ -72,7 +84,7 @@
         "message": "అనువాద సెట్టింగులు"
     },
     "trouble_report": {
-        "message": "కొన్ని సమస్య కనుగొనబడిందా?"
+        "message": "కొన్ని సమస్యలు ఉన్నాయా?"
     },
     "trouble_report_link": {
         "message": "మాకు చెప్పండి!"
@@ -81,6 +93,6 @@
         "message": "నవీకరణ"
     },
     "welcome_translation_notice": {
-        "message": "ఈ పేజీ ఆంగ్లంలో ఉంది, మీ స్థానిక భాషలోకి అనువదించడానికి కుడివైపు బటన్ను క్లిక్ చేయండి."
+        "message": "ఈ పేజీ ఆంగ్లంలో ఉంది, మీ స్థానిక భాషకు అనువదించడానికి కుడి వైపున ఉన్న బటన్‌ను క్లిక్ చేయండి."
     }
 }

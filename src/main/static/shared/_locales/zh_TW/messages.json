@@ -11,6 +11,9 @@
     "auto_detect_language": {
         "message": "從查詢輸入中自動檢測語言"
     },
+    "auto_update_plugin": {
+        "message": "自動更新插件。"
+    },
     "close_btn": {
         "message": "關"
     },
@@ -38,6 +41,9 @@
     "max_translation_result": {
         "message": "最大翻譯結果"
     },
+    "new_plugins_available": {
+        "message": "新插件可用"
+    },
     "options_btn": {
         "message": "選項"
     },
@@ -46,6 +52,12 @@
     },
     "plugin_settings": {
         "message": "插件設置"
+    },
+    "plugin_updated": {
+        "message": "插件升級"
+    },
+    "plugin_updates_available": {
+        "message": "插件更新可用"
     },
     "preferred_language": {
         "message": "首選語言"

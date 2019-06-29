@@ -11,6 +11,9 @@
     "auto_detect_language": {
         "message": "ቋንቋ ከውስጣዊ ግቤት በራስ-ሰር አግኝ"
     },
+    "auto_update_plugin": {
+        "message": "Plugins በራስ ሰር አዘምን."
+    },
     "close_btn": {
         "message": "ገጠመ"
     },
@@ -38,6 +41,9 @@
     "max_translation_result": {
         "message": "ከፍተኛ ትርጉምን ውጤት"
     },
+    "new_plugins_available": {
+        "message": "አዲስ ተሰኪዎች ይገኛሉ"
+    },
     "options_btn": {
         "message": "አማራጮች"
     },
@@ -46,6 +52,12 @@
     },
     "plugin_settings": {
         "message": "የስቅል ቅንጅቶች"
+    },
+    "plugin_updated": {
+        "message": "ተሰኪ ተሻሽሏል"
+    },
+    "plugin_updates_available": {
+        "message": "የተሰኪ አዘምኖች ሊኖሩ ይችላሉ"
     },
     "preferred_language": {
         "message": "ተመራጭ ቋንቋ"

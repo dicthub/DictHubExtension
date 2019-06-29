@@ -11,6 +11,9 @@
     "auto_detect_language": {
         "message": "क्वेरी इनपुटमधून स्वयंचलितपणे भाषा शोधा"
     },
+    "auto_update_plugin": {
+        "message": "स्वयंचलितपणे प्लगइन अद्यतनित करा."
+    },
     "close_btn": {
         "message": "बंद"
     },
@@ -38,6 +41,9 @@
     "max_translation_result": {
         "message": "कमाल अनुवाद परिणाम"
     },
+    "new_plugins_available": {
+        "message": "नवीन प्लगइन उपलब्ध"
+    },
     "options_btn": {
         "message": "पर्याय"
     },
@@ -46,6 +52,12 @@
     },
     "plugin_settings": {
         "message": "प्लगइन सेटिंग्ज"
+    },
+    "plugin_updated": {
+        "message": "प्लगइन अपग्रेड केले"
+    },
+    "plugin_updates_available": {
+        "message": "प्लगइन अद्यतने उपलब्ध"
     },
     "preferred_language": {
         "message": "पसंतीची भाषा"

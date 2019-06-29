@@ -11,6 +11,9 @@
     "auto_detect_language": {
         "message": "Upptäck automatiskt språket från inmatningsinmatningen"
     },
+    "auto_update_plugin": {
+        "message": "Uppdatera insticksprogram automatiskt."
+    },
     "close_btn": {
         "message": "Stänga"
     },
@@ -38,6 +41,9 @@
     "max_translation_result": {
         "message": "Max översättningresultat"
     },
+    "new_plugins_available": {
+        "message": "Nya plugins tillgängliga"
+    },
     "options_btn": {
         "message": "alternativ"
     },
@@ -46,6 +52,12 @@
     },
     "plugin_settings": {
         "message": "Insticksinställningar"
+    },
+    "plugin_updated": {
+        "message": "Plugin Uppgraderad"
+    },
+    "plugin_updates_available": {
+        "message": "Pluginuppdateringar tillgängliga"
     },
     "preferred_language": {
         "message": "Önskat språk"

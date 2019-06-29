@@ -11,6 +11,9 @@
     "auto_detect_language": {
         "message": "ตรวจจับภาษาโดยอัตโนมัติจากการป้อนข้อมูลแบบสอบถาม"
     },
+    "auto_update_plugin": {
+        "message": "อัปเดตปลั๊กอินโดยอัตโนมัติ"
+    },
     "close_btn": {
         "message": "ปิด"
     },
@@ -38,6 +41,9 @@
     "max_translation_result": {
         "message": "ผลลัพธ์การแปลสูงสุด"
     },
+    "new_plugins_available": {
+        "message": "มีปลั๊กอินใหม่"
+    },
     "options_btn": {
         "message": "ตัวเลือก"
     },
@@ -46,6 +52,12 @@
     },
     "plugin_settings": {
         "message": "การตั้งค่าปลั๊กอิน"
+    },
+    "plugin_updated": {
+        "message": "อัปเกรดปลั๊กอิน"
+    },
+    "plugin_updates_available": {
+        "message": "มีการอัปเดตปลั๊กอิน"
     },
     "preferred_language": {
         "message": "ภาษาที่ต้องการ"

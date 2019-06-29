@@ -11,6 +11,9 @@
     "auto_detect_language": {
         "message": "Automatiškai aptikti kalbos užklausą"
     },
+    "auto_update_plugin": {
+        "message": "Atnaujinkite papildinius automatiškai."
+    },
     "close_btn": {
         "message": "Uždaryti"
     },
@@ -38,6 +41,9 @@
     "max_translation_result": {
         "message": "Maks. Vertimo rezultatas"
     },
+    "new_plugins_available": {
+        "message": "Galimi nauji papildiniai"
+    },
     "options_btn": {
         "message": "Galimybės"
     },
@@ -46,6 +52,12 @@
     },
     "plugin_settings": {
         "message": "Įskiepio nustatymai"
+    },
+    "plugin_updated": {
+        "message": "Įskiepis atnaujintas"
+    },
+    "plugin_updates_available": {
+        "message": "Galimi papildiniai naujinimai"
     },
     "preferred_language": {
         "message": "Pageidautina kalba"

@@ -6,10 +6,13 @@
         "message": "सामान्य उपयोगकर्ता के लिए अनुशंसित नहीं है"
     },
     "appDesc": {
-        "message": "100+ भाषाओं का समर्थन करने वाले सभी स्रोतों से अनुवाद / शब्दकोश पाने के लिए एक-क्लिक"
+        "message": "100+ भाषाओं का समर्थन करने वाले सभी स्रोतों से अनुवाद / शब्दकोश प्राप्त करने के लिए एक-क्लिक।"
     },
     "auto_detect_language": {
         "message": "स्वचालित रूप से क्वेरी इनपुट से भाषा का पता लगाएं"
+    },
+    "auto_update_plugin": {
+        "message": "प्लगइन्स को स्वचालित रूप से अपडेट करें।"
     },
     "close_btn": {
         "message": "बंद करे"
@@ -24,7 +27,7 @@
         "message": "एक्सप्रेस सेटअप!"
     },
     "express_setup_details_google_analytics": {
-        "message": "इस एक्सटेंशन को बेहतर बनाने में सहायता के लिए Google Analytics से अनाम साझा करें "
+        "message": "इस एक्सटेंशन को बेहतर बनाने में सहायता के लिए Google Analytics से अनाम साझा करें। "
     },
     "express_setup_details_google_plugin": {
         "message": "Google अनुवाद प्लगइन स्थापित करें"
@@ -38,6 +41,9 @@
     "max_translation_result": {
         "message": "अधिकतम अनुवाद परिणाम"
     },
+    "new_plugins_available": {
+        "message": "नए प्लगइन्स उपलब्ध हैं"
+    },
     "options_btn": {
         "message": "विकल्प"
     },
@@ -46,6 +52,12 @@
     },
     "plugin_settings": {
         "message": "प्लगइन सेटिंग्स"
+    },
+    "plugin_updated": {
+        "message": "प्लगइन अपग्रेड किया गया"
+    },
+    "plugin_updates_available": {
+        "message": "प्लगइन अद्यतन उपलब्ध है"
     },
     "preferred_language": {
         "message": "पसंदीदा भाषा"
@@ -60,7 +72,7 @@
         "message": "कॉन्फ़िगरेशन के बारे में अधिक जानकारी"
     },
     "send_analysis_info": {
-        "message": "इस एक्सटेंशन को बेहतर बनाने में सहायता के लिए Google Analytics के माध्यम से अनाम डेटा भेजें।"
+        "message": "इस एक्सटेंशन को बेहतर बनाने में सहायता के लिए Google Analytics के माध्यम से अनाम उपयोग डेटा भेजें।"
     },
     "show_advanced_settings": {
         "message": "सेटिंग दिखाएँ"
@@ -81,6 +93,6 @@
         "message": "अद्यतन करें"
     },
     "welcome_translation_notice": {
-        "message": "यह पृष्ठ अंग्रेजी में है, अपनी मूल भाषा में अनुवाद करने के अधिकार पर बटन पर क्लिक करें"
+        "message": "यह पृष्ठ अंग्रेजी में है, अपनी मूल भाषा में अनुवाद करने के लिए दाईं ओर बटन पर क्लिक करें।"
     }
 }

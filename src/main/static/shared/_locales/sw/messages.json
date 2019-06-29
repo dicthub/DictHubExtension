@@ -11,6 +11,9 @@
     "auto_detect_language": {
         "message": "Pata moja kwa moja lugha kutoka kwa pembejeo ya swala"
     },
+    "auto_update_plugin": {
+        "message": "Sasisha Plugins moja kwa moja."
+    },
     "close_btn": {
         "message": "Funga"
     },
@@ -38,6 +41,9 @@
     "max_translation_result": {
         "message": "Matokeo ya Tafsiri ya Max"
     },
+    "new_plugins_available": {
+        "message": "Plugins Mpya Inapatikana"
+    },
     "options_btn": {
         "message": "Chaguo"
     },
@@ -46,6 +52,12 @@
     },
     "plugin_settings": {
         "message": "Mipangilio ya Plugin"
+    },
+    "plugin_updated": {
+        "message": "Plugin Imeboreshwa"
+    },
+    "plugin_updates_available": {
+        "message": "Updates Plugin Inapatikana"
     },
     "preferred_language": {
         "message": "Lugha iliyopendekezwa"

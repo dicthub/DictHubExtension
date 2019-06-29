@@ -6,10 +6,13 @@
         "message": "לא מומלץ למשתמש כללי"
     },
     "appDesc": {
-        "message": "בלחיצה אחת כדי לקבל תרגום / מילון מכל המקורות, תמיכה 100 שפות +."
+        "message": "בלחיצה אחת כדי לקבל תרגום / מילון מכל המקורות, תמיכה 100 + שפות."
     },
     "auto_detect_language": {
         "message": "זיהוי שפה אוטומטית מתוך קלט השאילתה"
+    },
+    "auto_update_plugin": {
+        "message": "עדכן תוספים באופן אוטומטי."
     },
     "close_btn": {
         "message": "סגור"
@@ -38,6 +41,9 @@
     "max_translation_result": {
         "message": "תוצאת תרגום מקסימלית"
     },
+    "new_plugins_available": {
+        "message": "תוספים חדשים זמינים"
+    },
     "options_btn": {
         "message": "אפשרויות"
     },
@@ -46,6 +52,12 @@
     },
     "plugin_settings": {
         "message": "הגדרות Plugin"
+    },
+    "plugin_updated": {
+        "message": "תוסף משודרג"
+    },
+    "plugin_updates_available": {
+        "message": "עדכונים זמינים"
     },
     "preferred_language": {
         "message": "שפה מועדפת"

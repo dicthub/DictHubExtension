@@ -3,19 +3,22 @@
         "message": "Erweiterte Einstellungen"
     },
     "advanced_settings_warn": {
-        "message": "nicht für allgemeine Benutzer empfohlen"
+        "message": "Nicht für allgemeine Benutzer empfohlen"
     },
     "appDesc": {
-        "message": "Klicken Sie mit einem Klick auf die Übersetzung / das Wörterbuch aus allen Quellen und unterstützen Sie 100+ Sprachen."
+        "message": "Mit einem Klick erhalten Sie Übersetzungen / Wörterbücher aus allen Quellen, die mehr als 100 Sprachen unterstützen."
     },
     "auto_detect_language": {
-        "message": "Sprache automatisch anhand der Abfrageingabe ermitteln"
+        "message": "Automatische Erkennung der Sprache aus der Abfrageeingabe"
+    },
+    "auto_update_plugin": {
+        "message": "Plugins automatisch aktualisieren."
     },
     "close_btn": {
         "message": "Schließen"
     },
     "drag_to_change_order": {
-        "message": "ziehen Sie, um die Reihenfolge zu ändern"
+        "message": "Ziehen Sie, um die Reihenfolge zu ändern"
     },
     "edit_settings_directly": {
         "message": "Einstellungen direkt bearbeiten"
@@ -24,19 +27,22 @@
         "message": "Express Setup!"
     },
     "express_setup_details_google_analytics": {
-        "message": "Teilen Sie anonym an Google Analytics, um diese Erweiterung zu verbessern. "
+        "message": "Teilen Sie Google Analytics anonym mit, um diese Erweiterung zu verbessern. "
     },
     "express_setup_details_google_plugin": {
-        "message": "Installieren Sie das Google Translation Plugin"
+        "message": "Installieren Sie das Google Übersetzungs-Plugin"
     },
     "express_setup_details_language": {
-        "message": "Automatische Auswahl der Primärsprache aus der System-Oberflächensprache"
+        "message": "Automatische Auswahl der primären Sprache in der System-UI-Sprache"
     },
     "insecure_translation_script_warning": {
         "message": "Das Übersetzungsergebnis enthält ein unsicheres Skript-Tag."
     },
     "max_translation_result": {
-        "message": "Max. Übersetzungsergebnis"
+        "message": "Maximales Übersetzungsergebnis"
+    },
+    "new_plugins_available": {
+        "message": "Neue Plugins verfügbar"
     },
     "options_btn": {
         "message": "Optionen"
@@ -47,17 +53,23 @@
     "plugin_settings": {
         "message": "Plugin-Einstellungen"
     },
+    "plugin_updated": {
+        "message": "Plugin aktualisiert"
+    },
+    "plugin_updates_available": {
+        "message": "Plugin-Updates verfügbar"
+    },
     "preferred_language": {
         "message": "Bevorzugte Sprache"
     },
     "raw_json_config_title": {
-        "message": "Raw Json-Konfig"
+        "message": "Raw json config"
     },
     "save_changes_btn": {
         "message": "Änderungen speichern"
     },
     "see_more_info_about_config": {
-        "message": "Weitere Informationen zur Konfig"
+        "message": "Weitere Informationen zu config"
     },
     "send_analysis_info": {
         "message": "Senden Sie anonyme Nutzungsdaten über Google Analytics, um diese Erweiterung zu verbessern."
@@ -81,6 +93,6 @@
         "message": "Aktualisieren"
     },
     "welcome_translation_notice": {
-        "message": "Diese Seite ist in Englisch. Klicken Sie auf die Schaltfläche rechts, um diese in Ihre Muttersprache zu übersetzen."
+        "message": "Diese Seite ist in Englisch. Klicken Sie auf die Schaltfläche rechts, um in Ihre Muttersprache zu übersetzen."
     }
 }

@@ -11,6 +11,9 @@
     "auto_detect_language": {
         "message": "Samodejno zazna jezik iz vnosa poizvedbe"
     },
+    "auto_update_plugin": {
+        "message": "Samodejno posodobite vtičnike."
+    },
     "close_btn": {
         "message": "Zapri"
     },
@@ -38,6 +41,9 @@
     "max_translation_result": {
         "message": "Največji rezultat prevajanja"
     },
+    "new_plugins_available": {
+        "message": "Na voljo so novi vtičniki"
+    },
     "options_btn": {
         "message": "Opcije"
     },
@@ -46,6 +52,12 @@
     },
     "plugin_settings": {
         "message": "Nastavitve vtičnikov"
+    },
+    "plugin_updated": {
+        "message": "Nadgradnja vtičnika"
+    },
+    "plugin_updates_available": {
+        "message": "Posodobitve vtičnikov na voljo"
     },
     "preferred_language": {
         "message": "Želeni jezik"

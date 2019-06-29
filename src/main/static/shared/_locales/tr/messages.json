@@ -11,6 +11,9 @@
     "auto_detect_language": {
         "message": "Sorgu girişinden dili otomatik olarak algıla"
     },
+    "auto_update_plugin": {
+        "message": "Eklentileri otomatik olarak güncelle."
+    },
     "close_btn": {
         "message": "Kapat"
     },
@@ -38,6 +41,9 @@
     "max_translation_result": {
         "message": "Maksimum Çeviri Sonucu"
     },
+    "new_plugins_available": {
+        "message": "Yeni Eklentiler Mevcut"
+    },
     "options_btn": {
         "message": "Seçenekler"
     },
@@ -46,6 +52,12 @@
     },
     "plugin_settings": {
         "message": "Eklenti Ayarları"
+    },
+    "plugin_updated": {
+        "message": "Eklenti Yükseltildi"
+    },
+    "plugin_updates_available": {
+        "message": "Eklenti Güncellemeleri Mevcut"
     },
     "preferred_language": {
         "message": "tercih edilen dil"

@@ -11,6 +11,9 @@
     "auto_detect_language": {
         "message": "Automatikusan észleli a nyelvet a lekérdezésbevitelből"
     },
+    "auto_update_plugin": {
+        "message": "A bővítmények automatikus frissítése."
+    },
     "close_btn": {
         "message": "Bezárás"
     },
@@ -38,6 +41,9 @@
     "max_translation_result": {
         "message": "Max. Fordítási eredmény"
     },
+    "new_plugins_available": {
+        "message": "Új bővítmények"
+    },
     "options_btn": {
         "message": "Opciók"
     },
@@ -46,6 +52,12 @@
     },
     "plugin_settings": {
         "message": "Plugin beállítások"
+    },
+    "plugin_updated": {
+        "message": "A bővítmény frissítve"
+    },
+    "plugin_updates_available": {
+        "message": "Elérhető plugin frissítések"
     },
     "preferred_language": {
         "message": "Preferált nyelv"

@@ -11,6 +11,9 @@
     "auto_detect_language": {
         "message": "Detectarea automată a limbii de la introducerea interogării"
     },
+    "auto_update_plugin": {
+        "message": "Actualizați pluginurile în mod automat."
+    },
     "close_btn": {
         "message": "Închide"
     },
@@ -38,6 +41,9 @@
     "max_translation_result": {
         "message": "Rezultatul maxim de traducere"
     },
+    "new_plugins_available": {
+        "message": "Plugin-uri noi disponibile"
+    },
     "options_btn": {
         "message": "Opțiuni"
     },
@@ -46,6 +52,12 @@
     },
     "plugin_settings": {
         "message": "Setările pluginului"
+    },
+    "plugin_updated": {
+        "message": "Plugin Upgradat"
+    },
+    "plugin_updates_available": {
+        "message": "Plugin Actualizări disponibile"
     },
     "preferred_language": {
         "message": "Limba preferată"

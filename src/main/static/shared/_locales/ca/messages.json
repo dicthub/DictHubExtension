@@ -6,10 +6,13 @@
         "message": "no es recomana per a usuaris generals"
     },
     "appDesc": {
-        "message": "Un sol clic per obtenir traducció / diccionari de totes les fonts, donant suport a més de 100 idiomes."
+        "message": "Un sol clic per obtenir traducció / diccionari de totes les fonts, donant suport a més de 100 idiomes"
     },
     "auto_detect_language": {
         "message": "Detecta automàticament l'idioma des de l'entrada de consulta"
+    },
+    "auto_update_plugin": {
+        "message": "Actualitza els connectors automàticament."
     },
     "close_btn": {
         "message": "Tanca"
@@ -38,6 +41,9 @@
     "max_translation_result": {
         "message": "Resultat de la traducció màxima"
     },
+    "new_plugins_available": {
+        "message": "Nous connectors disponibles"
+    },
     "options_btn": {
         "message": "Opcions"
     },
@@ -46,6 +52,12 @@
     },
     "plugin_settings": {
         "message": "Configuració del connector"
+    },
+    "plugin_updated": {
+        "message": "S'ha actualitzat el connector"
+    },
+    "plugin_updates_available": {
+        "message": "Actualitzacions de complements disponibles"
     },
     "preferred_language": {
         "message": "Idioma preferit"

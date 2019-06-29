@@ -11,6 +11,9 @@
     "auto_detect_language": {
         "message": "স্বয়ংক্রিয়ভাবে কোয়েরি ইনপুট থেকে ভাষা সনাক্ত করুন"
     },
+    "auto_update_plugin": {
+        "message": "স্বয়ংক্রিয়ভাবে প্লাগইন আপডেট করুন।"
+    },
     "close_btn": {
         "message": "ঘনিষ্ঠ"
     },
@@ -38,6 +41,9 @@
     "max_translation_result": {
         "message": "সর্বোচ্চ অনুবাদ ফলাফল"
     },
+    "new_plugins_available": {
+        "message": "নতুন প্লাগইন উপলব্ধ"
+    },
     "options_btn": {
         "message": "বিকল্প"
     },
@@ -46,6 +52,12 @@
     },
     "plugin_settings": {
         "message": "প্লাগইন সেটিংস"
+    },
+    "plugin_updated": {
+        "message": "প্লাগইন আপগ্রেড"
+    },
+    "plugin_updates_available": {
+        "message": "প্লাগইন আপডেট উপলব্ধ"
     },
     "preferred_language": {
         "message": "পছন্দের ভাষা"

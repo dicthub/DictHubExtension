@@ -11,6 +11,9 @@
     "auto_detect_language": {
         "message": "Аутоматски детектујте језик из уноса упита"
     },
+    "auto_update_plugin": {
+        "message": "Аутоматски ажурирајте додатке."
+    },
     "close_btn": {
         "message": "Близу"
     },
@@ -38,6 +41,9 @@
     "max_translation_result": {
         "message": "Мак Транслатион Ресулт"
     },
+    "new_plugins_available": {
+        "message": "Доступни нови додаци"
+    },
     "options_btn": {
         "message": "Опције"
     },
@@ -46,6 +52,12 @@
     },
     "plugin_settings": {
         "message": "Плугин Сеттингс"
+    },
+    "plugin_updated": {
+        "message": "Надоградња додатка"
+    },
+    "plugin_updates_available": {
+        "message": "Доступна ажурирања додатка"
     },
     "preferred_language": {
         "message": "Језик којем дајете предност"

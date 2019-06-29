@@ -11,6 +11,9 @@
     "auto_detect_language": {
         "message": "Automātiski atklāj vaicājuma ievadīšanas valodu"
     },
+    "auto_update_plugin": {
+        "message": "Automātiski atjauniniet spraudņus."
+    },
     "close_btn": {
         "message": "Aizvērt"
     },
@@ -38,6 +41,9 @@
     "max_translation_result": {
         "message": "Maksimālais tulkošanas rezultāts"
     },
+    "new_plugins_available": {
+        "message": "Ir pieejami jauni spraudņi"
+    },
     "options_btn": {
         "message": "Iespējas"
     },
@@ -46,6 +52,12 @@
     },
     "plugin_settings": {
         "message": "Spraudņa iestatījumi"
+    },
+    "plugin_updated": {
+        "message": "Papildinājums ir papildināts"
+    },
+    "plugin_updates_available": {
+        "message": "Pieejami spraudņu atjauninājumi"
     },
     "preferred_language": {
         "message": "vēlamā valoda"

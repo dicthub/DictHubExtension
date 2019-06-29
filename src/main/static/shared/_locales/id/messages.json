@@ -11,6 +11,9 @@
     "auto_detect_language": {
         "message": "Secara otomatis mendeteksi bahasa dari input permintaan"
     },
+    "auto_update_plugin": {
+        "message": "Perbarui Plugin secara otomatis."
+    },
     "close_btn": {
         "message": "Dekat"
     },
@@ -38,6 +41,9 @@
     "max_translation_result": {
         "message": "Hasil Terjemahan Maks"
     },
+    "new_plugins_available": {
+        "message": "Plugin Baru Tersedia"
+    },
     "options_btn": {
         "message": "Pilihan"
     },
@@ -46,6 +52,12 @@
     },
     "plugin_settings": {
         "message": "Pengaturan Plugin"
+    },
+    "plugin_updated": {
+        "message": "Plugin Di-upgrade"
+    },
+    "plugin_updates_available": {
+        "message": "Pembaruan Plugin Tersedia"
     },
     "preferred_language": {
         "message": "Bahasa yang disukai"

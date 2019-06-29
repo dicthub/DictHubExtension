@@ -11,6 +11,9 @@
     "auto_detect_language": {
         "message": "クエリ入力から言語を自動的に検出"
     },
+    "auto_update_plugin": {
+        "message": "プラグインを自動的に更新します。"
+    },
     "close_btn": {
         "message": "閉じる"
     },
@@ -38,6 +41,9 @@
     "max_translation_result": {
         "message": "最大翻訳結果"
     },
+    "new_plugins_available": {
+        "message": "利用可能な新しいプラグイン"
+    },
     "options_btn": {
         "message": "オプション"
     },
@@ -46,6 +52,12 @@
     },
     "plugin_settings": {
         "message": "プラグイン設定"
+    },
+    "plugin_updated": {
+        "message": "アップグレードされたプラグイン"
+    },
+    "plugin_updates_available": {
+        "message": "利用可能なプラグインの更新"
     },
     "preferred_language": {
         "message": "希望言語"
@@ -72,7 +84,7 @@
         "message": "翻訳設定"
     },
     "trouble_report": {
-        "message": "いくつか問題がありますか？"
+        "message": "いくつかの問題を見つけましたか？"
     },
     "trouble_report_link": {
         "message": "教えて！"

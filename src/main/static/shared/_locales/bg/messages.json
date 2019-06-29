@@ -11,6 +11,9 @@
     "auto_detect_language": {
         "message": "Автоматично откриване на език от въвеждане на заявка"
     },
+    "auto_update_plugin": {
+        "message": "Актуализирайте автоматично приставките."
+    },
     "close_btn": {
         "message": "Близо"
     },
@@ -38,6 +41,9 @@
     "max_translation_result": {
         "message": "Макс. Резултат от превода"
     },
+    "new_plugins_available": {
+        "message": "Налични са нови приставки"
+    },
     "options_btn": {
         "message": "Настроики"
     },
@@ -46,6 +52,12 @@
     },
     "plugin_settings": {
         "message": "Настройки на приставката"
+    },
+    "plugin_updated": {
+        "message": "Надстройката на приставката"
+    },
+    "plugin_updates_available": {
+        "message": "Налични са актуализации на приставките"
     },
     "preferred_language": {
         "message": "предпочитан език"

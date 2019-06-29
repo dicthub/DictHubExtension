@@ -82,5 +82,17 @@
     },
     "welcome_translation_notice": {
         "message": "This page is in english, click button on the right to translate to your native language."
+    },
+    "auto_update_plugin": {
+        "message": "Update Plugins automatically."
+    },
+    "plugin_updated": {
+        "message": "Plugin Upgraded"
+    },
+    "plugin_updates_available": {
+        "message": "Plugin Updates Available"
+    },
+    "new_plugins_available": {
+        "message": "New Plugins Available"
     }
 }

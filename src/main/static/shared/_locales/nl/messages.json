@@ -11,6 +11,9 @@
     "auto_detect_language": {
         "message": "Automatische detectie van taal uit queryinvoer"
     },
+    "auto_update_plugin": {
+        "message": "Update plug-ins automatisch."
+    },
     "close_btn": {
         "message": "Dichtbij"
     },
@@ -38,6 +41,9 @@
     "max_translation_result": {
         "message": "Max. Vertaalresultaat"
     },
+    "new_plugins_available": {
+        "message": "Nieuwe plug-ins beschikbaar"
+    },
     "options_btn": {
         "message": "opties"
     },
@@ -46,6 +52,12 @@
     },
     "plugin_settings": {
         "message": "Plugin-instellingen"
+    },
+    "plugin_updated": {
+        "message": "Plug-in geüpgraded"
+    },
+    "plugin_updates_available": {
+        "message": "Plugin-updates beschikbaar"
     },
     "preferred_language": {
         "message": "Voorkeurstaal"

@@ -11,6 +11,9 @@
     "auto_detect_language": {
         "message": "Automaticky rozpoznat jazyk ze vstupu dotazu"
     },
+    "auto_update_plugin": {
+        "message": "Aktualizace pluginů automaticky."
+    },
     "close_btn": {
         "message": "Zavřít"
     },
@@ -38,6 +41,9 @@
     "max_translation_result": {
         "message": "Výsledek Max"
     },
+    "new_plugins_available": {
+        "message": "K dispozici nové moduly"
+    },
     "options_btn": {
         "message": "Možnosti"
     },
@@ -46,6 +52,12 @@
     },
     "plugin_settings": {
         "message": "Nastavení pluginu"
+    },
+    "plugin_updated": {
+        "message": "Aktualizovaný plugin"
+    },
+    "plugin_updates_available": {
+        "message": "Dostupné aktualizace pluginů"
     },
     "preferred_language": {
         "message": "preferovaný jazyk"

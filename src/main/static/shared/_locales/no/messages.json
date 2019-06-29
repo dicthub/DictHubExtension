@@ -11,6 +11,9 @@
     "auto_detect_language": {
         "message": "Oppdag språk automatisk fra spørringsinngang"
     },
+    "auto_update_plugin": {
+        "message": "Oppdater plugger automatisk."
+    },
     "close_btn": {
         "message": "Lukk"
     },
@@ -38,6 +41,9 @@
     "max_translation_result": {
         "message": "Maks oversettelsesresultat"
     },
+    "new_plugins_available": {
+        "message": "Nye plugger tilgjengelig"
+    },
     "options_btn": {
         "message": "alternativer"
     },
@@ -46,6 +52,12 @@
     },
     "plugin_settings": {
         "message": "Plugin Settings"
+    },
+    "plugin_updated": {
+        "message": "Plugin oppgradert"
+    },
+    "plugin_updates_available": {
+        "message": "Plugin oppdateringer tilgjengelig"
     },
     "preferred_language": {
         "message": "Foretrukket Språk"

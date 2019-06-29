@@ -11,6 +11,9 @@
     "auto_detect_language": {
         "message": "Avastage automaatselt päringu sisendist keel"
     },
+    "auto_update_plugin": {
+        "message": "Uuenda pluginad automaatselt."
+    },
     "close_btn": {
         "message": "Sulge"
     },
@@ -38,6 +41,9 @@
     "max_translation_result": {
         "message": "Maksimaalne tõlketulemus"
     },
+    "new_plugins_available": {
+        "message": "Uued saadavalolevad pluginad"
+    },
     "options_btn": {
         "message": "Valikud"
     },
@@ -46,6 +52,12 @@
     },
     "plugin_settings": {
         "message": "Plugina seaded"
+    },
+    "plugin_updated": {
+        "message": "Plugin on täiendatud"
+    },
+    "plugin_updates_available": {
+        "message": "Plugina värskendused saadaval"
     },
     "preferred_language": {
         "message": "Eelistatud keel"

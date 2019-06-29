@@ -11,6 +11,9 @@
     "auto_detect_language": {
         "message": "Автоматично визначати мову з вводу запиту"
     },
+    "auto_update_plugin": {
+        "message": "Автоматично оновлювати додатки."
+    },
     "close_btn": {
         "message": "Закрити"
     },
@@ -38,6 +41,9 @@
     "max_translation_result": {
         "message": "Макс. Результат перекладу"
     },
+    "new_plugins_available": {
+        "message": "Доступні нові плагіни"
+    },
     "options_btn": {
         "message": "Опції"
     },
@@ -46,6 +52,12 @@
     },
     "plugin_settings": {
         "message": "Налаштування плагінів"
+    },
+    "plugin_updated": {
+        "message": "Модуль оновлено"
+    },
+    "plugin_updates_available": {
+        "message": "Доступні оновлення плагінів"
     },
     "preferred_language": {
         "message": "Бажана мова"

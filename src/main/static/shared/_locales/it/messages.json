@@ -11,6 +11,9 @@
     "auto_detect_language": {
         "message": "Rileva automaticamente la lingua dall'input della query"
     },
+    "auto_update_plugin": {
+        "message": "Aggiorna automaticamente i plugin."
+    },
     "close_btn": {
         "message": "Vicino"
     },
@@ -38,6 +41,9 @@
     "max_translation_result": {
         "message": "Massimo risultato di traduzione"
     },
+    "new_plugins_available": {
+        "message": "Nuovi plugin disponibili"
+    },
     "options_btn": {
         "message": "Opzioni"
     },
@@ -46,6 +52,12 @@
     },
     "plugin_settings": {
         "message": "Impostazioni del plugin"
+    },
+    "plugin_updated": {
+        "message": "Plugin aggiornato"
+    },
+    "plugin_updates_available": {
+        "message": "Aggiornamenti plugin disponibili"
     },
     "preferred_language": {
         "message": "Lingua preferita"

@@ -11,6 +11,9 @@
     "auto_detect_language": {
         "message": "Automatycznie wykryj język z wejścia zapytania"
     },
+    "auto_update_plugin": {
+        "message": "Aktualizuj wtyczki automatycznie."
+    },
     "close_btn": {
         "message": "Blisko"
     },
@@ -38,6 +41,9 @@
     "max_translation_result": {
         "message": "Maksymalny wynik tłumaczenia"
     },
+    "new_plugins_available": {
+        "message": "Dostępne nowe wtyczki"
+    },
     "options_btn": {
         "message": "Opcje"
     },
@@ -46,6 +52,12 @@
     },
     "plugin_settings": {
         "message": "Ustawienia wtyczki"
+    },
+    "plugin_updated": {
+        "message": "Wtyczka uaktualniona"
+    },
+    "plugin_updates_available": {
+        "message": "Dostępne aktualizacje wtyczek"
     },
     "preferred_language": {
         "message": "preferowany język"

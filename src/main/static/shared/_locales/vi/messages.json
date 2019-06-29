@@ -11,6 +11,9 @@
     "auto_detect_language": {
         "message": "Tự động phát hiện ngôn ngữ từ đầu vào truy vấn"
     },
+    "auto_update_plugin": {
+        "message": "Cập nhật plugin tự động."
+    },
     "close_btn": {
         "message": "Gần"
     },
@@ -38,6 +41,9 @@
     "max_translation_result": {
         "message": "Kết quả dịch tối đa"
     },
+    "new_plugins_available": {
+        "message": "Plugin mới có sẵn"
+    },
     "options_btn": {
         "message": "Tùy chọn"
     },
@@ -46,6 +52,12 @@
     },
     "plugin_settings": {
         "message": "Cài đặt plugin"
+    },
+    "plugin_updated": {
+        "message": "Plugin được nâng cấp"
+    },
+    "plugin_updates_available": {
+        "message": "Plugin cập nhật có sẵn"
     },
     "preferred_language": {
         "message": "Ngôn ngữ ưa thích"

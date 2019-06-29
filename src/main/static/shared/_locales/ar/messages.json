@@ -11,6 +11,9 @@
     "auto_detect_language": {
         "message": "الكشف عن اللغة تلقائيًا من إدخال الاستعلام"
     },
+    "auto_update_plugin": {
+        "message": "تحديث الإضافات تلقائيا."
+    },
     "close_btn": {
         "message": "قريب"
     },
@@ -38,6 +41,9 @@
     "max_translation_result": {
         "message": "ماكس نتيجة الترجمة"
     },
+    "new_plugins_available": {
+        "message": "الإضافات الجديدة المتاحة"
+    },
     "options_btn": {
         "message": "خيارات"
     },
@@ -46,6 +52,12 @@
     },
     "plugin_settings": {
         "message": "إعدادات البرنامج المساعد"
+    },
+    "plugin_updated": {
+        "message": "البرنامج المساعد ترقية"
+    },
+    "plugin_updates_available": {
+        "message": "تحديثات البرنامج المساعد المتاحة"
     },
     "preferred_language": {
         "message": "اللغة المفضلة"
