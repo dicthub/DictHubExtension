@@ -1,4 +1,4 @@
-import org.dicthub.lang.BingLangDetector
+import org.dicthub.lang.*
 import org.dicthub.model.loadUserPreference
 import org.dicthub.page.OptionsPage
 import org.dicthub.page.SandboxPage
@@ -46,7 +46,7 @@ private fun initPopupPage() {
     document.documentElement?.setAttribute("style", "font-size: 13px")
 
     val pluginOptionsAdapter = PluginOptionsAdapter(browserObj.storage.local)
-    val langDetector = BingLangDetector(AjaxHttpClient)
+    val langDetector = compositeLangDetector(GoogleLangDetector(AjaxHttpClient), BingLangDetector(AjaxHttpClient))
 
     extractQueryFromTabs().then {
         loadUserPreference().then { userPreference ->
@@ -64,7 +64,7 @@ private fun initOverlayPage() {
     document.documentElement?.setAttribute("style", "font-size: 12px")
 
     val pluginOptionsAdapter = PluginOptionsAdapter(browserObj.storage.local)
-    val langDetector = BingLangDetector(AjaxHttpClient)
+    val langDetector = compositeLangDetector(GoogleLangDetector(AjaxHttpClient), BingLangDetector(AjaxHttpClient))
 
     val queryContext = extractQueryFromUrl()
     loadUserPreference().then { userPreference ->

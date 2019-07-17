@@ -6,6 +6,7 @@ import org.w3c.dom.set
 import org.w3c.dom.url.URL
 import org.w3c.xhr.XMLHttpRequest
 import kotlin.browser.localStorage
+import kotlin.js.Json
 import kotlin.js.Promise
 
 class BingLangDetector(private val httpAsyncClient: HttpAsyncClient) : LangDetector {
@@ -35,18 +36,19 @@ class BingLangDetector(private val httpAsyncClient: HttpAsyncClient) : LangDetec
 
     private fun detectLangWithContext(context: BingContext, text: String): Promise<Lang> {
         return Promise { resolve, reject ->
-            callBingDetectApi(context, text).then { code ->
-                convertBingLangCodeToLang(code)
-                        ?.let(resolve)
-                        ?: reject(IllegalArgumentException("Failed to convert bing lang code $code"))
-            }.catch(reject)
+            callBingDetectApi(context, text).then { resolve(parseBingResponse(it)) }.catch(reject)
         }
     }
 
     private fun callBingDetectApi(context: BingContext, text: String): Promise<String> {
-        val url = "https://${context.domain}/tdetect?&IG=${context.token}&IID=translator.5037.1"
+        val url = "https://${context.domain}/ttranslatev3?isVertical=1&IG=${context.token}&IID=translator.5037.1"
         return httpAsyncClient.post(url, mapOf("Content-Type" to "application/x-www-form-urlencoded"),
-                "&text=${encodeURIComponent(text)}")
+                "&fromLang=auto-detect&text=${encodeURIComponent(text)}&to=en")
+    }
+
+    private fun parseBingResponse(result: String): Lang {
+        return JSON.parse<Array<Json>>(result).getOrNull(0)?.get("detectedLanguage")?.let { it as? Json }
+                ?.get("language")?.let { convertBingLangCodeToLang(it.toString()) } ?: throw IllegalStateException("No lang detected")
     }
 
     private val knownBingLangMap = mapOf(
