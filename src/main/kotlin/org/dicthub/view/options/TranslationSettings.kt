@@ -32,22 +32,13 @@ class TranslationSettings(private val parent: HTMLElement, private val userPrefe
             div (classes = CSS_SETTINGS_ROW) {
                 renderAutoLangDetectionCheckbox(this)
             }
-            div (classes = CSS_SETTINGS_ROW) {
-                renderMaxTranslationResult(this)
-            }
         }
 
         val primarySettingsSelect: HTMLSelectElement = getElementById(ID_PRIMARY_LANG)
-        val maxTranslationResultsInput: HTMLInputElement = getElementById(ID_MAX_TRANSLATION_RESULTS)
 
         primarySettingsSelect.value = userPreference.primaryLang.code
         primarySettingsSelect.onchange = {
             userPreference.primaryLang = fromCode(primarySettingsSelect.value) ?: Lang.EN
-            true
-        }
-
-        maxTranslationResultsInput.onchange = {
-            userPreference.maxTranslationResult = maxTranslationResultsInput.value.toIntOrNull() ?: 3
             true
         }
     }
@@ -83,19 +74,4 @@ class TranslationSettings(private val parent: HTMLElement, private val userPrefe
             }
         }
     }
-
-    private val renderMaxTranslationResult: TagAppender = {
-        label(classes = CSS_SETTINGS_ROW_LABEL) {
-            +i18nMessage("max_translation_result")
-        }
-        div(classes = CSS_SETTINGS_ROW_CONTENT) {
-            input (classes = CSS_SETTINGS_ROW_INPUT) {
-                id = ID_MAX_TRANSLATION_RESULTS
-                type = InputType.number
-                placeholder = "3"
-                value = "${userPreference.maxTranslationResult}"
-            }
-        }
-    }
-
 }
