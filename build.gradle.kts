@@ -1,11 +1,11 @@
 import org.dicthub.*
 import org.dicthub.Script
 
-val kotlinVersion = "1.3.20"
+val kotlinVersion = "1.3.61"
 val kotlinHtmlVersion = "0.6.12"
 
 plugins {
-    id("kotlin2js") version "1.3.20"
+    id("kotlin2js") version "1.3.61"
 }
 
 allprojects {
