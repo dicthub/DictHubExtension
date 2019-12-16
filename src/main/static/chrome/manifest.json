@@ -40,7 +40,8 @@
     "tabs",
     "notifications",
     "contextMenus",
-    "\u003Call_urls>"
+    "\u003Call_urls>",
+    "file://*/*"
   ],
 
   "web_accessible_resources": [
