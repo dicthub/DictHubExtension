@@ -19,6 +19,8 @@ import kotlinx.html.stream.appendHTML
 import org.dicthub.lang.Lang
 import org.dicthub.lang.LangDetector
 import org.dicthub.plugin.PluginUpdateChecker
+import org.dicthub.version.VersionDetector
+import org.w3c.dom.HTMLDivElement
 import org.w3c.dom.HTMLIFrameElement
 import org.w3c.dom.MessageEvent
 import org.w3c.dom.events.Event
@@ -39,9 +41,11 @@ class TranslationPage(private val userPreference: UserPreference,
                       private val toLangStr: String?,
                       private val inFrame: Boolean) {
 
-    private val PLUGIN_CHECK_INTERVAL = 24 * 3600 * 1000 // 1 day
+    private val extensionCheckInterval = 24 * 3600 * 1000 // 1 day
+    private val pluginCheckInterval = 24 * 3600 * 1000 // 1 day
 
     private lateinit var sandbox: HTMLIFrameElement
+    private lateinit var notificationContainer : HTMLDivElement
     private lateinit var queryContainer: QueryContainer
     private lateinit var resultContainer: ResultContainer
 
@@ -110,6 +114,7 @@ class TranslationPage(private val userPreference: UserPreference,
         val fromLang = fromLangStr?.let { fromCode(it) }
         val toLang = toLangStr?.let { fromCode(it) } ?: userPreference.primaryLang
 
+        val notificationContainerId = "notificationContainer"
         val queryContainerId = "queryContainer"
         val resultContainerId = "resultContainer"
         val sandboxId = "sandbox"
@@ -125,6 +130,10 @@ class TranslationPage(private val userPreference: UserPreference,
             }
             div("container") {
                 div {
+                    attributes["style"] = "display: none;"
+                    id = notificationContainerId
+                }
+                div {
                     id = queryContainerId
                 }
                 hr {}
@@ -137,6 +146,7 @@ class TranslationPage(private val userPreference: UserPreference,
         val effectiveLangDetector: LangDetector = if (userPreference.autoDetectLang) langDetector else NullLangDetector
 
         sandbox = getElementById(sandboxId)
+        notificationContainer = getElementById(notificationContainerId)
         queryContainer = QueryContainer(getElementById(queryContainerId),effectiveLangDetector, queryListener,
                 queryText, fromLang, toLang, listOf(userPreference.primaryLang), if (inFrame) UIMode.OVERLAY else UIMode.POPUP)
         resultContainer = ResultContainer(getElementById(resultContainerId))
@@ -146,6 +156,7 @@ class TranslationPage(private val userPreference: UserPreference,
 
         window.addEventListener("message", messageListener, false)
 
+        checkExtensionStatus()
         checkPluginStatus()
     }
 
@@ -211,10 +222,38 @@ class TranslationPage(private val userPreference: UserPreference,
         return htmlContent.toString()
     }
 
+    private fun checkExtensionStatus() {
+        val lastCheckTime = VersionDetector.getLastCheckTime()
+        if (Date().getTime() - lastCheckTime < extensionCheckInterval ) {
+            console.info("Ignore check extension version", lastCheckTime)
+            return
+        }
+
+        VersionDetector.setLastCheckTime(Date().getTime().toLong())
+
+        val currentVersion = VersionDetector.getCurrentVersion()
+        VersionDetector.getPublishedVersion().then { publishedVersion ->
+            console.info("Extension versions: published $publishedVersion current: $currentVersion")
+            if (VersionDetector.hasNewVersion(publishedVersion, currentVersion)) {
+                notificationContainer.style.display = "block"
+                notificationContainer.append {
+                    div (classes = "alert alert-primary") {
+                        a (href = VersionDetector.getExtensionUrl(), target = "_blank") {
+                            +"DictHub: $publishedVersion. \uD83C\uDD95"
+                        }
+                    }
+                }
+            }
+        }.catch {
+            console.warn(it)
+        }
+    }
+
     private fun checkPluginStatus() {
 
         val lastPluginCheckTime = pluginUpdateChecker.getLastCheckTime()
-        if (Date().getTime() - lastPluginCheckTime < PLUGIN_CHECK_INTERVAL) {
+        if (Date().getTime() - lastPluginCheckTime < pluginCheckInterval) {
+            console.info("Ignore check plugin version", lastPluginCheckTime)
             return
         }
         pluginUpdateChecker.check().then { result ->

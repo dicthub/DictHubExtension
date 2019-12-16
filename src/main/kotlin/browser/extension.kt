@@ -1,4 +1,5 @@
 import kotlin.js.Json
+import kotlin.js.Promise
 
 /**
  * Chrome is any visible aspect of a browser aside from the webpages themselves
@@ -8,7 +9,7 @@ import kotlin.js.Json
  */
 
 fun isChrome() =
-        browserObj.runtime.getURL("options.html").startsWith("chrome://")
+        browserObj.runtime.getURL("options.html").startsWith("chrome")
 
 fun isFirefox() =
         browserObj.runtime.getURL("options.html").startsWith("moz-extension://")
@@ -113,4 +114,5 @@ external class ContextMenusOnClicked {
 external class Runtime {
     fun getURL(path: String): String
     fun sendMessage(data: Json)
+    fun getManifest(): Json
 }
